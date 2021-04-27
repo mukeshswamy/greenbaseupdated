@@ -1,4 +1,3 @@
-<?php include('header.php') ?>
 <section class="section-1-about setMaxWidth">
     <div class="banner-about">
         <img src=<?php echo base_url('assets/images/banner1.jpg') ?> alt="banner_in_about" class="banner_about_img">
@@ -971,4 +970,3 @@
         slides_content[slideIndex - 1].style.display = "block";
     }
 </script>
-<?php include('footer.php') ?>

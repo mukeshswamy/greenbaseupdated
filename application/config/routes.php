@@ -51,8 +51,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $route['default_controller'] = 'welcome';
 $route['home'] = 'welcome';
-$route['aboutus'] = 'welcome/aboutus';
-$route['whyus'] = 'welcome/whyus';
+$route['our-legacy'] = 'welcome/ourlegacy';
+$route['value-proposition'] = 'welcome/valueproposition';
 $route['clients'] = 'welcome/clients';
 $route['gallery'] = 'welcome/gallery';
 $route['contact'] = 'welcome/contact';

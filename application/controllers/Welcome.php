@@ -14,13 +14,13 @@ class Welcome extends CI_Controller
 		$this->load->view('/frontend/home');
 		$this->load->view('/frontend/footer');
 	}
-	public function aboutus()
+	public function ourlegacy()
 	{
 		$this->load->view('/frontend/header');
 		$this->load->view('/frontend/aboutus');
 		$this->load->view('/frontend/footer');
 	}
-	public function whyus()
+	public function valueproposition()
 	{
 		$this->load->view('/frontend/header');
 		$this->load->view('/frontend/whyus');

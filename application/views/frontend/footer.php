@@ -15,52 +15,49 @@
 </div>
 
 <!-- DeskTop Footer -->
-<footer class="footersection setMaxWidth">
-    <div class="container-fluid cus-padding-footer">
-        <div class="row">
-            <div class="col-md-5">
-                <div class="footer-left-content-wrapper">
-                    <div class="brand-name">
-                        Greenbase - Industrial and Logistics Park
-                    </div>
-                    <div class="brand-address">
-                        Floor 3, Olympia, Technology Steet, Hiranandani Business Park,</br>Hiranandani Gardens, Powai,
-                        Mumbai – 400076, MH, India
-                    </div>
-                    <div class="footer-icons-brand">
+<footer class="footersection cus-padding-footer">
+    <div class="container-fluid">
+        <div class="row center-item">
+            <div class="col-md-5 address-wrapper">
+                <h4 class="m-0">Greenbase - Industrial and Logistics Park</h4>
+                <div class="footer-address">
+                    <p class="m-0">Floor 3, Olympia, Technology Steet, Hiranandani Business Park,
+                        Hiranandani Gardens, Powai, Mumbai – 400076, MH, India</p>
+                </div>
+            </div>
+            <div class="col-md-7 text-end">
+                <ul class="footer-nav text-uppercase mb-2">
+                    <li> <a href="our-legacy">our legacy</a></li>
+                    <li> <a href="value-proposition">value proposition</a></li>
+                    <li> <a href="location">our location</a></li>
+                    <li> <a href="clients">our client</a></li>
+                    <li> <a href="news">news</a></li>
+                    <li> <a href="gallery">gallery</a></li>
+                    <li> <a href="blogs">blogs</a></li>
+                    <li> <a href="contact">contact us</a></li>
+                </ul>
+                <div class="group-icon-wrapper mb-2">
+                    <p class="m-0">A Hiranandani Group - Blackstone JV</p>
+                    <div class="footer-icons-brand ml-4">
                         <a href="http://">
                             <img src=<?php echo base_url('assets/images/twitterwhite.svg') ?> alt="twitterwhite">
                         </a>
                         <a href="http://">
-                            <img src=<?php echo base_url('assets/images/linkedin_white.svg') ?> alt="linkedin_white">
+                            <img src=<?php echo base_url('assets/images/linkedin_white.svg') ?> alt="twitterwhite">
                         </a>
                         <a href="http://">
-                            <img src=<?php echo base_url('assets/images/fbwhite.svg') ?> alt="fbwhite">
+                            <img src=<?php echo base_url('assets/images/fbwhite.svg') ?> alt="twitterwhite">
+                        </a>
+                        <a href="http://">
+                            <img src=<?php echo base_url('assets/images/twitterwhite.svg') ?> alt="twitterwhite">
                         </a>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-7 position-footer-right-main">
-                <div class="row position-footer-right">
-                    <div class="col-md-12 footer-nav-wrapper">
-                        <ul>
-                            <li><a href="aboutus">ABOUT US</a></li>
-                            <li><a href="whyus">WHY US</a></li>
-                            <li><a href="#">OUR LOCATION</a></li>
-                            <li><a href="clients">OUR CLIENTS</a></li>
-                            <li><a href="news">NEWS</a></li>
-                            <li><a href="gallery">GALLERY</a></li>
-                            <li><a href="blogs">BLOGS</a></li>
-                            <li><a href="contact">CONTACT US</a></li>
-                            <li><a href="javascript:void(0);" id="disclaimer">DISCLAIMER</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-12 copyryt">
-                        © 2020 - All rights reserved
-                    </div>
+                <div class="copy-ryt-disclaimer-wrapper">
+                    <p class="m-0">© 2020 - All rights reserved</p>
+                    <p class="m-0 ml-3">Disclaimer</p>
                 </div>
             </div>
-
         </div>
     </div>
 </footer>
@@ -121,7 +118,7 @@
             </div>
         </div>
         <div class="contactmodalbody">
-            <form class="contact-form" method="post" action="<?php echo base_url()?>mail_send">
+            <form class="contact-form" method="post" action="<?php echo base_url() ?>mail_send">
                 <div>
                     <input type="text" name="username" placeholder="Name"
                         class="input-width-half contact-input-width-half" required>
@@ -137,9 +134,6 @@
                     <textarea style="width: 100%;" class="contactCommentArea" name="comment"
                         placeholder="Comments"></textarea>
                 </div>
-                <!-- <div>
-                    <input type="text" class="input-width-full custom-padding contact-input-width-full">
-                </div> -->
                 <div class="button-div-wrapper">
                     <button class="button-submit floatnormal" type="submit">Submit</button>
                 </div>
