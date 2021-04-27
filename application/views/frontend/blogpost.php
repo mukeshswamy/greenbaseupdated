@@ -1,4 +1,3 @@
-<?php include('header.php');?>
 <section class="section-blog-posts">
 	<div class="main-plog-post-wrapper">
 		<img src=<?php echo base_url('assets/images/blog_1.jpg');?>
@@ -98,4 +97,3 @@ var url =
    
 });
 </script>
-<?php include('footer.php');?>

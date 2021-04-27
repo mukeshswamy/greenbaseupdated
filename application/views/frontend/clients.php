@@ -1,4 +1,3 @@
-<?php include('header.php'); ?>
 <section class="section-clients-1 setMaxWidth">
 	<div class="container-fluid cus-container-fluid-client">
 		<div class="row">
@@ -197,5 +196,3 @@
 		</ol>
 	</div>
 </div>
-
-<?php include('footer.php'); ?>

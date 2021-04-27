@@ -1,6 +1,8 @@
-<?php include('header.php'); ?>
 <!-- SECTION 1 GALLERY -->
-<section class="gallery-section setMaxWidth">
+<style>
+	
+</style>
+<section class="gallery-section content setMaxWidth">
 	<div class="container-fluid cus-container-fluid mrb">
 		<div class="row">
 			<div class="col-md-2 cus-col-md-4">
@@ -490,4 +492,3 @@
 		slides[slideIndex - 1].style.display = "block";
 	}
 </script>
-<?php include('footer.php'); ?>

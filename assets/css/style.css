@@ -113,6 +113,9 @@
 	font-style: normal;
 	font-display: swap;
 }
+body .content{
+	min-height: calc(100vh - 190px);
+}
 .relatedNewsPostDiv {
 	height: 50rem;
 	overflow: auto;

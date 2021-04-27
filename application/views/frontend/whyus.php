@@ -1,4 +1,3 @@
-<?php include('header.php') ?>
 <!-- SECTION-1-WHYUS THE GREENBASE EDGE DESKTOP -->
 <section class="setMaxWidth">
     <div class="banner-whyus">
@@ -7,7 +6,7 @@
             <div class="whyus-text" style="color: #4c372b;">
                 THE GREENBASE
             </div></br>
-            <div class="whyus-text" style="margin-top: 10px; color: #4c372b;s">
+            <div class="whyus-text" style="margin-top: 10px; color: #4c372b;">
                 EDGE
             </div>
         </div>
@@ -549,5 +548,3 @@
         document.getElementsByClassName("modal-mobile-whyus2")[0].style.display = "none";
     }
 </script>
-
-<?php include('footer.php') ?>

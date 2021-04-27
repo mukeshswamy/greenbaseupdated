@@ -1,4 +1,3 @@
-<?php include('header.php')?>
 <section class="section-contact setMaxWidth">
     <div class="contact-banner-div">
         <img src=<?php echo base_url('assets/images/contact_banner.jpg');?> alt="contact_banner" class="contact_banner">
@@ -116,4 +115,3 @@
         </div>
     </div>
 </section>
-<?php include('footer.php')?>

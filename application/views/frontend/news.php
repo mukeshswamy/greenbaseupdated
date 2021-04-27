@@ -1,4 +1,4 @@
-<section class="news-section setMaxWidth">
+<section class="news-section content setMaxWidth">
 	<div class="container-fluid cus-container-fluid-news">
 		<div class="row">
 			<div class="col-md-2 cus-col3 margin10">

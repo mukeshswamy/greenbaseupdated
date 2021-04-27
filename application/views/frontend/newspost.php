@@ -1,4 +1,3 @@
-<?php include('header.php'); ?>
 <section class="newspost-section">
     <div class="container-fluid cus-newspost-fluid">
         <div class="row">
@@ -351,4 +350,3 @@ $(document).ready(function(){
 	});
 });
 </script>
-<?php include('footer.php'); ?>

@@ -1,5 +1,4 @@
-<?php include('header.php'); ?>
-<section class="blogs-main-section setMaxWidth">
+<section class="blogs-main-section content setMaxWidth">
 	<!-- Desktop -->
 	<div class="blogs-side-bar desktop-main-blogs-head">
 		<div class="blogs-main-wrapper">
@@ -266,4 +265,3 @@
 		location.href = "blogpost/" + id;
 	});
 </script>
-<?php include('footer.php'); ?>
