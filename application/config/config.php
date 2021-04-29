@@ -25,6 +25,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   http://localhost:8080/greenbase/
 */
 $config['base_url'] = 'http://localhost/greenbase/';
+$config['image_url'] = 'http://greenbase.com/assets/images';
 
 /*
 |--------------------------------------------------------------------------

@@ -55,7 +55,7 @@
                 </div>
                 <div class="copy-ryt-disclaimer-wrapper">
                     <p class="m-0">© 2020 - All rights reserved</p>
-                    <p class="m-0 ml-3">Disclaimer</p>
+                    <p class="m-0 ml-3" id="disclaimer">Disclaimer</p>
                 </div>
             </div>
         </div>
@@ -99,7 +99,7 @@
             <li><a href="gallery">GALLERY</a></li>
             <li><a href="blogs">BLOGS</a></li>
             <li><a href="contact">CONTACT US</a></li>
-            <li><a href="javascript:void(0);" id="disclaimerMobile">DISCLAMIER</a></li>
+            <li><a href="javascript:void(0);" id="disclaimerMobile">DISCLAMIER</a></li> 
         </ul>
     </div>
     <p class="mobile__footer__copyryt">

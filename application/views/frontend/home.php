@@ -1,15 +1,10 @@
 <!-- SECTION 1 -->
 <section class="banner-main">
 	<div class="banner-slider-container" style="height: 60vh">
-		<div
-			id="carouselExampleControls"
-			class="carousel slide"
-			data-ride="carousel"
-		>
+		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 			<div class="carousel-inner">
 				<div class="carousel-item active banner-sliders">
-					<img class="d-block w-100" src=<?php echo base_url('assets/images/banner1.jpg') ?>
-					alt="First slide">
+					<img class="d-block w-100" src=<?php echo $this->config->item('image_url').'/banner1.jpg' ?> alt="First slide">
 					<div class="banner-caption-container">
 						<div class="banner-main-heading">
 							<div>our industrial space.</div>
@@ -25,8 +20,7 @@
 					</div>
 				</div>
 				<div class="carousel-item banner-sliders">
-					<img class="d-block w-100" src=<?php echo base_url('assets/images/blogs/blog1.jpg') ?>
-					alt="Second slide">
+					<img class="d-block w-100" src=<?php echo $this->config->item('image_url').'/blogs/blog1.jpg' ?> alt="Second slide">
 					<div class="banner-caption-container">
 						<div class="banner-main-heading">
 							<div>our industrial space.</div>
@@ -42,8 +36,7 @@
 					</div>
 				</div>
 				<div class="carousel-item banner-sliders">
-					<img class="d-block w-100" src=<?php echo base_url('assets/images/blogs/blog2.jpg') ?>
-					alt="Third slide">
+					<img class="d-block w-100" src=<?php echo $this->config->item('image_url').'/blogs/blog2.jpg' ?> alt="Third slide">
 					<div class="banner-caption-container">
 						<div class="banner-main-heading">
 							<div>our industrial space.</div>
@@ -88,8 +81,8 @@
 <!-- OUR CAPABLITIES -->
 <section class="our-capablities-wrapper container-center py-5">
 	<div class="container">
-		<div class="capablities-wrapper-main mb-4">
-			<div class="our-capablities-content-wrapper mr-4">
+		<div class="capablities-wrapper-main space-even">
+			<div class="our-capablities-content-wrapper mb-4 blue_bg color-1">
 				<h1>our capablities</h1>
 				<p>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
@@ -98,8 +91,8 @@
 					fugiat iusto fuga praesentium optio, eaque rerum!
 				</p>
 			</div>
-			<div class="our-capablities-content-wrapper mr-4">
-				<h1>our capablities</h1>
+			<div class="our-capablities-content-wrapper mb-4 borders">
+				<h4 class="color-2">Built to suit industrial facilities</h4>
 				<p>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
 					mollitia, molestiae quas vel sint commodi repudiandae consequuntur
@@ -107,8 +100,8 @@
 					fugiat iusto fuga praesentium optio, eaque rerum!
 				</p>
 			</div>
-			<div class="our-capablities-content-wrapper">
-				<h1>our capablities</h1>
+			<div class="our-capablities-content-wrapper mb-4 borders">
+				<h4 class="color-2">warehouse developments</h4>
 				<p>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
 					mollitia, molestiae quas vel sint commodi repudiandae consequuntur
@@ -116,10 +109,8 @@
 					fugiat iusto fuga praesentium optio, eaque rerum!
 				</p>
 			</div>
-		</div>
-		<div class="capablities-wrapper-main mb-4">
-			<div class="our-capablities-content-wrapper mr-4">
-				<h1>our capablities</h1>
+			<div class="our-capablities-content-wrapper mb-4 borders">
+				<h4 class="color-2">cold storage</h4>
 				<p>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
 					mollitia, molestiae quas vel sint commodi repudiandae consequuntur
@@ -127,8 +118,8 @@
 					fugiat iusto fuga praesentium optio, eaque rerum!
 				</p>
 			</div>
-			<div class="our-capablities-content-wrapper mr-4">
-				<h1>our capablities</h1>
+			<div class="our-capablities-content-wrapper mb-4 borders">
+				<h4 class="color-2">plug and play facilities for lighy industrial storage</h4>
 				<p>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
 					mollitia, molestiae quas vel sint commodi repudiandae consequuntur
@@ -136,8 +127,8 @@
 					fugiat iusto fuga praesentium optio, eaque rerum!
 				</p>
 			</div>
-			<div class="our-capablities-content-wrapper">
-				<h1>our capablities</h1>
+			<div class="our-capablities-content-wrapper mb-4 borders">
+				<h4 class="color-2">work-live-play</h4>
 				<p>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
 					mollitia, molestiae quas vel sint commodi repudiandae consequuntur
@@ -192,23 +183,14 @@
 	<div class="video-wrapper">
 		<div class="video-overlay"></div>
 		<video muted id="myVideo2">
-			<source src=<?php echo base_url('assets/images/garden.mp4'); ?>#t=1
-			type="video/mp4">
+			<source src=<?php echo base_url('assets/images/garden.mp4'); ?>#t=1 type="video/mp4">
 		</video>
-		<img src=<?php echo base_url('assets/images/playbutton.svg'); ?>
-		alt="playbutton" class="playbutton" id="playbuttons">
+		<img src=<?php echo base_url('assets/images/playbutton.svg'); ?> alt="playbutton" class="playbutton" id="playbuttons">
 	</div>
 </section>
 
 <div class="mobile__TitlevideoContainer">
-	<iframe
-		height="360"
-		style="width: 100%"
-		src="https://www.youtube.com/embed/qcGK6gh6W9U"
-		frameborder="0"
-		allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-		allowfullscreen
-	></iframe>
+	<iframe height="360" style="width: 100%" src="https://www.youtube.com/embed/qcGK6gh6W9U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 <!-- SECTION VIDEO MOBILE -->
 <script type="text/javascript">

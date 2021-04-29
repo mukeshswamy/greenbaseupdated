@@ -113,7 +113,22 @@
 	font-style: normal;
 	font-display: swap;
 }
-body .content{
+:root {
+	--color-2: #0068a8;
+	--color-1: #fff;
+	--color-3: #000000;
+}
+
+.color-1{
+	color: var(--color-1);
+}
+.color-2{
+	color: var(--color-2);
+}
+.color-3{
+	color: var(--color-3);
+}
+body .content {
 	min-height: calc(100vh - 190px);
 }
 .relatedNewsPostDiv {
@@ -203,8 +218,7 @@ body .content{
 	min-height: 60vh;
 }
 .banner-sliders {
-	position: relative;
-	height: 60vh;
+	/* position: relative; */
 }
 .banner-sliders img {
 	height: 60vh;
@@ -354,6 +368,16 @@ body .content{
 }
 
 /* OUR CAPABLITIES */
+.blue_bg {
+	background-color: rgb(1 23 56 / 90%) !important;
+}
+.space-even {
+	justify-content: space-evenly;
+}
+.borders{
+	border: 1px solid var(--color-2);
+}
+
 .our-capablities-wrapper {
 	background-image: url("../images/playlive.jpg");
 	background-size: cover;
@@ -362,11 +386,16 @@ body .content{
 	background-color: rgb(255 255 255 / 80%);
 	padding: 35px;
 	height: 250px;
+	width: 100%;
+	flex: 0 0 30%;
+	max-width: 30%;
 }
 .capablities-wrapper-main {
 	display: flex;
+	flex-wrap: wrap;
 }
-.our-capablities-content-wrapper h1 {
+.our-capablities-content-wrapper h1,
+.our-capablities-content-wrapper h4  {
 	font-family: "Zurich Cn BT";
 	font-weight: normal;
 	text-transform: uppercase;
@@ -2143,27 +2172,27 @@ body .content{
 }
 .footer-nav li a::before {
 	content: "";
-    position: absolute;
-    width: 1px;
-    height: 14px;
-    background-color: white;
-    left: 3px;
-    bottom: 5px;
+	position: absolute;
+	width: 1px;
+	height: 14px;
+	background-color: white;
+	left: 3px;
+	bottom: 5px;
 }
-.footer-nav li:first-child a::before{
+.footer-nav li:first-child a::before {
 	display: none;
 }
-.copy-ryt-disclaimer-wrapper{
+.copy-ryt-disclaimer-wrapper {
 	position: relative;
 }
-.copy-ryt-disclaimer-wrapper p:last-child:before{
+.copy-ryt-disclaimer-wrapper p:last-child:before {
 	content: "";
-    position: absolute;
-    width: 1px;
-    height: 14px;
-    background-color: white;
-    bottom: 5px;
-    right: 61px;
+	position: absolute;
+	width: 1px;
+	height: 14px;
+	background-color: white;
+	bottom: 5px;
+	right: 61px;
 }
 
 .footer-nav li a:hover {
