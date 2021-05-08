@@ -4,14 +4,14 @@
 		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 			<div class="carousel-inner">
 				<div class="carousel-item active banner-sliders">
-					<img class="d-block w-100" src=<?php echo $this->config->item('image_url').'/banner1.jpg' ?> alt="First slide">
+					<img class="d-block w-100 obj-pos-center" src=<?php echo $this->config->item('image_url').'/banner_new1.jpg' ?> alt="First slide">
 					<div class="banner-caption-container">
 						<div class="banner-main-heading">
 							<div>our industrial space.</div>
 							<div>your business glory.</div>
 						</div>
 						<div class="banner-caption">
-							our rich real estate legacy allows us the leverage to build
+							Our rich real estate legacy allows us the leverage to build
 							efficient industrial and warehousing space across the country
 						</div>
 					</div>
@@ -20,15 +20,14 @@
 					</div>
 				</div>
 				<div class="carousel-item banner-sliders">
-					<img class="d-block w-100" src=<?php echo $this->config->item('image_url').'/blogs/blog1.jpg' ?> alt="Second slide">
+					<img class="d-block w-100 obj-pos-top" src=<?php echo $this->config->item('image_url').'/banner_new2.jpg' ?> alt="Second slide">
 					<div class="banner-caption-container">
 						<div class="banner-main-heading">
-							<div>our industrial space.</div>
-							<div>your business glory.</div>
+							<div>our stategic location.</div>
+							<div>your business reach.</div>
 						</div>
 						<div class="banner-caption">
-							our rich real estate legacy allows us the leverage to build
-							efficient industrial and warehousing space across the country
+							Pan-India land bank at high-potential location in close proximity to commercial,logistical and freight corridors.
 						</div>
 					</div>
 					<div class="banner-brand-name">
@@ -36,15 +35,14 @@
 					</div>
 				</div>
 				<div class="carousel-item banner-sliders">
-					<img class="d-block w-100" src=<?php echo $this->config->item('image_url').'/blogs/blog2.jpg' ?> alt="Third slide">
+					<img class="d-block w-100" src=<?php echo $this->config->item('image_url').'/banner_new3.JPG' ?> alt="Third slide">
 					<div class="banner-caption-container">
 						<div class="banner-main-heading">
-							<div>our industrial space.</div>
-							<div>your business glory.</div>
+							<div>our development prowess.</div>
+							<div>your business harmony.</div>
 						</div>
 						<div class="banner-caption">
-							our rich real estate legacy allows us the leverage to build
-							efficient industrial and warehousing space across the country
+							Our expertise as infrastructure real estate developers, provide the necessary proficiency in creating world-class industrial and supply chain businesses.
 						</div>
 					</div>
 					<div class="banner-brand-name">

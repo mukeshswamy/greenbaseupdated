@@ -1,17 +1,14 @@
 <div class="contact-icons-wrapper">
     <a href="tel:+91 7506805746">
-        <img src=<?php echo base_url('assets/images/call-modal.svg'); ?> alt="contact-icons" class="contact-icons"
-        id="call-modal">
+        <img src=<?php echo base_url('assets/images/call-modal.svg'); ?> alt="contact-icons" class="contact-icons" id="call-modal">
     </a>
 
 
     <a href="mailto:marketing@greenbase.com">
-        <img src=<?php echo base_url('assets/images/mail-modal.svg'); ?> alt="contact-icons" class="contact-icons"
-        id="mail-modal">
+        <img src=<?php echo base_url('assets/images/mail-modal.svg'); ?> alt="contact-icons" class="contact-icons" id="mail-modal">
     </a>
 
-    <img id="contact-modal" src=<?php echo base_url('assets/images/contact-modal.svg'); ?> alt="contact-icons"
-    class="contact-icons" id="contact-modal">
+    <img id="contact-modal" src=<?php echo base_url('assets/images/contact-modal.svg'); ?> alt="contact-icons" class="contact-icons" id="contact-modal">
 </div>
 
 <!-- DeskTop Footer -->
@@ -40,10 +37,10 @@
                     <p class="m-0">A Hiranandani Group - Blackstone JV</p>
                     <div class="footer-icons-brand ml-4">
                         <a href="http://">
-                            <img src=<?php echo base_url('assets/images/twitterwhite.svg') ?> alt="twitterwhite">
+                            <img src=<?php echo base_url('assets/images/linkedin_white.svg') ?> alt="twitterwhite">
                         </a>
                         <a href="http://">
-                            <img src=<?php echo base_url('assets/images/linkedin_white.svg') ?> alt="twitterwhite">
+                            <img src=<?php echo base_url('assets/images/youtube.svg') ?> alt="twitterwhite">
                         </a>
                         <a href="http://">
                             <img src=<?php echo base_url('assets/images/fbwhite.svg') ?> alt="twitterwhite">
@@ -99,7 +96,7 @@
             <li><a href="gallery">GALLERY</a></li>
             <li><a href="blogs">BLOGS</a></li>
             <li><a href="contact">CONTACT US</a></li>
-            <li><a href="javascript:void(0);" id="disclaimerMobile">DISCLAMIER</a></li> 
+            <li><a href="javascript:void(0);" id="disclaimerMobile">DISCLAMIER</a></li>
         </ul>
     </div>
     <p class="mobile__footer__copyryt">
@@ -113,26 +110,21 @@
                 GET IN TOUCH WITH US
             </div>
             <div class="col-md-3 cancel">
-                <img id="cancel-modal" src=<?php echo base_url('assets/images/cancel_red.svg'); ?> alt="cancel"
-                class="modal-cancel-img">
+                <img id="cancel-modal" src=<?php echo base_url('assets/images/cancel_red.svg'); ?> alt="cancel" class="modal-cancel-img">
             </div>
         </div>
         <div class="contactmodalbody">
             <form class="contact-form" method="post" action="<?php echo base_url() ?>mail_send">
                 <div>
-                    <input type="text" name="username" placeholder="Name"
-                        class="input-width-half contact-input-width-half" required>
-                    <input type="email" name="email" placeholder="Email Id"
-                        class="input-width-half contact-input-width-half" required>
+                    <input type="text" name="username" placeholder="Name" class="input-width-half contact-input-width-half" required>
+                    <input type="email" name="email" placeholder="Email Id" class="input-width-half contact-input-width-half" required>
                 </div>
                 <div>
                     <input type="text" placeholder="+91" disabled class="input-width-half phone-code" required>
-                    <input type="tel" name="phone" placeholder="Phone Number" class="input-width-half phone-input"
-                        required>
+                    <input type="tel" name="phone" placeholder="Phone Number" class="input-width-half phone-input" required>
                 </div>
                 <div>
-                    <textarea style="width: 100%;" class="contactCommentArea" name="comment"
-                        placeholder="Comments"></textarea>
+                    <textarea style="width: 100%;" class="contactCommentArea" name="comment" placeholder="Comments"></textarea>
                 </div>
                 <div class="button-div-wrapper">
                     <button class="button-submit floatnormal" type="submit">Submit</button>
@@ -258,12 +250,8 @@
         </p>
     </div>
 </div>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.0/jquery.cookie.min.js">
 </script>
 <script src=<?php echo base_url('assets/js/bootstrap.min.js'); ?>></script>
