@@ -83,7 +83,7 @@
 						Land parcels from the Pan-India land bank available at strategic
 						locations for development of industrial and warehousing parks
 					</p>
-					<span class="air-regular">Know more_______</span>
+					<span class="air-regular value_more" data-name="landbanks">Know more_______</span>
 				</div>
 			</div>
 			<div class="col-md-4 mb-3">
@@ -95,7 +95,7 @@
 						Greenbase to build on the Group’s established track record of
 						developing marquee projects. In-house team of expert professionals
 					</p>
-					<span class="air-regular">Know more_______</span>
+					<span class="air-regular value_more" data-name="developmentexpertise">Know more_______</span>
 				</div>
 			</div>
 			<div class="col-md-4 mb-3">
@@ -106,7 +106,28 @@
 						Group of developing projects as per client specifications and
 						delivering time
 					</p>
-					<span class="air-regular">Know more_______</span>
+					<span class="air-regular value_more" data-name="clientfirst">Know more_______</span>
+				</div>
+			</div>
+			<div class="value-wrapper col-md-12 mb-3 d-none">
+				<div class="value_popup_wrapper bg-col-1">
+					<div class="row">
+						<div class="col-md-6">
+							<h2 class="value_head zur-con text-uppercase"></h2>
+						</div>
+						<div class="col-md-6 text-end">
+							<img src=<?php echo base_url('assets/images/cancel.svg')?>
+							alt="cancel" class="cancel_value pointer">
+						</div>
+						<div class="col-md-8">
+							<ul class="value_list busiess_lis" id="value_list">
+							</ul>
+						</div>
+						<div class="col-md-4">
+							<img src=<?php echo base_url('assets/images/existingland.jpg')?>
+							alt="show_case" class="show_case_value w-100 h-250 cover">
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="col-md-4 mb-3">
@@ -117,7 +138,7 @@
 						residential, retail, educational, sports and related amenities to
 						grow delivering time
 					</p>
-					<span class="air-regular">Know more_______</span>
+					<span class="air-regular value_more" data-name="synergisticliving">Know more_______</span>
 				</div>
 			</div>
 			<div class="col-md-4 mb-3">
@@ -128,7 +149,7 @@
 						water, along with residential and commercial development delivering
 						time
 					</p>
-					<span class="air-regular">Know more_______</span>
+					<span class="air-regular value_more" data-name="infrastructure">Know more_______</span>
 				</div>
 			</div>
 			<div class="col-md-4 mb-3">
@@ -139,7 +160,7 @@
 						Powai, Thane and Panvel. Proposed development of workers delivering
 						time
 					</p>
-					<span class="air-regular">Know more_______</span>
+					<span class="air-regular value_more" data-name="mixed">Know more_______</span>
 				</div>
 			</div>
 		</div>
@@ -161,45 +182,53 @@
 		<div class="container-gb">
 			<div class="row">
 				<div class="col-md-4 mb-3">
-					<div class="value_wrapper bg-col-1 pad_edge">
-						<h2 class="zur-con text-uppercase color-10">
+					<div class="value_wrapper bg-col-1 pad_edge relative">
+						<h2 class="zur-con text-uppercase color-10 edge_head">
 							BUILDING COMMUNITIES, THE HIRANANDANI WAY:
 						</h2>
-						<p class="air-regular mb-0">
+						<p class="air-regular mb-0 edge_content content_clip">
 							Through Greenbase, we are capitalizing on our existing land bank
 							at strategic growth corridors to develop mixed use, efficient
 						</p>
-						<span class="air-regular">Know more_______</span>
+						<span class="air-regular base_more" data-name="buildingcommunities">Know more_______</span>
+						<img src=<?php echo base_url('assets/images/cancel.svg')?>
+							alt="cancel" class="cancel_value pointer cancel_edge absolute d-none">
 					</div>
 				</div>
 				<div class="col-md-4 mb-3">
-					<div class="value_wrapper bg-col-1 pad_edge">
-						<h2 class="zur-con text-uppercase color-10">
+					<div class="value_wrapper bg-col-1 pad_edge relative">
+						<h2 class="zur-con text-uppercase color-10 edge_head">
 							A NATURAL<br />PROGRESSION:
 						</h2>
-						<p class="air-regular mb-0">
+						<p class="air-regular mb-0 edge_content content_clip">
 							Reflecting our deep-rooted purpose of contributing to nation
 							building, Greenbase is a natural progression of our domain
 						</p>
-						<span class="air-regular">Know more_______</span>
+						<span class="air-regular base_more" data-name="naturalprogression">Know more_______</span>
+						<img src=<?php echo base_url('assets/images/cancel.svg')?>
+							alt="cancel" class="cancel_value pointer cancel_edge absolute d-none">
 					</div>
 				</div>
 				<div class="col-md-4 mb-3">
-					<div class="value_wrapper bg-col-1 pad_edge">
-						<h2 class="zur-con text-uppercase color-10">
+					<div class="value_wrapper bg-col-1 pad_edge relative">
+						<h2 class="zur-con text-uppercase color-10 edge_head">
 							ASSISTANCE IN REGULATORY REQUIREMENTS:
 						</h2>
-						<p class="air-regular mb-0">
+						<p class="air-regular mb-0 edge_content content_clip">
 							At Greenbase, we are planning, designing, constructing, and
 							maintaining infrastructure in a manner that effectively manages
 						</p>
-						<span class="air-regular">Know more_______</span>
+						<span class="air-regular base_more" data-name="regulatoryrequitements">Know more_______</span>
+						<img src=<?php echo base_url('assets/images/cancel.svg')?>
+							alt="cancel" class="cancel_value pointer cancel_edge absolute d-none">
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
+
+<!-- SCRIPTING STARTS HERE -->
 <script
 	src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"
 	charset="utf-8"
@@ -257,7 +286,7 @@
 		synergisticliving: {
 			head: "SYNERGISTIC LIVING",
 			details: [
-				"▪	The Group has been a pioneer in synergistic living, developing residential, retail, educational, sports and related amenities to grow in step with commercial developments",
+				"The Group has been a pioneer in synergistic living, developing residential, retail, educational, sports and related amenities to grow in step with commercial developments",
 				"Greenbase will endeavor to continue to develop its industrial townships in a similar manner, creating synergies",
 				"The industrial parks locations to be strategically selected and developed such that they will provide an impetus to the local businesses, work force, skilled labor, SME’s and other varied segments in the region",
 			],
@@ -292,14 +321,13 @@
 	});
 	$(".our-value-mobile .col-12 h5").on("click", function () {
 		var getname = $(this).data("name");
-		console.log(datasvalue[getname]);
 		document.getElementsByClassName("modal-mobile-whyus2")[0].style.display =
 			"block";
 		$(".whyus-modal-contents h2").text(datasvalue[getname].head);
 		$(".img-wrappers img").attr("src", datasvalue[getname].tumbnail);
 		var valueList = datasvalue[getname].details
 			.map((finaldata, index) => {
-				return `<li>${finaldata}</li>`;
+				return `<li class="air-regular">${finaldata}</li>`;
 			})
 			.join("");
 		document.getElementById("valueLi").innerHTML = valueList;
@@ -311,4 +339,41 @@
 		document.getElementsByClassName("modal-mobile-whyus2")[0].style.display =
 			"none";
 	}
+
+	$('.value_more').on('click', function(){
+		var value = $(this).data("name");
+		// console.log(datasvalue[value]);
+		$(".value_head").text(datasvalue[value].head);
+		$(".show_case_value").attr("src", datasvalue[value].tumbnail);
+		$(".value-wrapper").removeClass('d-none');
+		var valueList = datasvalue[value].details
+			.map((finaldata, index) => {
+				return `<li>${finaldata}</li>`;
+			})
+			.join("");
+		document.getElementById("value_list").innerHTML = valueList;
+	});
+
+	$('.cancel_value').on('click', function(){
+		$(".value-wrapper").addClass('d-none');
+	});
+
+	// GREENBASE EDGE
+	$('.base_more').on('click',function(){
+		var value = $(this).data("name");
+		$(this).parent().parent().siblings().css({'display': 'none'})
+		$(this).parent().parent().addClass('max-100');
+		$(this).parent().find('p').removeClass('content_clip');
+		$(this).hide();
+		$(this).parent().find('img').removeClass('d-none');
+		$(this).parent().find('p').text(datasgreenbase[value].details)
+	});
+
+	$('.cancel_edge').on('click',function(){
+		$(this).parent().parent().siblings().css({'display': 'block'})
+		$(this).parent().parent().removeClass('max-100');
+		$(this).parent().find('p').addClass('content_clip');
+		$(this).addClass('d-none');
+		$(this).parent().find('span').show();
+	});
 </script>

@@ -28,8 +28,7 @@
 </section>
 
 <!-- GROUP OVERVIEW -->
-<section class="group_overview_wrapper group_bg" style="background-image: url('<?php echo base_url("
-    assets/images/about/group.jpg") ?>');">
+<section class="group_overview_wrapper group_bg" style="background-image: url('<?php echo base_url("assets/images/about/group.jpg") ?>');">
     <div class="container-gb py-5">
         <div class="group_head_wrapper">
             <h1 class="m-0 zur-light-con">Group overview</h1>
@@ -71,51 +70,53 @@
                         <div class="stats_head_container zx-2 bg-col-4">
                             <h3 class="m-0 lato-bold">Realty</h3>
                         </div>
-                        <div class="stats overview_stats">
-                            <span class="count color-3 lato-bold">3,152</span><span class="volume color-3 lato-light">acres</span>
-                            <p class="m-0 color-3 lato-light">Total land bank hoding</p>
-                        </div>
-                        <div class="stats overview_stats">
-                            <span class="count color-3 lato-bold">3,152</span><span class="volume color-3 lato-light">acres</span>
-                            <p class="m-0 color-3 lato-light">Total land bank hoding</p>
-                        </div>
-                        <div class="stats overview_stats">
-                            <span class="count color-3 lato-bold">3,152</span><span class="volume color-3 lato-light">acres</span>
-                            <p class="m-0 color-3 lato-light">Total land bank hoding</p>
-                        </div>
+                        <div class="stats_all_wrapper d-flex flex-colmun w-75">
+                            <div class="stats overview_stats">
+                                <span class="count color-3 lato-bold">1,827</span><span class="volume color-3 lato-light">acres</span>
+                                <p class="m-0 color-3 lato-light d-table">Total land bank</p>
+                            </div>
+                            <div class="stats overview_stats">
+                                <span class="count color-3 lato-bold">36.6 </span><span class="volume color-3 lato-light">mn sq. ft.</span>
+                                <p class="m-0 color-3 lato-light d-table">Real estate assets in hand</p>
+                            </div>
+                            <div class="stats overview_stats">
+                                <span class="count color-3 lato-bold">3.35 </span><span class="volume color-3 lato-light">mn sq. ft.</span>
+                                <p class="m-0 color-3 lato-light d-table">Ongoing commercial projects</p>
+                            </div>
+                        </div> 
                     </div>
                     <div class="stats_content_container oil flex-30 d-flex flex-column space-even center-item">
                         <div class="stats_head_container zx-2 bg-col-5">
                             <h3 class="m-0 lato-bold ">oil & gas</h3>
                         </div>
-                        <div class="stats overview_stats">
-                            <span class="count color-3 lato-bold">3,152</span><span class="volume color-3 lato-light">acres</span>
-                            <p class="m-0 color-3 lato-light">Total land bank hoding</p>
-                        </div>
-                        <div class="stats overview_stats">
-                            <span class="count color-3 lato-bold">3,152</span><span class="volume color-3 lato-light">acres</span>
-                            <p class="m-0 color-3 lato-light">Total land bank hoding</p>
-                        </div>
-                        <div class="stats overview_stats">
-                            <span class="count color-3 lato-bold">3,152</span><span class="volume color-3 lato-light">acres</span>
-                            <p class="m-0 color-3 lato-light">Total land bank hoding</p>
+                        <div class="stats_all_wrapper d-flex flex-colmun w-75">
+                            <div class="stats overview_stats">
+                                <span class="count color-3 lato-bold">5</span><span class="volume color-3 lato-light">MMTPA</span>
+                                <p class="m-0 color-3 lato-light">Capacity at East Coast Project (expandable up to 13 MMTPA)</p>
+                            </div>
+                            <div class="stats overview_stats">
+                                <span class="count color-3 lato-bold">4</span><span class="volume color-3 lato-light">MMTPA</span>
+                                <p class="m-0 color-3 lato-light">(peaking at 6 MMTPA) Capacity at West Coast Project (expandable up to 10 MMTPA)</p>
+                            </div>
+                            <div class="stats overview_stats">
+                                <span class="count color-3 lato-bold">945</span><span class="volume color-3 lato-light">Km</span>
+                                <p class="m-0 color-3 lato-light">The total length of natural gas pipeline under execution</p>
+                            </div>
                         </div>
                     </div>
                     <div class="stats_content_container infrastructure flex-30 d-flex flex-column space-even center-item">
                         <div class="stats_head_container bg-col-6 zx-2">
                             <h3 class="m-0 lato-bold">infrastructure</h3>
                         </div>
-                        <div class="stats overview_stats">
-                            <span class="count color-3 lato-bold">3,152</span><span class="volume color-3 lato-light">acres</span>
-                            <p class="m-0 color-3 lato-light">Total land bank hoding</p>
-                        </div>
-                        <div class="stats overview_stats">
-                            <span class="count color-3 lato-bold">3,152</span><span class="volume color-3 lato-light">acres</span>
-                            <p class="m-0 color-3 lato-light">Total land bank hoding</p>
-                        </div>
-                        <div class="stats overview_stats">
-                            <span class="count color-3 lato-bold">3,152</span><span class="volume color-3 lato-light">acres</span>
-                            <p class="m-0 color-3 lato-light">Total land bank hoding</p>
+                        <div class="stats_all_wrapper d-flex flex-colmun w-75">
+                            <div class="stats overview_stats">
+                                <span class="count color-3 lato-bold text-uppercase">us$ 500</span><span class="volume color-3 lato-light">mn</span>
+                                <p class="m-0 color-3 lato-light">Total investment planned</p>
+                            </div>
+                            <div class="stats overview_stats">
+                                <span class="count color-3 lato-bold">10</span><span class="volume color-3 lato-light"> mn sq. ft.</span>
+                                <p class="m-0 color-3 lato-light">Industrial and warehousing space under development (Phase 1 of Pan-India setup)</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -128,8 +129,7 @@
 </section>
 
 <!-- Businessess -->
-<section class="group_overview_wrapper group_bg" style="background-image: url('<?php echo base_url("
-    assets/images/about/business.jpg") ?>');">
+<section class="group_overview_wrapper group_bg" style="background-image: url('<?php echo base_url("assets/images/about/business.jpg") ?>');">
     <div class="container-gb py-5">
         <div class="group_head_wrapper business_wrapper zur-light-con">
             <h1 class="m-0">our 12 business sbu</h1><sup>s</sup>
@@ -311,7 +311,7 @@
                             industry through astonishing township projects, accredited with beautifying skylines in
                             Powai and Thane with Panvel, Chennai, Ahmedabad, and Pune set to follow.
                         </p>
-                        <span class="ceo_know_more ceo_know_more_pos air-regular ceo_des absolute">Know More_______</span>
+                        <span class="ceo_know_more ceo_know_more_pos air-regular ceo_des absolute" style="height: auto !important;">Know More_______</span>
                     </div>
                 </div>
             </div>
@@ -336,7 +336,7 @@
                             entrepreneurs, invests in start-ups through the social impact investment platform of Pegasus
                             and is an Independent Director of the Director’s Club.
                         </p>
-                        <span class="ceo_know_more ceo_know_more_pos air-regular ceo_des absolute">Know More______</span>
+                        <span class="ceo_know_more ceo_know_more_pos air-regular ceo_des absolute" style="height: auto !important;">Know More______</span>
                     </div>
                 </div>
             </div>
@@ -358,7 +358,7 @@
                             friendly and futuristic technologies. He is the winner of Asia Pacific Quality Organisation
                             Global Performance Excellence Best in Class Award - 2016.
                         </p>
-                        <span class="ceo_know_more ceo_know_more_pos air-regular ceo_des absolute">Know More_____</span>
+                        <span class="ceo_know_more ceo_know_more_pos air-regular ceo_des absolute" style="height: auto !important;">Know More_____</span>
                     </div>
                 </div>
             </div>
@@ -382,7 +382,7 @@
                             Valuation, Project Management, Leadership & Personality Development besides having done a
                             program with Harvard Business School on Negotiations and Deal Making.
                         </p>
-                        <span class="ceo_know_more ceo_know_more_pos air-regular ceo_des absolute">Know More_____</span>
+                        <span class="ceo_know_more ceo_know_more_pos air-regular ceo_des absolute" style="height: auto !important;">Know More_____</span>
                     </div>
                 </div>
             </div>
@@ -390,37 +390,19 @@
     </div>
 </section>
 
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"
+	charset="utf-8"
+></script>
 <script type="text/javascript">
-    var slideIndex = 1;
-    showSlides(slideIndex);
-
-    function mobileAboutIdicator(x) {
-        showSlides(slideIndex += x);
-    }
-
-    function showSlides(n) {
-        var i, j;
-        var slides = document.getElementsByClassName("carousel-item-abouts");
-        var slides_content = document.getElementsByClassName("overview-content-mobile");
-        if (n > slides.length) {
-            slideIndex = 1
-        }
-        if (n > slides_content.length) {
-            slideIndex = 1
-        }
-        if (n < 1) {
-            slideIndex = slides.length
-        }
-        if (n < 1) {
-            slideIndex = slides_content.length
-        }
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        }
-        for (j = 0; j < slides_content.length; j++) {
-            slides_content[j].style.display = "none";
-        }
-        slides[slideIndex - 1].style.display = "block";
-        slides_content[slideIndex - 1].style.display = "block";
-    }
+    $(document).ready(() => {
+        $('.ceo_know_more').on('click',function(){
+            $('.ceo_know_more').show();
+            $('.ceo_des').addClass('text-para-animation');
+            $('.dectiption').removeClass('h-100');
+            $(this).parent().find('p').removeClass('text-para-animation')
+            $(this).parent().addClass('h-100');
+            $(this).hide();
+        });
+    })
 </script>
