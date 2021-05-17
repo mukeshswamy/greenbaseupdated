@@ -20,7 +20,7 @@
                 </div>
                 <div class="contact-text mr-bottom-40">
                     Greenbase - Industrial and Logistics Park</br>
-                    Floor 3, Olympia, Technology Steet, Hiranandani Business Park,</br>
+                    Floor 3, Olympia, Technology Street, Hiranandani Business Park,</br>
                     Hiranandani Gardens, Powai, Mumbai – 400076, MH, India.<br class="forcebr">
                 </div>
                 <div class="contant__PhoneNumber mr-bottom-40">

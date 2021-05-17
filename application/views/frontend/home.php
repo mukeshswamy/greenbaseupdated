@@ -86,59 +86,62 @@
 	<div class="container-gb">
 		<div class="capablities-wrapper-main space-even">
 			<div class="our-capablities-content-wrapper relative mb-4 blue_bg color-1">
-				<h1 class="font-45">our capablities</h1>
-				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-					mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-					voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-					fugiat iusto fuga praesentium optio, eaque rerum!
+				<h4 class="font-45 cap_head">our capablities</h4>
+				<p class="cap_para">
+					Greenbase, a Nidar Group company has a joint venture with the leading global private equity firm Blackstone Group Inc. and has a pan-India platform to build industrial, logistics and warehousing assets. With 450 acres of seed land bank across Chennai, Pune, Nashik, and Durgapur, the venture has made rapid strides in a short span of time and is on course to deliver close to 12 million sq.ft. in the next 3-5 years. Expansion plans are in place to enter into other tier 1 and tier 2 markets. The group’s key strength in construction and infrastructure capabilities paired with cutting edge development and execution capabilities enables us to provide cost-effective solutions for all industrial and warehousing spaces.
 				</p>
+				<span class="air-regular cap_know_more pointer">Know More________</span>
 			</div>
 			<div class="our-capablities-content-wrapper d-flex flex-colmun relative mb-4 borders">
-				<h4 class="color-2">Built to suit industrial facilities</h4>
-				<p>
+				<h4 class="color-2 cap_head">Built to suit industrial facilities</h4>
+				<p class="cap_para">
 					Every industry’s requirement is unique. Greenbase understands this service/warehousing/production
 					needs of the customer and is able to provide customized solutions. Right from conceptualizing the
 					design up to the delivery of the facility and beyond we take into consideration every minute detail
 					from the client.
 				</p>
+				<span class="air-regular cap_know_more pointer">Know More________</span>
 			</div>
 			<div class="our-capablities-content-wrapper d-flex flex-colmun relative mb-4 borders">
-				<h4 class="color-2">warehouse developments</h4>
-				<p>
+				<h4 class="color-2 cap_head">warehouse developments</h4>
+				<p class="cap_para">
 					The warehouses by Greenbase go far beyond simple storage solutions. With learnings from our real
 					estate vertical, our commercial expertise and our data centres, we are now able to provide
 					warehouses which can now provide more flexibility, accessibility and efficient functionality than
 					ever before.
 				</p>
+				<span class="air-regular cap_know_more pointer">Know More________</span>
 			</div>
 			<div class="our-capablities-content-wrapper d-flex flex-colmun relative mb-4 borders">
-				<h4 class="color-2">cold storage</h4>
-				<p>
+				<h4 class="color-2 cap_head">cold storage</h4>
+				<p class="cap_para">
 					Cold storage warehouses developed by Greenbase will have the capability and the capacity to store
 					your products at the right temperatures. And our warehouses will have the capability to not only
 					store fruits, vegetables and flowers, but also artworks, cologne, medicines, films and more.
 				</p>
+				<span class="air-regular cap_know_more pointer">Know More________</span>
 			</div>
 			<div class="our-capablities-content-wrapper d-flex flex-colmun relative mb-4 borders">
-				<h4 class="color-2">plug and play facilities for lighy industrial storage</h4>
-				<p>
+				<h4 class="color-2 cap_head">plug and play facilities for light industrial storage</h4>
+				<p class="cap_para">
 					Our strategically located parks can provide modern warehouse buildings with expertly designed
 					warehousing solutions, allowing the client to seamlessly move in and start operations. Along with
 					it, considering today’s modern needs require digital infrastructure for effective and efficient
 					services management, Greenbase has the capability to merge them with the physical infrastructure as
 					well.
 				</p>
+				<span class="air-regular cap_know_more pointer">Know More________</span>
 			</div>
 			<div class="our-capablities-content-wrapper d-flex flex-colmun relative mb-4 borders">
-				<h4 class="color-2">work-live-play</h4>
-				<p>
+				<h4 class="color-2 cap_head">work-live-play</h4>
+				<p class="cap_para">
 					Perhaps, one of the very few with the ability to provide good quality housing and amenities for the
 					industrial staff. With our experience in developing integrated townships, the civic and social
 					infrastructure surrounding Greenbase Parks will be highly envious. With Hiranandani Parks, a 400-
 					acre township abutting our Chennai location. Thus, providing a holistic lifestyle with an equal
 					importance to Work – Live – Play.
 				</p>
+				<span class="air-regular cap_know_more pointer">Know More________</span>
 			</div>
 		</div>
 	</div>
@@ -147,10 +150,10 @@
 <!-- vision-mission -->
 <section class="vision-section bg-position">
 	<div class="backdrop"></div>
-	<div class="container py-5">
+	<div class="container-gb py-5 pr4">
 		<div class="row">
 			<div class="col-md-6 gb-heading">
-				<h1 class="text-uppercase vision-text">our vision & <br> mission statement</h1>
+				<h1 class="text-uppercase vision-text">our vision & mission</h1>
 			</div>
 			<div class="col-md-6 vision-wrapper">
 				<div class="vision-content-wrapper gb-mb-4">
@@ -184,14 +187,17 @@
 
 <!-- VIDEO SECTION-->
 <section class="video-section setMaxWidth">
-	<div class="video-wrapper">
+	<!-- <div class="video-wrapper">
 		<div class="video-overlay"></div>
 		<video muted id="myVideo2">
 			<source src=<?php echo base_url('assets/images/garden.mp4'); ?>#t=1 type="video/mp4">
 		</video>
 		<img src=<?php echo base_url('assets/images/playbutton.svg'); ?> alt="playbutton" class="playbutton"
 		id="playbuttons">
-	</div>
+	</div> -->
+	<iframe height="360" style="width: 100%;height: calc(100vh - 75px);" src="https://www.youtube.com/embed/qcGK6gh6W9U" frameborder="0"
+		allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+		allowfullscreen></iframe>
 </section>
 
 <div class="mobile__TitlevideoContainer">
@@ -200,37 +206,25 @@
 		allowfullscreen></iframe>
 </div>
 <!-- SECTION VIDEO MOBILE -->
+<!-- SCRIPTING STARTS HERE -->
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"
+	charset="utf-8"
+></script>
 <script type="text/javascript">
-	var slideIndex = 1;
-	showSlides(slideIndex);
-
-	function mobileIdicator(x) {
-		showSlides((slideIndex += x));
-	}
-
-	function showSlides(n) {
-		var i, j;
-		var slides = document.getElementsByClassName("mobile_carousel");
-		var slides_content = document.getElementsByClassName("content");
-		if (n > slides.length) {
-			slideIndex = 1;
-		}
-		if (n > slides_content.length) {
-			slideIndex = 1;
-		}
-		if (n < 1) {
-			slideIndex = slides.length;
-		}
-		if (n < 1) {
-			slideIndex = slides_content.length;
-		}
-		for (i = 0; i < slides.length; i++) {
-			slides[i].style.display = "none";
-		}
-		for (j = 0; j < slides_content.length; j++) {
-			slides_content[j].style.display = "none";
-		}
-		slides[slideIndex - 1].style.display = "block";
-		slides_content[slideIndex - 1].style.display = "block";
-	}
+	$(document).ready(function(){
+		$(".cap_know_more").on('click',function(){
+			// DEFAULT ACTION
+			$('.cap_know_more').show();
+			$('.cap_head').removeClass('d-none');
+			$('.our-capablities-content-wrapper p').removeClass('h-auto');
+			$('.our-capablities-content-wrapper p').addClass('cap_para');
+			// $('.cap_para').removeClass('h-auto');
+			// ONCLICK ACTION
+			$(this).hide();
+			$(this).parent().find('h4').addClass('d-none')
+			$(this).parent().find('p').removeClass('cap_para')
+			$(this).parent().find('p').addClass('h-auto')
+		});
+	});
 </script>

@@ -22,7 +22,7 @@
             <p class="m-0">By leveraging our intrinsic strengths in real estate, we have further expanded the scope of
                 excellence by
                 integrating sustainability and adaptability into each of our new businessess be it industrial and
-                warehousing, infrastructure, oil, gas,data center and more..</p>
+                warehousing, infrastructure, oil, gas, data center and more..</p>
         </div>
     </div>
 </section>
@@ -39,7 +39,7 @@
                     <img src=<?php echo base_url('assets/images/about/land.svg'); ?> alt="" class="mr-3">
                     <div class="stats">
                         <span class="count lato-bold">3,152</span><span class="volume lato-light">acres</span>
-                        <p class="m-0 lato-light">Total land bank hoding</p>
+                        <p class="m-0 lato-light">Total land bank holding</p>
                     </div>
                 </div>
                 <div class="stats_content d-flex mb-5 align-center">
@@ -345,7 +345,7 @@
                     <img src=<?php echo base_url('assets/images/about/darshan.jpg') ?> alt="ceo" class="ceo_img">
                     <div class="dectiption pad10 relative">
                         <h4 class="zur-con color-10">Mr. Darshan Hiranandani,</h4>
-                        <span class="zur-con color-11">MD and Group Chief Executive Office</span>
+                        <span class="zur-con color-11">Group Chief Executive Office</span>
                         <p class="air-regular ceo_des mt-4 text-justify text-para-animation">
                             He is an MBA (specialising in Entrepreneurship and Finance) and B.S. (specialising in
                             Management Information System) from Rochester Institute of Technology, New York. Mr. Darshan
@@ -364,7 +364,7 @@
             </div>
             <div class="col-md-3">
                 <div class="ceo_wrappers">
-                    <img src=<?php echo base_url('assets/images/about/darshan.jpg') ?> alt="ceo" class="ceo_img">
+                    <img src=<?php echo base_url('assets/images/about/HemantPrabhu.jpg') ?> alt="ceo" class="ceo_img">
                     <div class="dectiption pad10 pb-4 relative">
                         <h4 class="zur-con color-10">Mr. Hemant Prabhu,</h4>
                         <span class="zur-con color-11">Chief Operating Officer, Greenbase</span>

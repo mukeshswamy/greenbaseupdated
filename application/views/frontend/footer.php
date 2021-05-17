@@ -18,7 +18,7 @@
             <div class="col-md-5 address-wrapper">
                 <h4 class="m-0">Greenbase - Industrial and Logistics Park</h4>
                 <div class="footer-address">
-                    <p class="m-0">Floor 3, Olympia, Technology Steet, Hiranandani Business Park,
+                    <p class="m-0">Floor 3, Olympia, Technology Street, Hiranandani Business Park,
                         Hiranandani Gardens, Powai, Mumbai – 400076, MH, India</p>
                 </div>
             </div>
@@ -51,7 +51,7 @@
                     </div>
                 </div>
                 <div class="copy-ryt-disclaimer-wrapper">
-                    <p class="m-0">© 2020 - All rights reserved</p>
+                    <p class="m-0">© 2021 - All rights reserved</p>
                     <p class="m-0 ml-3" id="disclaimer">Disclaimer</p>
                 </div>
             </div>
@@ -80,7 +80,7 @@
     <div class="mobile__footer__address">
         <strong>Greenbase - Industrial and Logistics Park</strong>
         <p>
-            Floor 3, Olympia, Technology Steet, Hiranandani Business Park,
+            Floor 3, Olympia, Technology Street, Hiranandani Business Park,
             Hiranandani Gardens, Powai, Mumbai – 400076, MH, India.
         </p>
     </div>
@@ -100,7 +100,7 @@
         </ul>
     </div>
     <p class="mobile__footer__copyryt">
-        © 2020 - All rights reserved
+        © 2021 - All rights reserved
     </p>
 </div>
 <div class="contactmodal" id="modalContact">
