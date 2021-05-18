@@ -88,7 +88,11 @@
 			<div class="our-capablities-content-wrapper relative mb-4 blue_bg color-1 center-me">
 				<h4 class="font-45 cap_head">our capablities</h4>
 				<p class="cap_para">
-					Greenbase, a Nidar Group company has a joint venture with the leading global private equity firm Blackstone Group Inc. and has a pan-India platform to build industrial, logistics and warehousing assets. With 450 acres of seed land bank across Chennai, Pune, Nashik, and Durgapur, the venture has made rapid strides in a short span of time and is on course to deliver close to 12 million sq.ft. in the next 3-5 years. Expansion plans are in place to enter into other tier 1 and tier 2 markets. The group’s key strength in construction and infrastructure capabilities paired with cutting edge development and execution capabilities enables us to provide cost-effective solutions for all industrial and warehousing spaces.
+					Greenbase, a Nidar Group company has a joint venture with the leading global private equity firm
+					Blackstone Group Inc. and has a pan-India platform to build industrial, logistics and warehousing
+					assets. With 450 acres of seed land bank across Chennai, Pune, Nashik, and Durgapur, the venture has
+					made rapid strides in a short span of time and is on course to deliver close to 12 million sq.ft. in
+					the next 3-5 years.
 				</p>
 				<span class="air-regular cap_know_more pointer">Know More________</span>
 			</div>
@@ -195,8 +199,8 @@
 		<img src=<?php echo base_url('assets/images/playbutton.svg'); ?> alt="playbutton" class="playbutton"
 		id="playbuttons">
 	</div> -->
-	<iframe height="360" style="width: 100%;height: calc(100vh - 75px);" src="https://www.youtube.com/embed/qcGK6gh6W9U" frameborder="0"
-		allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+	<iframe height="360" style="width: 100%;height: calc(100vh - 75px);" src="https://www.youtube.com/embed/qcGK6gh6W9U"
+		frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 		allowfullscreen></iframe>
 </section>
 
@@ -207,13 +211,10 @@
 </div>
 <!-- SECTION VIDEO MOBILE -->
 <!-- SCRIPTING STARTS HERE -->
-<script
-	src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"
-	charset="utf-8"
-></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
 <script type="text/javascript">
-	$(document).ready(function(){
-		$(".cap_know_more").on('click',function(){
+	$(document).ready(function () {
+		$(".cap_know_more").on('click', function () {
 			// DEFAULT ACTION
 			$('.cap_know_more').show();
 			$('.cap_head').removeClass('d-none');

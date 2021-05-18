@@ -345,7 +345,7 @@
                     <img src=<?php echo base_url('assets/images/about/darshan.jpg') ?> alt="ceo" class="ceo_img">
                     <div class="dectiption pad10 relative">
                         <h4 class="zur-con color-10">Mr. Darshan Hiranandani,</h4>
-                        <span class="zur-con color-11">Group Chief Executive Office</span>
+                        <span class="zur-con color-11">Group Chief Executive Officer</span>
                         <p class="air-regular ceo_des mt-4 text-justify text-para-animation">
                             He is an MBA (specialising in Entrepreneurship and Finance) and B.S. (specialising in
                             Management Information System) from Rochester Institute of Technology, New York. Mr. Darshan
