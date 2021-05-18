@@ -94,15 +94,16 @@
 </section>
 <!-- END OF NEWS POSTS -->
 <script type="text/javascript">
-var url =
-	window.location.origin + "/" + window.location.pathname.split("/")[1] + "/";
+// var url = <?php echo base_url()?>
+// console.log(url);
+// 	window.location.origin + "/" + window.location.pathname.split("/")[1] + "/";
     var id = '<?php print_r($id)?>';
     // News Articles
     var newsdatas = {
 	news: [
 		{
 			headline: "Logistics sector: Covid-19 alters logistics of trade",
-			headimage: url + "assets/images/news/logistic.jpg",
+			headimage: "<?php echo base_url(); ?>assets/images/news/logistic.jpg",
 			date: "October 5, 2020",
 			time: "2:30 AM",
 			headArticle:
@@ -119,7 +120,7 @@ var url =
 		},
 		{
 			headline: "T.N. signs 14 MoUs to bring in ₹10,055 cr. investment",
-			headimage: url + "assets/images/news/tamilnadu.jpg",
+			headimage: "<?php echo base_url(); ?>assets/images/news/tamilnadu.jpg",
 			date: "October 13, 2020",
 			time: "3:39 AM",
 			headArticle:
@@ -141,7 +142,7 @@ var url =
 		{
 			headline:
 				"Half a dozen global firms are in talks for billion-dollar deals: Hiranandani",
-			headimage: url + "assets/images/news/hiranandini.jpg",
+			headimage: "<?php echo base_url(); ?>assets/images/news/hiranandini.jpg",
 			date: "Jan 27, 2020",
 			time: "2:30 AM",
 			headArticle:
@@ -159,7 +160,7 @@ var url =
 		{
 			headline:
 				"Blackstone ties up with Hiranandani to enter warehousing business",
-			headimage: url + "assets/images/news/warehousing.jpg",
+			headimage: "<?php echo base_url(); ?>assets/images/news/warehousing.jpg",
 			date: "Dec 25, 2019",
 			time: "11:22 AM",
 			headArticle:
@@ -177,7 +178,7 @@ var url =
 		{
 			headline:
 				"Hiranandani to invest Rs 1,000 crore in industrial park in Chennai",
-			headimage: url + "assets/images/banner1.jpg",
+			headimage: "<?php echo base_url(); ?>assets/images/banner1.jpg",
 			date: "Sep 12, 2019",
 			time: "3:02 PM",
 			headArticle:
@@ -198,7 +199,7 @@ var url =
 		{
 			headline:
 				"Hiranandani Group's GreenBase to develop industrial & logistics park for Vestas India in Chennai",
-			headimage: url + "assets/images/news/vestas.jpg",
+			headimage: "<?php echo base_url(); ?>assets/images/news/vestas.jpg",
 			date: "Sep 16, 2019",
 			time: "3:02 PM",
 			headArticle:
@@ -217,7 +218,7 @@ var url =
 		{
 			headline:
 				"Hiranandani, Blackstone ink JV To develop industrial, logistics and warehousing assets",
-			headimage: url + "assets/images/news/warehousing.jpg",
+			headimage: "<?php echo base_url(); ?>assets/images/news/warehousing.jpg",
 			date: "Dec 25, 2019",
 			time: "3:02 PM",
 			headArticle:
@@ -234,7 +235,7 @@ var url =
 		{
 			headline:
 				"Hiranandani Group promoted GreenBase signs industrial and warehousing deal with Vestas India",
-			headimage: url + "assets/images/news/warehousingdeal.jpg",
+			headimage: "<?php echo base_url(); ?>assets/images/news/warehousingdeal.jpg",
 			date: "Sep 13, 2019",
 			time: "3:02 PM",
 			headArticle:
@@ -256,7 +257,7 @@ var url =
 		{
 			headline:
 				"Why India is betting on big storage sheds",
-			headimage: url + "assets/images/news/warehousingreuters.jpg",
+			headimage: "<?php echo base_url(); ?>assets/images/news/warehousingreuters.jpg",
 			date: "Sep 13, 2019",
 			time: "3:02 PM",
 			headArticle:
@@ -275,7 +276,7 @@ var url =
 		{
 			headline:
 				"Niranjan Hiranandani: A man extraordinaire",
-			headimage: url + "assets/images/news/extraordinary.jpg",
+			headimage:"<?php echo base_url(); ?>assets/images/news/extraordinary.jpg",
 			date: "Mar 6, 2020",
 			time: "3:02 PM",
 			headArticle:
@@ -293,7 +294,7 @@ var url =
 		{
 			headline:
 				"Warehousing to the rescue of Indian real estate",
-			headimage: url + "assets/images/news/warehousingreuters.jpg",
+			headimage: "<?php echo base_url(); ?>assets/images/news/warehousingreuters.jpg",
 			date: "July 2, 2020",
 			time: "7:39 PM",
 			headArticle:

@@ -7,6 +7,7 @@ class Welcome extends CI_Controller
 	{
 		parent::__construct();
 		$this->load->helper('form');
+		$this->load->helper('url');
 	}
 	public function index()
 	{
@@ -117,7 +118,8 @@ class Welcome extends CI_Controller
 		$this->email->message($message);
 
 		if (@$this->email->send()) {
-			$this->load->view('/frontend/contact');
+			// $this->load->view('/frontend/contact');
+			redirect('/', 'refresh');
 		} else {
 			show_error($this->email->print_debugger());
 		}

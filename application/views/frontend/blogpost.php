@@ -45,7 +45,7 @@ var url =
 		blogs: [
 			{
 				headline: "A Walk in the Industrial Park",
-				headimage: url + "assets/images/blogs/blog1.jpg",
+				headimage: "<?php echo base_url(); ?>assets/images/blogs/blog1.jpg",
 				createdat: "Dec 21, 2020",
 				article:[
                 "Through Greenbase, we are capitalising on our existing land bank at strategic growth corridors to develop mixed-use, efficient and world-class industrial and logistics parks.",
@@ -58,7 +58,7 @@ var url =
 			},
 			{
 				headline: "Optimizing the country’s logistics supply chain network",
-				headimage: url + "assets/images/blogs/blog2.jpg",
+				headimage: "<?php echo base_url(); ?>assets/images/blogs/blog2.jpg",
 				createdat: "Sep 11 , 2020",
 				article:[
                 "Logistics infrastructure in India – insufficient and inefficient, leading to high costs, impacting business performance and inflating product prices. A complex taxation structure and the immense skills required to build logistics parks so far posed a hurdle to greater efficiency.",
@@ -69,7 +69,7 @@ var url =
 			},
 			{
 				headline: "Greenbase at The India Warehousing & Logistics Show 2018",
-				headimage: url + "assets/images/blogs/blog3.png",
+				headimage: "<?php echo base_url(); ?>assets/images/blogs/blog3.png",
 				createdat: "Nov 14, 2018",
 				article:[
                 "The warehousing and logistics community of Western and Southern India have come together at the ‘India Warehousing and Logistics Show 2018’ to experience, compare and purchase various land banks, products and services required to run a highly successful light industries and supply-chain operations. In its 6th year of existence, the show takes pride in being the leading platform to identify new trends, showcase a wide range of products, network with peers and gather competitive intelligence; all of this in the business and trading capital of India - Pune.",

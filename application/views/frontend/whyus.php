@@ -77,7 +77,7 @@
 	<div class="container-gb value_pad">
 		<div class="row">
 			<div class="col-md-4 mb-3">
-				<div class="value_wrapper value_wrapper_bg color-1">
+				<div class="value_wrapper center value_wrapper_bg color-1">
 					<h2 class="zur-con text-uppercase">existing land banks</h2>
 					<p class="air-regular mb-0">
 						Land parcels from the Pan-India land bank available at strategic
@@ -87,7 +87,7 @@
 				</div>
 			</div>
 			<div class="col-md-4 mb-3">
-				<div class="value_wrapper value_wrapper_bg color-1">
+				<div class="value_wrapper center value_wrapper_bg color-1">
 					<h2 class="zur-con text-uppercase">
 						STRATEGIC & DEVELOPMENT EXPERTISE
 					</h2>
@@ -99,7 +99,7 @@
 				</div>
 			</div>
 			<div class="col-md-4 mb-3">
-				<div class="value_wrapper value_wrapper_bg color-1">
+				<div class="value_wrapper center value_wrapper_bg color-1">
 					<h2 class="zur-con text-uppercase">CLIENT FIRST PHILOSOPHY</h2>
 					<p class="air-regular mb-0">
 						Greenbase will continue to build on the established history of the
@@ -131,7 +131,7 @@
 				</div>
 			</div>
 			<div class="col-md-4 mb-3">
-				<div class="value_wrapper value_wrapper_bg color-1">
+				<div class="value_wrapper center value_wrapper_bg color-1">
 					<h2 class="zur-con text-uppercase">SYNERGISTIC LIVING</h2>
 					<p class="air-regular mb-0">
 						The Group has been a pioneer in synergistic living, developing
@@ -142,7 +142,7 @@
 				</div>
 			</div>
 			<div class="col-md-4 mb-3">
-				<div class="value_wrapper value_wrapper_bg color-1">
+				<div class="value_wrapper center value_wrapper_bg color-1">
 					<h2 class="zur-con text-uppercase">INFRASTRUCTURE & SECURITY</h2>
 					<p class="air-regular mb-0">
 						Development of wholesome infrastructure including road, power and
@@ -153,7 +153,7 @@
 				</div>
 			</div>
 			<div class="col-md-4 mb-3">
-				<div class="value_wrapper value_wrapper_bg color-1">
+				<div class="value_wrapper center value_wrapper_bg color-1">
 					<h2 class="zur-con text-uppercase">MIXED USE</h2>
 					<p class="air-regular mb-0">
 						The Group has a track record of developing mixed use townships at
@@ -198,7 +198,8 @@
 				<div class="col-md-4 mb-3">
 					<div class="value_wrapper bg-col-1 pad_edge relative">
 						<h2 class="zur-con text-uppercase color-10 edge_head">
-							A NATURAL<br />PROGRESSION:
+							A NATURAL
+							<br/>PROGRESSION:
 						</h2>
 						<p class="air-regular mb-0 edge_content content_clip">
 							Reflecting our deep-rooted purpose of contributing to nation

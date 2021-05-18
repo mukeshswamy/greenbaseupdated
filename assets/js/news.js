@@ -1,6 +1,7 @@
 // Base_url
 var url =
 	window.location.origin + "/" + window.location.pathname.split("/")[1] + "/";
+console.log(window.location.origin);
 // News Articles
 var newsdatas = {
 	news: [

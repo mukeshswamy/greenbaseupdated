@@ -9510,3 +9510,9 @@ body .content {
 .cap_know_more {
 	font-size: 15px;
 }
+
+.center{
+	display: flex !important;
+	flex-direction: column !important;
+	justify-content: center !important;
+}

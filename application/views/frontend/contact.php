@@ -45,7 +45,7 @@
                     <textarea class="contactCommentArea" name="comment" placeholder="Comments"></textarea>
                     </div>
                     <div class="button-div-wrapper">
-                        <button class="button-submit" type="submit">Submit</button>
+                        <button class="button-submit" type="submit" id="mail">Submit</button>
                     </div>
                 </form>
             </div>
@@ -115,3 +115,13 @@
         </div>
     </div>
 </section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+<!-- <script type="text/javascript">
+    $(document).ready(function(){
+        $('#mail').on('click',function(e){
+            e.preventDefault();
+            window.location.href = "<?php echo base_url()?>";
+        });
+    });
+</script> -->
