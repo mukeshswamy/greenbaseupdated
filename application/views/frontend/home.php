@@ -85,7 +85,7 @@
 <section class="our-capablities-wrapper container-center py-5">
 	<div class="container-gb">
 		<div class="capablities-wrapper-main space-even">
-			<div class="our-capablities-content-wrapper relative mb-4 blue_bg color-1">
+			<div class="our-capablities-content-wrapper relative mb-4 blue_bg color-1 center-me">
 				<h4 class="font-45 cap_head">our capablities</h4>
 				<p class="cap_para">
 					Greenbase, a Nidar Group company has a joint venture with the leading global private equity firm Blackstone Group Inc. and has a pan-India platform to build industrial, logistics and warehousing assets. With 450 acres of seed land bank across Chennai, Pune, Nashik, and Durgapur, the venture has made rapid strides in a short span of time and is on course to deliver close to 12 million sq.ft. in the next 3-5 years. Expansion plans are in place to enter into other tier 1 and tier 2 markets. The group’s key strength in construction and infrastructure capabilities paired with cutting edge development and execution capabilities enables us to provide cost-effective solutions for all industrial and warehousing spaces.

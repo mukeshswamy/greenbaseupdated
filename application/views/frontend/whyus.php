@@ -198,7 +198,7 @@
 				<div class="col-md-4 mb-3">
 					<div class="value_wrapper bg-col-1 pad_edge relative">
 						<h2 class="zur-con text-uppercase color-10 edge_head">
-							A NATURAL<br />PROGRESSION:
+							A NATURAL<br />PROGRESSION:
 						</h2>
 						<p class="air-regular mb-0 edge_content content_clip">
 							Reflecting our deep-rooted purpose of contributing to nation
