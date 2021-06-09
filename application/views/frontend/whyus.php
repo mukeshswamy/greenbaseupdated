@@ -138,7 +138,7 @@
 						residential, retail, educational, sports and related amenities to
 						grow delivering time
 					</p>
-					<span class="air-regular value_more" data-name="synergisticliving">Know more_______</span>
+					<span class="air-regular value_more2" data-name="synergisticliving">Know more_______</span>
 				</div>
 			</div>
 			<div class="col-md-4 mb-3">
@@ -149,7 +149,7 @@
 						water, along with residential and commercial development delivering
 						time
 					</p>
-					<span class="air-regular value_more" data-name="infrastructure">Know more_______</span>
+					<span class="air-regular value_more2" data-name="infrastructure">Know more_______</span>
 				</div>
 			</div>
 			<div class="col-md-4 mb-3">
@@ -160,7 +160,28 @@
 						Powai, Thane and Panvel. Proposed development of workers delivering
 						time
 					</p>
-					<span class="air-regular value_more" data-name="mixed">Know more_______</span>
+					<span class="air-regular value_more2" data-name="mixed">Know more_______</span>
+				</div>
+			</div>
+			<div class="value-wrapper2 col-md-12 mb-3 d-none">
+				<div class="value_popup_wrapper bg-col-1">
+					<div class="row">
+						<div class="col-md-6">
+							<h2 class="value_head2 zur-con text-uppercase"></h2>
+						</div>
+						<div class="col-md-6 text-end">
+							<img src=<?php echo base_url('assets/images/cancel.svg')?>
+							alt="cancel" class="cancel_value pointer">
+						</div>
+						<div class="col-md-8">
+							<ul class="value_list2 busiess_lis" id="value_list2">
+							</ul>
+						</div>
+						<div class="col-md-4">
+							<img src=<?php echo base_url('assets/images/existingland.jpg')?>
+							alt="show_case" class="show_case_value2 w-100 h-250 cover">
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -199,13 +220,14 @@
 					<div class="value_wrapper bg-col-1 pad_edge relative">
 						<h2 class="zur-con text-uppercase color-10 edge_head">
 							A NATURAL
-							<br/>PROGRESSION:
+							<br class="breakProgression">
+							PROGRESSION:
 						</h2>
 						<p class="air-regular mb-0 edge_content content_clip">
 							Reflecting our deep-rooted purpose of contributing to nation
 							building, Greenbase is a natural progression of our domain
 						</p>
-						<span class="air-regular base_more" data-name="naturalprogression">Know more_______</span>
+						<span class="air-regular base_morePr" data-name="naturalprogression">Know more_______</span>
 						<img src=<?php echo base_url('assets/images/cancel.svg')?>
 							alt="cancel" class="cancel_value pointer cancel_edge absolute d-none">
 					</div>
@@ -343,10 +365,10 @@
 
 	$('.value_more').on('click', function(){
 		var value = $(this).data("name");
-		// console.log(datasvalue[value]);
 		$(".value_head").text(datasvalue[value].head);
 		$(".show_case_value").attr("src", datasvalue[value].tumbnail);
 		$(".value-wrapper").removeClass('d-none');
+		$(".value-wrapper2").addClass('d-none');
 		var valueList = datasvalue[value].details
 			.map((finaldata, index) => {
 				return `<li>${finaldata}</li>`;
@@ -354,14 +376,38 @@
 			.join("");
 		document.getElementById("value_list").innerHTML = valueList;
 	});
+	$('.value_more2').on('click', function(){
+		var value = $(this).data("name");
+		$(".value_head2").text(datasvalue[value].head);
+		$(".show_case_value2").attr("src", datasvalue[value].tumbnail);
+		$(".value-wrapper2").removeClass('d-none');
+		$(".value-wrapper").addClass('d-none');
+		var valueList = datasvalue[value].details
+			.map((finaldata, index) => {
+				return `<li>${finaldata}</li>`;
+			})
+			.join("");
+		document.getElementById("value_list2").innerHTML = valueList;
+	});
 
 	$('.cancel_value').on('click', function(){
 		$(".value-wrapper").addClass('d-none');
+		$(".value-wrapper2").addClass('d-none');
 	});
 
 	// GREENBASE EDGE
 	$('.base_more').on('click',function(){
 		var value = $(this).data("name");
+		$(this).parent().parent().siblings().css({'display': 'none'})
+		$(this).parent().parent().addClass('max-100');
+		$(this).parent().find('p').removeClass('content_clip');
+		$(this).hide();
+		$(this).parent().find('img').removeClass('d-none');
+		$(this).parent().find('p').text(datasgreenbase[value].details)
+	});
+	$('.base_morePr').on('click',function(){
+		var value = $(this).data("name");
+		$('.breakProgression').addClass('d-none')
 		$(this).parent().parent().siblings().css({'display': 'none'})
 		$(this).parent().parent().addClass('max-100');
 		$(this).parent().find('p').removeClass('content_clip');
@@ -376,5 +422,6 @@
 		$(this).parent().find('p').addClass('content_clip');
 		$(this).addClass('d-none');
 		$(this).parent().find('span').show();
+		$('.breakProgression').removeClass('d-none')
 	});
 </script>

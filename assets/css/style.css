@@ -9516,3 +9516,10 @@ body .content {
 	flex-direction: column !important;
 	justify-content: center !important;
 }
+
+.cap_head{
+	transition: all 0.5s;
+}
+.fs-16{
+	font-size: 16px !important;
+}

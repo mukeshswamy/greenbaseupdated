@@ -724,7 +724,7 @@
                 }
             },
             'durgapur': {
-                cssClass: "plt durgapur existing",
+                cssClass: "plt durgapur",
                 type: "circle",
                 size: 30,
                 latitude: 23.5,

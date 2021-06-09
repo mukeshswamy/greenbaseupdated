@@ -217,13 +217,13 @@
 		$(".cap_know_more").on('click', function () {
 			// DEFAULT ACTION
 			$('.cap_know_more').show();
-			$('.cap_head').removeClass('d-none');
+			$('.cap_head').removeClass('fs-16');
 			$('.our-capablities-content-wrapper p').removeClass('h-auto');
 			$('.our-capablities-content-wrapper p').addClass('cap_para');
 			// $('.cap_para').removeClass('h-auto');
 			// ONCLICK ACTION
 			$(this).hide();
-			$(this).parent().find('h4').addClass('d-none')
+			$(this).parent().find('h4').addClass('fs-16')
 			$(this).parent().find('p').removeClass('cap_para')
 			$(this).parent().find('p').addClass('h-auto')
 		});

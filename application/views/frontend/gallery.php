@@ -1,6 +1,6 @@
 <!-- SECTION 1 GALLERY -->
 <style>
-	
+
 </style>
 <section class="gallery-section content setMaxWidth">
 	<div class="container-fluid cus-container-fluid mrb">
@@ -67,31 +67,31 @@
 					<div class="col-md-6 gallery-img-tumbnail">
 						<div class="img-card-div">
 							<img src=<?php echo base_url('assets/images/vestas/vestas1.jpg') ?> alt="g1"
-								class="img-grid">
+							class="img-grid">
 						</div>
 					</div>
 					<div class="col-md-6 gallery-img-tumbnail">
 						<div class="img-card-div">
 							<img src=<?php echo base_url('assets/images/vestas/vestas2.jpg') ?> alt="g1"
-								class="img-grid">
+							class="img-grid">
 						</div>
 					</div>
 					<div class="col-md-12 gallery-img-tumbnail">
 						<div class="img-card-div">
 							<img src=<?php echo base_url('assets/images/vestas/vestas4.jpg') ?> alt="g1"
-								class="img-grid">
+							class="img-grid">
 						</div>
 					</div>
 					<div class="col-md-6 gallery-img-tumbnail">
 						<div class="img-card-div">
 							<img src=<?php echo base_url('assets/images/vestas/vestas5.jpg') ?> alt="g1"
-								class="img-grid">
+							class="img-grid">
 						</div>
 					</div>
 					<div class="col-md-6 gallery-img-tumbnail">
 						<div class="img-card-div">
 							<img src=<?php echo base_url('assets/images/vestas/vestas6.jpg') ?> alt="g1"
-								class="img-grid">
+							class="img-grid">
 						</div>
 					</div>
 				</div>
@@ -254,7 +254,7 @@
 			item: "events",
 			albums: [{
 				id: "0",
-				albumname: "talegaon",
+				albumname: "Talegaon",
 				caption: "Ground Breaking Ceremony for CooperStandard at Talegaon",
 				tumbnail: "<?php echo base_url(); ?>assets/images/g1.jpg",
 				pics: [{
@@ -281,7 +281,7 @@
 			},
 			{
 				id: "1",
-				albumname: "Orgadum",
+				albumname: "Oragadum",
 				caption: "Ground Breaking Ceremony for Vistas at Orgadum",
 				tumbnail: "<?php echo base_url(); ?>assets/images/vestas/vestas6.jpg",
 				pics: [{
@@ -316,25 +316,6 @@
 			},
 			],
 		},
-		{
-			id: "2",
-			item: "greenbase",
-			albums: [{
-				id: "0",
-				albumname: "GreenBase",
-				caption: "Powai",
-				tumbnail: "<?php echo base_url(); ?>assets/images/banner1.jpg",
-				pics: []
-			},
-			{
-				id: "1",
-				albumname: "Greenbase2",
-				caption: "Powai IIT Bombay",
-				tumbnail: "<?php echo base_url(); ?>assets/images/legacy.jpg",
-				pics: []
-			},
-			],
-		},
 		],
 	};
 	// console.log(galleryitems);
@@ -349,8 +330,8 @@
 						<div class="gallery__subListContainer ${albumfilter === finaldata.item ? "gallery__subListContainer__Show" : ""} ">
 							<ul>
 								${finaldata.albums.map((subFinalList, index) => {
-									return `<li><a href="javascript:void(0)" class="gallery_subList" data-name="${subFinalList.albumname}" onClick="albumOpen('${subFinalList.albumname}')">${subFinalList.albumname}</a></li>`;
-								}).join("")}
+				return `<li><a href="javascript:void(0)" class="gallery_subList" data-name="${subFinalList.albumname}" onClick="albumOpen('${subFinalList.albumname}')">${subFinalList.albumname}</a></li>`;
+			}).join("")}
 							</ul>
 						</div>
 					</div>`;
@@ -401,7 +382,7 @@
 		});
 	});
 
-	$(".gallery_subList").on("click",function() {
+	$(".gallery_subList").on("click", function () {
 		var albums = $(this).data("name");
 		$(".gallery_subList").removeClass("active_subList");
 		$(this).addClass("active_subList");
@@ -454,7 +435,7 @@
 				if (subFinalData.pics.length > 0) {
 					if (subFinalData.albumname === albumName) {
 						return subFinalData.pics.map(function (subPics, idx) {
-							console.log("PICS",subPics);
+							console.log("PICS", subPics);
 							var content = `
 							<div class="gallerySlides">
 								<img class="gallerySlideImg" src=${subPics.imageURL}>
