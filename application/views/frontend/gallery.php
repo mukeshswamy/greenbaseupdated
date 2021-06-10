@@ -348,7 +348,7 @@
 						<div class="col-md-6 gallery-img-tumbnail">
 							<div class="img-card-div infrastructure" data-index="${album.id}" data-id="${album.id}" onClick="albumOpen('${album.albumname}')">
 								
-								<img src=${album.tumbnail} alt="${album.albumname}" class="img-grid" >
+								<img src=${album.tumbnail} loading="lazy" alt="${album.albumname}" class="img-grid" >
 								<div class="img-caption">
 									<h5>${album.caption}</h5>
 								</div>
@@ -368,7 +368,7 @@
 						<div class="col-md-6 gallery-img-tumbnail">
 							<div class="img-card-div infrastructure" data-index="${album.id}" data-id="${album.id}" onclick="albumOpen('${album.albumname}')">
 								<div class="img-overlay"></div>
-								<img src=${album.tumbnail} alt="${album.albumname}" class="img-grid" >
+								<img src=${album.tumbnail} loading="lazy" alt="${album.albumname}" class="img-grid" >
 								<div class="img-caption">
 									<h5>${album.caption}</h5>
 								</div>
@@ -394,7 +394,7 @@
 							var content = `
 							<div class="col-md-6 gallery-img-tumbnail">
 								<div class="img-card-div">
-									<img src=${subPics.imageURL} alt=${subFinalData.albumname}
+									<img src=${subPics.imageURL} loading="lazy" alt=${subFinalData.albumname}
 										class="img-grid" onclick="openGalleryModal();currentSlide('${idx + 1}')">
 								</div>
 							</div>`;

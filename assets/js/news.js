@@ -1,7 +1,10 @@
 // Base_url
-var url =
-	window.location.origin + "/" + window.location.pathname.split("/")[1] + "/";
-console.log(window.location.origin);
+// var url =
+// 	window.location.origin + "/" + window.location.pathname.split("/")[1] + "/";
+// console.log(window.location.origin);
+
+// greenbase.com
+var url = "http://stage.greenbase.com/";
 // News Articles
 var newsdatas = {
 	news: [

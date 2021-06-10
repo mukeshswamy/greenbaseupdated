@@ -13,7 +13,7 @@
 
 <!-- DeskTop Footer -->
 <footer class="footersection cus-padding-footer">
-    <div class="container-fluid">
+    <div class="container-fluid px-0">
         <div class="row center-item">
             <div class="col-md-5 address-wrapper">
                 <h4 class="m-0">Greenbase - Industrial and Logistics Park</h4>

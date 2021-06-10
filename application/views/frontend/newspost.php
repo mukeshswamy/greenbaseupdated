@@ -71,23 +71,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- POST 2 -->
-                <!-- <div class="related-news-wrapper">
-                    <div class="related-post-block">
-                        <div class="related-post-container">
-                            <img src=<?php echo base_url('assets/images/whyus2.jpg'); ?> alt="related-post"
-                                class="related-news-img">
-                        </div>
-                        <div class="related-newspost-div">
-                            <div class="related-newspost-heading">
-                                LOREM IPSUM IS SIMPLY DUMMY TEXT OF THE PRINTING AND TYPESETTING
-                            </div>
-                            <div class="related-newspost-date">
-                                May 20, 2020
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
             </div>
         </div>
     </div>
