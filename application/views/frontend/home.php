@@ -154,35 +154,37 @@
 <!-- vision-mission -->
 <section class="vision-section bg-position">
 	<div class="backdrop"></div>
-	<div class="container-gb py-5 pr4">
+	<div class="container-gb py-5">
 		<div class="row">
-			<div class="col-md-6 gb-heading">
+			<div class="col-md-6 gb-heading pl-6">
 				<h1 class="text-uppercase vision-text">our vision & mission</h1>
 			</div>
-			<div class="col-md-6 vision-wrapper">
-				<div class="vision-content-wrapper gb-mb-4">
-					<h2 class="text-uppercase mb-3 arial-font-bold">our vision</h2>
-					<p class="arial-font-normal">
-						"To build best in class, sustainable industrial townships &
-						warehousing parks that enable customer success."
-					</p>
-				</div>
-				<div class="mission-content-wrapper">
-					<h2 class="text-uppercase mb-3 arial-font-bold">our mission</h2>
-					<ul class="mission-ul arial-font-normal">
-						<li>
-							To become India’s leading industrial and warehousing solutions
-							provider
-						</li>
-						<li>
-							To build in line with global best practices delivering design and
-							cost optimization solutions to our tenants
-						</li>
-						<li>
-							To consistently adapt to new age technologies implementing digital
-							innovation while delivering value to customers
-						</li>
-					</ul>
+			<div class="col-md-6 pr-6">
+				<div class="visionContentWrapper vision-wrapper">
+					<div class="vision-content-wrapper gb-mb-4">
+						<h2 class="text-uppercase mb-3 arial-font-bold">our vision</h2>
+						<p class="arial-font-normal">
+							"To build best in class, sustainable industrial townships &
+							warehousing parks that enable customer success."
+						</p>
+					</div>
+					<div class="mission-content-wrapper">
+						<h2 class="text-uppercase mb-3 arial-font-bold">our mission</h2>
+						<ul class="mission-ul arial-font-normal">
+							<li>
+								To become India’s leading industrial and warehousing solutions
+								provider
+							</li>
+							<li>
+								To build in line with global best practices delivering design and
+								cost optimization solutions to our tenants
+							</li>
+							<li>
+								To consistently adapt to new age technologies implementing digital
+								innovation while delivering value to customers
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>

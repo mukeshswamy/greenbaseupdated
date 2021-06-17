@@ -282,7 +282,7 @@
 			{
 				id: "1",
 				albumname: "Oragadum",
-				caption: "Ground Breaking Ceremony for Vistas at Orgadum",
+				caption: "Ground Breaking Ceremony for Vistas at Oragadam",
 				tumbnail: "<?php echo base_url(); ?>assets/images/vestas/vestas6.jpg",
 				pics: [{
 

@@ -29,8 +29,7 @@
 </section>
 
 <!-- GROUP OVERVIEW -->
-<section class="group_overview_wrapper group_bg" style="background-image: url('<?php echo base_url("
-    assets/images/about/group.jpg") ?>');">
+<section class="group_overview_wrapper group_bg" style="background-image: url('<?php echo base_url("assets/images/about/group.jpg") ?>');">
     <div class="container-gb py-5">
         <div class="group_head_wrapper">
             <h1 class="m-0 zur-light-con">Group overview</h1>
@@ -145,8 +144,7 @@
 </section>
 
 <!-- Businessess -->
-<section class="group_overview_wrapper group_bg" style="background-image: url('<?php echo base_url("
-    assets/images/about/business.jpg") ?>');">
+<section class="group_overview_wrapper group_bg" style="background-image: url('<?php echo base_url("assets/images/about/business.jpg") ?>');">
     <div class="container-gb py-5">
         <div class="group_head_wrapper business_wrapper zur-light-con">
             <h1 class="m-0">our 12 business sbu</h1><sup>s</sup>
@@ -341,6 +339,29 @@
             </div>
             <div class="col-md-3 mb-4">
                 <div class="ceo_wrappers">
+                    <img src=<?php echo base_url('assets/images/about/darshan.jpg') ?> alt="ceo" class="ceo_img">
+                    <div class="dectiption pad10 relative">
+                        <h4 class="zur-con color-10">Mr. Darshan Hiranandani,</h4>
+                        <span class="zur-con color-11">Group Chief Executive Officer</span>
+                        <p class="air-regular ceo_des mt-4 text-justify text-para-animation mb-2">
+                            He is an MBA (specialising in Entrepreneurship and Finance) and B.S. (specialising in
+                            Management Information System) from Rochester Institute of Technology, New York. Mr. Darshan
+                            Hiranandani heads the Group’s real estate business in Dubai (U.A.E.) and energy business and
+                            is instrumental in taking the Group international. A composed individual with a focussed
+                            vision, he brought international acclaim to the Group by successfully delivering the
+                            landmark ‘23 Marina’ project in Dubai in 2012, the world’s tallest residential building at
+                            the time. He envisions meeting the country’s power requirements and contributing to its
+                            economic growth through the energy business, in which he has led investments in environment
+                            friendly and futuristic technologies. He is the winner of Asia Pacific Quality Organisation
+                            Global Performance Excellence Best in Class Award - 2016.
+                        </p>
+                        <span class="ceo_know_more ceo_know_more_pos air-regular ceo_des"
+                            style="height: auto !important;">Know More_____</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="ceo_wrappers">
                     <img src=<?php echo base_url('assets/images/about/shridar.jpg') ?> alt="ceo" class="ceo_img">
                     <div class="dectiption pad10 relative">
                         <h4 class="zur-con color-10">Mr. N Shridhar,</h4>
@@ -362,29 +383,6 @@
                         </p>
                         <span class="ceo_know_more ceo_know_more_pos air-regular ceo_des"
                             style="height: auto !important;">Know More______</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 mb-4">
-                <div class="ceo_wrappers">
-                    <img src=<?php echo base_url('assets/images/about/darshan.jpg') ?> alt="ceo" class="ceo_img">
-                    <div class="dectiption pad10 relative">
-                        <h4 class="zur-con color-10">Mr. Darshan Hiranandani,</h4>
-                        <span class="zur-con color-11">Group Chief Executive Officer</span>
-                        <p class="air-regular ceo_des mt-4 text-justify text-para-animation mb-2">
-                            He is an MBA (specialising in Entrepreneurship and Finance) and B.S. (specialising in
-                            Management Information System) from Rochester Institute of Technology, New York. Mr. Darshan
-                            Hiranandani heads the Group’s real estate business in Dubai (U.A.E.) and energy business and
-                            is instrumental in taking the Group international. A composed individual with a focussed
-                            vision, he brought international acclaim to the Group by successfully delivering the
-                            landmark ‘23 Marina’ project in Dubai in 2012, the world’s tallest residential building at
-                            the time. He envisions meeting the country’s power requirements and contributing to its
-                            economic growth through the energy business, in which he has led investments in environment
-                            friendly and futuristic technologies. He is the winner of Asia Pacific Quality Organisation
-                            Global Performance Excellence Best in Class Award - 2016.
-                        </p>
-                        <span class="ceo_know_more ceo_know_more_pos air-regular ceo_des"
-                            style="height: auto !important;">Know More_____</span>
                     </div>
                 </div>
             </div>
