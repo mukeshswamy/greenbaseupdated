@@ -64,8 +64,8 @@
                     </div>
                 </div>
                 <div id="mySidenav" class="sidenav">
-                    <a href="<?php echo base_url(); ?>aboutus">OUR LEGACY</a>
-                    <a href="<?php echo base_url(); ?>whyus">VALUE PROPOSITION</a>
+                    <a href="<?php echo base_url(); ?>our-legacy">OUR LEGACY</a>
+                    <a href="<?php echo base_url(); ?>value-proposition">VALUE PROPOSITION</a>
                     <a href="<?php echo base_url(); ?>location" id="do">OUR LOCATIONS</a>
                     <a href="<?php echo base_url(); ?>clients">OUR CLIENTS</a>
                     <a href="<?php echo base_url(); ?>news">NEWS</a>

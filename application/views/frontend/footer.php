@@ -88,9 +88,9 @@
     </hr>
     <div class="mobile__footer__nav">
         <ul>
-            <li><a href="aboutus">ABOUT US</a></li>
-            <li><a href="whyus">WHY US</a></li>
-            <li><a href="OUR LOCATIONS">OUR LOCATIONS</a></li>
+            <li><a href="aboutus">OUR LEGACY</a></li>
+            <li><a href="value-proposition">VALUE PROPOSITION</a></li>
+            <li><a href="location">OUR LOCATIONS</a></li>
             <li><a href="clients">OUR CLIENTS</a></li>
             <li><a href="news">NEWS</a></li>
             <li><a href="gallery">GALLERY</a></li>

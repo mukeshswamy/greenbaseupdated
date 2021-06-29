@@ -1,15 +1,12 @@
 <section class="banner-main">
-	<div class="banner-slider-container" style="height: 60vh">
-		<div
-			id="carouselExampleControls"
-			class="carousel slide"
-			data-ride="carousel"
-		>
+	<div class="banner-slider-container m-whyus-banner" style="height: 60vh">
+		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 			<div class="carousel-inner">
 				<div class="carousel-item active banner-sliders">
-					<img class="d-block w-100 obj-pos-center" src=<?php echo base_url('assets/images/proposition/p1.jpg') ?>
+					<img class="d-block w-100 obj-pos-center" src=<?php echo
+						base_url('assets/images/proposition/p1.jpg') ?>
 					alt="First slide">
-					<div class="banner-caption-container">
+					<div class="banner-caption-container m-whyus-caption-container">
 						<div class="banner-main-heading">
 							<div>value proposition</div>
 						</div>
@@ -19,9 +16,10 @@
 					</div>
 				</div>
 				<div class="carousel-item banner-sliders">
-					<img class="d-block w-100 obj-pos-top" src=<?php echo base_url('assets/images/proposition/p2.jpg') ?>
+					<img class="d-block w-100 obj-pos-top" src=<?php echo base_url('assets/images/proposition/p2.jpg')
+						?>
 					alt="Second slide">
-					<div class="banner-caption-container">
+					<div class="banner-caption-container m-whyus-caption-container">
 						<div class="banner-main-heading">
 							<div>value proposition</div>
 						</div>
@@ -33,7 +31,7 @@
 				<div class="carousel-item banner-sliders">
 					<img class="d-block w-100" src=<?php echo base_url('assets/images/proposition/p3.jpg') ?>
 					alt="Third slide">
-					<div class="banner-caption-container">
+					<div class="banner-caption-container m-whyus-caption-container">
 						<div class="banner-main-heading">
 							<div>value proposition</div>
 						</div>
@@ -45,7 +43,7 @@
 				<div class="carousel-item banner-sliders">
 					<img class="d-block w-100" src=<?php echo base_url('assets/images/proposition/p4.jpg') ?>
 					alt="Third slide">
-					<div class="banner-caption-container">
+					<div class="banner-caption-container m-whyus-caption-container">
 						<div class="banner-main-heading">
 							<div>value proposition</div>
 						</div>
@@ -73,7 +71,7 @@
 </section>
 
 <!-- VALUE PROPOSITION -->
-<section class="value_pro_bg">
+<section class="value_pro_bg m-d-none">
 	<div class="container-gb value_pad">
 		<div class="row">
 			<div class="col-md-4 mb-3">
@@ -187,9 +185,97 @@
 		</div>
 	</div>
 </section>
+<!-- VALUE PROPSITION MOBILE -->
+<section class="m-value-pro m-d-block d-d-none">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12 mb-3">
+				<div class="proposition-container value_wrapper_bg color-1 px-3 py-4">
+					<h3 class="zur-con text-uppercase mb-3">existing land banks</h3>
+					<div class="proposition-content">
+						<p class="air-regular mb-0">
+							Land parcels from the Pan-India land bank available at strategic
+							locations for development of industrial and warehousing parks
+						</p>
+						<span class="air-regular value_more" data-name="landbanks">Know more______</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-12 mb-3">
+				<div class="proposition-container value_wrapper_bg color-1 px-3 py-4">
+					<h3 class="zur-con text-uppercase mb-3">
+						STRATEGIC & DEVELOPMENT EXPERTISE
+					</h3>
+					<div class="proposition-content">
+						<p class="air-regular mb-0">
+							Greenbase to build on the Group’s established track record of
+							developing marquee projects. In-house team of expert professionals
+						</p>
+						<span class="air-regular value_more" data-name="developmentexpertise">Know more______</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-12 mb-3">
+				<div class="proposition-container value_wrapper_bg color-1 px-3 py-4">
+					<h3 class="zur-con text-uppercase mb-3">CLIENT FIRST PHILOSOPHY</h3>
+					<div class="proposition-content">
+						<p class="air-regular mb-0">
+							Greenbase will continue to build on the established history of the
+							Group of developing projects as per client specifications and
+							delivering time
+						</p>
+						<span class="air-regular value_more" data-name="clientfirst">Know more______</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-12 mb-3">
+				<div class="proposition-container value_wrapper_bg color-1 px-3 py-4">
+					<h3 class="zur-con text-uppercase mb-3">SYNERGISTIC LIVING</h3>
+					<div class="proposition-content">
+						<p class="air-regular mb-0">
+							The Group has been a pioneer in synergistic living, developing
+							residential, retail, educational, sports and related amenities to
+							grow delivering time
+						</p>
+						<span class="air-regular value_more" data-name="synergisticliving">Know more______</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-12 mb-3">
+				<div class="proposition-container value_wrapper_bg color-1 px-3 py-4">
+					<h3 class="zur-con text-uppercase mb-3">INFRASTRUCTURE & SECURITY</h3>
+					<div class="proposition-content">
+						<p class="air-regular mb-0">
+							Development of wholesome infrastructure including road, power and
+							water, along with residential and commercial development delivering
+							time
+						</p>
+						<span class="air-regular value_more" data-name="infrastructure">Know more______</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-12 mb-3">
+				<div class="proposition-container value_wrapper_bg color-1 px-3 py-4">
+					<h3 class="zur-con text-uppercase mb-3">MIXED USE</h3>
+					<div class="proposition-content">
+						<p class="air-regular mb-0">
+							Development of wholesome infrastructure including road, power and
+							water, along with residential and commercial development delivering
+							time
+						</p>
+						<span class="air-regular value_more" data-name="infrastructure">Know more______</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- VALUE PROPSITION MOBILE ENDS -->
+<!-- VALUE PROPOSITION ENDS -->
+
 
 <!-- GREENBASE EDGE -->
-<section class="gb_edge_bg relative" style="height: calc(100vh - 75px)">
+<section class="gb_edge_bg relative m-d-none" style="height: calc(100vh - 75px)">
 	<div class="container-gb value_pad">
 		<div class="row">
 			<div class="col-md-12">
@@ -213,7 +299,7 @@
 						</p>
 						<span class="air-regular base_more" data-name="buildingcommunities">Know more_______</span>
 						<img src=<?php echo base_url('assets/images/cancel.svg')?>
-							alt="cancel" class="cancel_value pointer cancel_edge absolute d-none">
+						alt="cancel" class="cancel_value pointer cancel_edge absolute d-none">
 					</div>
 				</div>
 				<div class="col-md-4 mb-3">
@@ -229,7 +315,7 @@
 						</p>
 						<span class="air-regular base_morePr" data-name="naturalprogression">Know more_______</span>
 						<img src=<?php echo base_url('assets/images/cancel.svg')?>
-							alt="cancel" class="cancel_value pointer cancel_edge absolute d-none">
+						alt="cancel" class="cancel_value pointer cancel_edge absolute d-none">
 					</div>
 				</div>
 				<div class="col-md-4 mb-3">
@@ -243,7 +329,7 @@
 						</p>
 						<span class="air-regular base_more" data-name="regulatoryrequitements">Know more_______</span>
 						<img src=<?php echo base_url('assets/images/cancel.svg')?>
-							alt="cancel" class="cancel_value pointer cancel_edge absolute d-none">
+						alt="cancel" class="cancel_value pointer cancel_edge absolute d-none">
 					</div>
 				</div>
 			</div>
@@ -251,11 +337,63 @@
 	</div>
 </section>
 
+<section class="m-value-pro m-d-block d-d-none">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12 mb-4">
+				<div class="m-gb-edge-head edge_header d-inline-block text-uppercase color-1 bg-col-2">
+					<h3 class="zur-light-con m-0">the Greenbase edge</h3>
+				</div>
+			</div>
+			<div class="col-md-12 m-gb-content-wrapper pt-3">
+				<div class="">
+					<div class="m-gb-content bg-col-1 pad_edge relative mb-3">
+						<h3 class="mb-3 zur-con text-uppercase color-10 edge_head">
+							BUILDING COMMUNITIES, THE HIRANANDANI WAY:
+						</h3>
+						<div class="m-gb-para">
+							<p class="mb-0 air-regular mb-0 edge_content">
+							Through Greenbase, we are capitalizing on our existing land bank
+							at strategic growth corridors to develop mixed use, efficient
+							</p>
+							<span class="air-regular" data-name="buildingcommunities">Know more_______</span>
+						</div>
+					</div>
+					<div class="m-gb-content bg-col-1 pad_edge relative mb-3">
+						<h3 class="mb-3 zur-con text-uppercase color-10 edge_head">
+							A NATURAL PROGRESSION:
+						</h3>
+						<div class="m-gb-para">
+							<p class="mb-0 air-regular mb-0 edge_content">
+								Reflecting our deep-rooted purpose of contributing to nation
+								building, Greenbase is a natural progression of our domain
+							</p>
+							<span class="air-regular" data-name="naturalprogression">Know more_______</span>
+						</div>
+					</div>
+					<div class="m-gb-content bg-col-1 pad_edge relative mb-3">
+						<h3 class="mb-3 zur-con text-uppercase color-10 edge_head">
+							ASSISTANCE IN REGULATORY REQUIREMENTS:
+						</h3>
+						<div class="m-gb-para">
+							<p class="mb-0 air-regular mb-0 edge_content">
+								At Greenbase, we are planning, designing, constructing, and
+								maintaining infrastructure in a manner that effectively manages
+							</p>
+							<span class="air-regular" data-name="regulatoryrequitements" >Know more_______</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- GREENBASE EDGE ENDS -->
+
+
+
 <!-- SCRIPTING STARTS HERE -->
-<script
-	src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"
-	charset="utf-8"
-></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
 <script type="text/javascript">
 	var datasgreenbase = {
 		buildingcommunities: {
@@ -363,7 +501,7 @@
 			"none";
 	}
 
-	$('.value_more').on('click', function(){
+	$('.value_more').on('click', function () {
 		var value = $(this).data("name");
 		$(".value_head").text(datasvalue[value].head);
 		$(".show_case_value").attr("src", datasvalue[value].tumbnail);
@@ -376,7 +514,7 @@
 			.join("");
 		document.getElementById("value_list").innerHTML = valueList;
 	});
-	$('.value_more2').on('click', function(){
+	$('.value_more2').on('click', function () {
 		var value = $(this).data("name");
 		$(".value_head2").text(datasvalue[value].head);
 		$(".show_case_value2").attr("src", datasvalue[value].tumbnail);
@@ -390,25 +528,25 @@
 		document.getElementById("value_list2").innerHTML = valueList;
 	});
 
-	$('.cancel_value').on('click', function(){
+	$('.cancel_value').on('click', function () {
 		$(".value-wrapper").addClass('d-none');
 		$(".value-wrapper2").addClass('d-none');
 	});
 
 	// GREENBASE EDGE
-	$('.base_more').on('click',function(){
+	$('.base_more').on('click', function () {
 		var value = $(this).data("name");
-		$(this).parent().parent().siblings().css({'display': 'none'})
+		$(this).parent().parent().siblings().css({ 'display': 'none' })
 		$(this).parent().parent().addClass('max-100');
 		$(this).parent().find('p').removeClass('content_clip');
 		$(this).hide();
 		$(this).parent().find('img').removeClass('d-none');
 		$(this).parent().find('p').text(datasgreenbase[value].details)
 	});
-	$('.base_morePr').on('click',function(){
+	$('.base_morePr').on('click', function () {
 		var value = $(this).data("name");
 		$('.breakProgression').addClass('d-none')
-		$(this).parent().parent().siblings().css({'display': 'none'})
+		$(this).parent().parent().siblings().css({ 'display': 'none' })
 		$(this).parent().parent().addClass('max-100');
 		$(this).parent().find('p').removeClass('content_clip');
 		$(this).hide();
@@ -416,8 +554,8 @@
 		$(this).parent().find('p').text(datasgreenbase[value].details)
 	});
 
-	$('.cancel_edge').on('click',function(){
-		$(this).parent().parent().siblings().css({'display': 'block'})
+	$('.cancel_edge').on('click', function () {
+		$(this).parent().parent().siblings().css({ 'display': 'block' })
 		$(this).parent().parent().removeClass('max-100');
 		$(this).parent().find('p').addClass('content_clip');
 		$(this).addClass('d-none');

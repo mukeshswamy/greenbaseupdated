@@ -140,6 +140,13 @@
                 </div>
             </div>
         </div>
+        <div class="m-stats-detail content_bg m-d-block d-d-none mt-4">
+            <div class="stats-btn-wrapper d-flex flex-colmun py-3 px-3">
+                <button class="m-stats-btn lato-bold text-uppercase black text-left border-0 px-3 py-3 mb-3 bg-col-4" data-toggle="modal" data-target="#m-realty">realty</button>
+                <button class="m-stats-btn lato-bold text-uppercase black text-left border-0 px-3 py-3 mb-3 bg-col-5" data-toggle="modal" data-target="#m-oilgas">oil & gas</button>
+                <button class="m-stats-btn lato-bold text-uppercase black text-left border-0 px-3 py-3 bg-col-6" data-toggle="modal" data-target="#m-infrastructure">infrastructure</button>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -149,7 +156,7 @@
         <div class="group_head_wrapper business_wrapper zur-light-con">
             <h1 class="m-0">our 12 business sbu</h1><sup>s</sup>
         </div>
-        <div class="group_content content_bg d-flex mt-4">
+        <div class="group_content content_bg d-flex mt-4 m-d-none">
             <div class="business_content_wrapper real_estate flex-50 bg-col-7 pad20 relative">
                 <h3 class="color-4 text-uppercase lato-bold">Real Estate</h3>
                 <div class="container-fluid">
@@ -304,6 +311,13 @@
                 </div>
             </div>
         </div>
+        <div class="m-stats-detail content_bg m-d-block d-d-none mt-4">
+            <div class="stats-btn-wrapper d-flex flex-colmun py-3 px-3">
+                <button class="m-stats-btn lato-bold text-uppercase black text-left border-0 px-3 py-3 mb-3 bg-col-4" data-toggle="modal" data-target="#m-realestate">real estate</button>
+                <button class="m-stats-btn lato-bold text-uppercase black text-left border-0 px-3 py-3 mb-3 bg-col-5" data-toggle="modal" data-target="#m-oilgas-bus">oil & gas</button>
+                <button class="m-stats-btn lato-bold text-uppercase black text-left border-0 px-3 py-3 bg-col-6" data-toggle="modal" data-target="#m-infrastructure-bus">infrastructure</button>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -313,7 +327,7 @@
         <div class="group_head_wrapper business_wrapper">
             <h1 class="m-0 zur-light-con">OUR LEAGUE OF EXTRAORDINARY GENTLEMEN</h1>
         </div>
-        <div class="row mt-4">
+        <div class="row mt-4 m-mx-0">
             <div class="col-md-3 mb-4">
                 <div class="ceo_wrappers">
                     <img src=<?php echo base_url('assets/images/about/hiranandani.jpg') ?> alt="ceo" class="ceo_img">
@@ -478,6 +492,283 @@
         </div>
     </div>
 </section>
+
+
+<!-- MODALS START -->
+<div class="modal" id="m-realty">
+    <div class="container-fluid perfectCenter bg-col-1 w-95">
+        <div class="row flex-colmun">
+            <div class="m-overview-top flex-80 pt-5 px-5">
+                <div class="stats_content_container reality flex-30 d-flex flex-column space-even center-item">
+                    <div class="stats_head_container zx-2 bg-col-4">
+                        <h3 class="m-0 lato-bold">Realty</h3>
+                    </div>
+                    <div class="stats_all_wrapper d-flex flex-colmun w-75">
+                        <div class="stats overview_stats mt-4 mb-4">
+                            <span class="count color-3 lato-bold">1,827</span><span
+                                class="volume color-3 lato-light">acres</span>
+                            <p class="m-0 color-3 lato-light d-table">Total land bank</p>
+                        </div>
+                        <div class="stats overview_stats mb-4">
+                            <span class="count color-3 lato-bold">36.6 </span><span
+                                class="volume color-3 lato-light">mn sq. ft.</span>
+                            <p class="m-0 color-3 lato-light d-table">Real estate assets in hand</p>
+                        </div>
+                        <div class="stats overview_stats mb-4">
+                            <span class="count color-3 lato-bold">3.35 </span><span
+                                class="volume color-3 lato-light">mn sq. ft.</span>
+                            <p class="m-0 color-3 lato-light d-table">Ongoing commercial projects</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="m-overview-bottom flex-1">
+                <img src=<?php echo base_url('assets/images/about/overview_bg.png') ?> alt="overflow_bg"
+                    class="overflow_bg">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal" id="m-oilgas">
+    <div class="container-fluid perfectCenter bg-col-1 w-95">
+        <div class="row flex-colmun">
+            <div class="m-overview-top flex-80 pt-5 px-5">
+                <div class="stats_content_container oil flex-30 d-flex flex-column space-even center-item">
+                    <div class="stats_head_container zx-2 bg-col-5">
+                        <h3 class="m-0 lato-bold ">oil & gas</h3>
+                    </div>
+                    <div class="stats_all_wrapper d-flex flex-colmun w-75">
+                        <div class="stats overview_stats mt-4 mb-4">
+                            <span class="count color-3 lato-bold">5</span><span
+                                class="volume color-3 lato-light">MMTPA</span>
+                            <p class="m-0 color-3 lato-light">Capacity at East Coast Project (expandable up to 13
+                                MMTPA)</p>
+                        </div>
+                        <div class="stats overview_stats mb-4">
+                            <span class="count color-3 lato-bold">4</span><span
+                                class="volume color-3 lato-light">MMTPA</span>
+                            <p class="m-0 color-3 lato-light">(peaking at 6 MMTPA) Capacity at West Coast Project
+                                (expandable up to 10 MMTPA)</p>
+                        </div>
+                        <div class="stats overview_stats mb-4">
+                            <span class="count color-3 lato-bold">945</span><span
+                                class="volume color-3 lato-light">Km</span>
+                            <p class="m-0 color-3 lato-light">The total length of natural gas pipeline under
+                                execution</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="m-overview-bottom flex-1 relative zx-2">
+                <img src=<?php echo base_url('assets/images/about/overview_bg.png') ?> alt="overflow_bg"
+                    class="overflow_bg obj-pos-center">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal" id="m-infrastructure">
+    <div class="container-fluid perfectCenter bg-col-1 w-95">
+        <div class="row flex-colmun">
+            <div class="m-overview-top flex-80 pt-5 px-5">
+                <div
+                        class="stats_content_container infrastructure flex-30 d-flex flex-column space-even center-item">
+                        <div class="stats_head_container bg-col-6 zx-2">
+                            <h3 class="m-0 lato-bold">infrastructure</h3>
+                        </div>
+                        <div class="stats_all_wrapper d-flex flex-colmun w-75">
+                            <div class="stats overview_stats mt-4 mb-4">
+                                <span class="count color-3 lato-bold text-uppercase">us$ 500</span><span
+                                    class="volume color-3 lato-light">mn</span>
+                                <p class="m-0 color-3 lato-light">Total investment planned</p>
+                            </div>
+                            <div class="stats overview_stats mb-4">
+                                <span class="count color-3 lato-bold">10</span><span class="volume color-3 lato-light">
+                                    mn sq. ft.</span>
+                                <p class="m-0 color-3 lato-light">Industrial and warehousing space under development
+                                    (Phase 1 of Pan-India setup)</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="m-overview-bottom flex-1 relative zx-2">
+                <img src=<?php echo base_url('assets/images/about/overview_bg.png') ?> alt="overflow_bg"
+                    class="overflow_bg obj-pos-right">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal" id="m-realestate">
+    <div class="container-fluid perfectCenter bg-col-1 w-95">
+        <div class="row">    
+            <div class="business_content_wrapper real_estate flex-1 bg-col-7 pad20 relative">
+                <h3 class="color-4 text-uppercase lato-bold">Real Estate</h3>
+                <div class="container-fluid px-0">
+                    <div class="row">
+                        <div class="col-md-4 flex-50">
+                            <div class="real_estate_img_wrapper">
+                                <img src=<?php echo base_url('assets/images/about/residential.svg') ?> alt="ico"
+                                class="residential_img">
+                            </div>
+                            <h5 class="m-0 lato-bold">Residential</h5>
+                            <ul class="busiess_lis lato-light">
+                                <li>apartments</li>
+                                <li>villas</li>
+                                <li>plotted developments</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 flex-50">
+                            <div class="real_estate_img_wrapper">
+                                <img class="svg_image_pos" src=<?php echo base_url('assets/images/about/commercial.svg')
+                                    ?> alt="ico">
+                            </div>
+                            <h5 class="m-0 lato-bold">Commercial</h5>
+                            <ul class="busiess_lis lato-light">
+                                <li>business parks</li>
+                                <li>IT parks</li>
+                                <li>SEZs</li>
+                                <li>Built-to-suit campuses</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 flex-50">
+                            <div class="real_estate_img_wrapper">
+                                <img class="svg_image_pos" src=<?php echo base_url('assets/images/about/hospital.svg')
+                                    ?> alt="ico">
+                            </div>
+                            <h5 class="m-0 lato-bold">Hospitality & Retail</h5>
+                            <ul class="busiess_lis lato-light">
+                                <li>hotels</li>
+                                <li>malls</li>
+                                <li>retails</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 flex-50">
+                            <div class="real_estate_img_wrapper">
+                                <img class="svg_image_pos" src=<?php echo base_url('assets/images/about/education.svg')
+                                    ?> alt="ico">
+                            </div>
+                            <h5 class="m-0 lato-bold">Education</h5>
+                            <ul class="busiess_lis lato-light">
+                                <li>schools</li>
+                                <li>nurseries</li>
+                                <li>colleges</li>
+                                <li>universities</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 flex-50">
+                            <div class="real_estate_img_wrapper">
+                                <img class="svg_image_pos" src=<?php echo base_url('assets/images/about/healthcare.svg')
+                                    ?> alt="ico">
+                            </div>
+                            <h5 class="m-0 lato-bold">Healthcare</h5>
+                            <ul class="busiess_lis lato-light">
+                                <li>multi-specialty hospital</li>
+                                <li>day care</li>
+                                <li>home care</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 flex-50">
+                            <div class="real_estate_img_wrapper">
+                                <img class="svg_image_pos" src=<?php echo base_url('assets/images/about/datacenter.svg')
+                                    ?> alt="ico">
+                            </div>
+                            <h5 class="m-0 lato-bold">Data Centres</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal" id="m-oilgas-bus">
+    <div class="container-fluid perfectCenter bg-col-1 w-95">
+        <div class="row">    
+            <div class="business_content_wrapper oil_gas flex-1 bg-col-8 pad20 relative">
+                <h3 class="color-5 text-uppercase lato-bold">oil & gas</h3>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12 pad0 mt-35">
+                            <div class="oil_img_wrapper relative">
+                                <img src=<?php echo base_url('assets/images/about/lng_li.svg') ?> alt="ico"
+                                class="oil_img">
+                            </div>
+                            <h5 class="m-0 lato-bold">LNG Liquefaction</h5>
+                        </div>
+                        <div class="col-md-12 pad0 mt-35">
+                            <div class="oil_img_wrapper relative">
+                                <img src=<?php echo base_url('assets/images/about/market.svg') ?> alt="ico"
+                                class="oil_img">
+                            </div>
+                            <h5 class="m-0 lato-bold">Marketing and Distribution</h5>
+                        </div>
+                        <div class="col-md-12 pad0 mt-35">
+                            <div class="oil_img_wrapper relative">
+                                <img src=<?php echo base_url('assets/images/about/lng_re.svg') ?> alt="ico"
+                                class="width-95">
+                            </div>
+                            <h5 class="m-0 lato-bold">LNG Regasification</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal" id="m-infrastructure-bus">
+    <div class="container-fluid perfectCenter bg-col-1 w-95">
+        <div class="row">    
+            <div class="business_content_wrapper infrastructure_business flex-1 bg-col-9 pad20 relative">
+                <h3 class="color-6 text-uppercase lato-bold">infrastructure</h3>
+                <div class="row">
+                    <div class="col-md-6 flex-50">
+                        <div class="infra_estate_img_wrapper real_estate_img_wrapper">
+                            <img src=<?php echo base_url('assets/images/about/industry.svg') ?> alt="ico"
+                            class="width-55 relative top-5">
+                        </div>
+                        <h5 class="m-0 lato-bold">Industrial and
+                            Logistics</h5>
+                        <ul class="busiess_lis lato-light">
+                            <li>Plots</li>
+                            <li>Built-to-suit industrial facilities</li>
+                            <li>coldstorage</li>
+                            <li>warehouse</li>
+                        </ul>
+
+                        <div class="real_estate_img_wrapper infra_estate_img_wrapper">
+                            <img src=<?php echo base_url('assets/images/about/renew.svg') ?> alt="ico" class="width-55">
+                        </div>
+                        <h5 class="m-0 lato-bold">Renewable
+                            Energy</h5>
+                        <ul class="busiess_lis lato-light">
+                            <li>solar PV plant rooftop panel</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 flex-50">
+                        <div class="real_estate_img_wrapper infra_estate_img_wrapper">
+                            <img src=<?php echo base_url('assets/images/about/city.svg') ?> alt="ico" class="width-140
+                            relative top-10">
+                        </div>
+                        <h5 class="m-0 lato-bold">Utilities for
+                            Smart Cities</h5>
+                        <ul class="busiess_lis lato-light">
+                            <li>Power distribution and street lighting</li>
+                            <li>water and sewage treatment</li>
+                            <li>internal roads</li>
+                            <li>solid waste management</li>
+                            <li>gas supply</li>
+                            <li>drainage</li>
+                            <li>security and surveillance</li>
+                            <li>landscaping</li>
+                            <li>ICT/smart service</li>
+                            <li>HVAC</li>
+                            <li>CHP</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- MODALS ENDS -->
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
 <script type="text/javascript">

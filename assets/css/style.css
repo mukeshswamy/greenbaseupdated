@@ -175,6 +175,9 @@
 .obj-pos-center {
 	object-position: center !important;
 }
+.obj-pos-right {
+	object-position: right !important;
+}
 .obj-pos-top {
 	object-position: top !important;
 }
@@ -184,6 +187,12 @@
 
 .h-auto {
 	height: auto !important;
+}
+.perfectCenter {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 /* GLOBAL POSITIONS */
@@ -265,6 +274,9 @@
 /* WIDTH */
 .w-75 {
 	width: 75% !important;
+}
+.w-95 {
+	width: 95% !important;
 }
 /* COLORS */
 .color-1 {
@@ -9537,8 +9549,18 @@ body .content {
 	padding-left: 3.4rem !important;
 }
 
+.d-d-none {
+	display: none;
+}
+
 /* Mobile landscape */
 @media screen and (max-width: 419px) and (min-width: 360px) {
+	.m-d-none {
+		display: none !important;
+	}
+	.m-d-block {
+		display: block !important;
+	}
 	.container-gb {
 		padding: 0 10px;
 	}
@@ -9607,8 +9629,94 @@ body .content {
 	.vision-wrapper {
 		padding: 30px;
 	}
-	.gb-heading h1{
+	.gb-heading h1 {
 		text-align: center;
-    	margin-bottom: 2rem;
+		margin-bottom: 2rem;
+	}
+	.company-stats-container {
+		padding-top: 3rem;
+		padding-bottom: 3rem;
+	}
+	.company-stats {
+		padding-bottom: 3rem;
+	}
+	.company-stats small {
+		padding-left: 0.5rem;
+		padding-right: 0.5rem;
+		text-align: center;
+	}
+	.legacy_content_wrapper {
+		flex-direction: column;
+		align-items: flex-start;
+		margin-top: -50px;
+	}
+	.title_wrapper h1 {
+		font-size: 30px;
+		border-bottom: 1px solid;
+	}
+	.content_wrapper {
+		padding-left: initial;
+	}
+	.title_wrapper::after {
+		display: none;
+	}
+	.content_wrapper p {
+		font-size: 16px;
+	}
+	.stats_detail_wrapper {
+		display: none !important;
+	}
+	.stats_wrapper {
+		flex: 1;
+		margin-right: 0 !important;
+	}
+	.group_content {
+		padding: 10px;
+	}
+	.stats_content img {
+		width: 40px;
+	}
+	.group_head_wrapper h1 {
+		font-size: 16px;
+	}
+	.m-d-none {
+		display: none !important;
+	}
+	.business_wrapper sup {
+		font-size: 12px;
+		bottom: -10px !important;
+	}
+	.m-mx-0 {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.m-whyus-banner {
+		height: 35vh !important;
+		min-height: 35vh !important;
+	}
+	.m-whyus-banner .banner-sliders img {
+		height: 35vh !important;
+	}
+	.m-whyus-caption-container {
+		bottom: 50px !important;
+	}
+	.para-value-wrapper p {
+		font-size: 16px !important;
+	}
+	.m-gb-content-wrapper {
+		background-color: rgba(0, 0, 0, 0.575);
+	}
+	.overflow_bg {
+		object-fit: cover;
+		height: 70px;
+		object-position: left;
+	}
+	.stats_content_container::before {
+		content: "";
+		width: 1px;
+		height: 108%;
+		position: absolute;
+		top: 15px;
+		left: 2px;
 	}
 }

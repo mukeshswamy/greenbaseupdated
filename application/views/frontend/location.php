@@ -266,7 +266,7 @@
 
 <!-- Location -->
 
-<div class="row  mx-0 setMaxWidth">
+<div class="row  mx-0 setMaxWidth flex-column-reverse">
     <div class="col-md-5 cus_col_md_12 mt-head cus_paddingleft">
         <div class="container pt-5 dfl pb-5 cusPaddingLeft cusPaddingRight">
             <p class="pan-head mt-5 cusMargins">PAN-INDIA</p>

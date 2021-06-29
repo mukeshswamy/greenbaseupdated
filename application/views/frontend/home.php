@@ -155,11 +155,11 @@
 <section class="vision-section bg-position">
 	<div class="backdrop"></div>
 	<div class="container-gb py-5">
-		<div class="row">
+		<div class="row mx-0">
 			<div class="col-md-6 gb-heading pl-6">
 				<h1 class="text-uppercase vision-text">our vision & mission</h1>
 			</div>
-			<div class="col-md-6 pr-6">
+			<div class="col-md-6 px-0">
 				<div class="visionContentWrapper vision-wrapper">
 					<div class="vision-content-wrapper gb-mb-4">
 						<h2 class="text-uppercase mb-3 arial-font-bold">our vision</h2>
