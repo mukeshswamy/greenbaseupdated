@@ -100,7 +100,7 @@
     </div>
     <div class="copy-ryt-disclaimer-wrapper mobile__footer__copyryt">
         <p class="m-0">© 2021 - All rights reserved</p>
-        <p class="m-0 ml-3 relative" id="disclaimer">Disclaimer</p>
+        <p class="m-0 ml-3 relative" id="disclaimerMobile">Disclaimer</p>
     </div>
 </div>
 <div class="contactmodal" id="modalContact">
