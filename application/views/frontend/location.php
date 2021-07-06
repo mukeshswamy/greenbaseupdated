@@ -266,7 +266,7 @@
 
 <!-- Location -->
 
-<div class="row  mx-0 setMaxWidth flex-column-reverse">
+<div class="row  mx-0 setMaxWidth m-flex-column-reverse">
     <div class="col-md-5 cus_col_md_12 mt-head cus_paddingleft">
         <div class="container pt-5 dfl pb-5 cusPaddingLeft cusPaddingRight">
             <p class="pan-head mt-5 cusMargins">PAN-INDIA</p>
@@ -299,7 +299,7 @@
                                 <p class="name">Talegaon, Pune</p>
                             </div>
                             <div class="col-6 text-right">
-                                <p><a href="##">E-brochure<img src="<?php echo base_url(); ?>assets/images/black_down_arrow.svg" class="downimg"></a></p>
+                                <p><a href="<?php echo base_url()?>assets/pdf/talegaon.pdf" download>E-brochure<img src="<?php echo base_url(); ?>assets/images/black_down_arrow.svg" class="downimg"></a></p>
                             </div>
                         </div>
                         <div class="row">
@@ -307,7 +307,7 @@
                                 <p class="name">Nashik</p>
                             </div>
                             <div class="col-6 text-right">
-                                <p><a href="##">E-brochure<img src="<?php echo base_url(); ?>assets/images/black_down_arrow.svg" class="downimg"></a></p>
+                                <p><a href="<?php echo base_url()?>assets/pdf/nashik.pdf" download>E-brochure<img src="<?php echo base_url(); ?>assets/images/black_down_arrow.svg" class="downimg"></a></p>
                             </div>
                         </div>
                         <div class="row">
@@ -343,7 +343,7 @@
                                 <p class="name">Oragadam</p>
                             </div>
                             <div class="col-6 text-right">
-                                <p><a href="##">E-brochure<img src="<?php echo base_url(); ?>assets/images/black_down_arrow.svg" class="downimg"></a></p>
+                                <p><a href="<?php echo base_url()?>assets/pdf/oragadam.pdf" download>E-brochure<img src="<?php echo base_url(); ?>assets/images/black_down_arrow.svg" class="downimg"></a></p>
                             </div>
                         </div>
                     </div>

@@ -1,4 +1,4 @@
-<section class="section-1-about banner-main setMaxWidth">
+<section class="section-1-about banner-main setMaxWidth"> 
     <div class="banner-about banner-slider-container">
         <img src=<?php echo base_url('assets/images/about/legacy_banner.jpg') ?> alt="banner_in_about"
         class="banner_about_img">
@@ -13,7 +13,7 @@
             </div>
         </div>
     </div>
-    <div class="container-gb legacy_content_wrapper d-flex">
+    <div class="container-gb legacy_content_wrapper d-flex py-3">
         <div class="title_wrapper">
             <h1>
                 The conglomerate

@@ -1,12 +1,12 @@
 <!-- SECTION 1 -->
 <section class="banner-main">
-	<div class="banner-slider-container" style="height: 60vh">
+	<div class="banner-slider-container">
 		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 			<div class="carousel-inner">
 				<div class="carousel-item active banner-sliders">
 					<img class="d-block w-100 obj-pos-center" src=<?php echo
 						$this->config->item('image_url').'/banner_new1.jpg' ?> alt="First slide">
-					<div class="banner-caption-container">
+					<div class="banner-caption-container m-home-caption">
 						<div class="banner-main-heading">
 							<div>our industrial space.</div>
 							<div>your business glory.</div>
@@ -23,7 +23,7 @@
 				<div class="carousel-item banner-sliders">
 					<img class="d-block w-100 obj-pos-top" src=<?php echo
 						$this->config->item('image_url').'/banner_new2.jpg' ?> alt="Second slide">
-					<div class="banner-caption-container">
+					<div class="banner-caption-container m-home-caption">
 						<div class="banner-main-heading">
 							<div>our stategic location.</div>
 							<div>your business reach.</div>
@@ -40,7 +40,7 @@
 				<div class="carousel-item banner-sliders">
 					<img class="d-block w-100" src=<?php echo $this->config->item('image_url').'/banner_new3.JPG' ?>
 					alt="Third slide">
-					<div class="banner-caption-container">
+					<div class="banner-caption-container m-home-caption">
 						<div class="banner-main-heading">
 							<div>our development prowess.</div>
 							<div>your business harmony.</div>
@@ -57,7 +57,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="company-stats-container">
+	<div class="company-stats-container py-5 -m-mb-2rem">
 		<div class="company-stats">
 			<h1>550 acres</h1>
 			<small>total land bank</small>

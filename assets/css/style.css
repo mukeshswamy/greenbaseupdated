@@ -219,7 +219,7 @@
 .text-uppercase {
 	text-transform: uppercase;
 }
-.no-underline{
+.no-underline {
 	text-decoration: none !important;
 }
 
@@ -424,24 +424,22 @@ body .content {
 /* BANNER */
 
 .banner-main {
-	min-height: calc(100vh - 75px);
 	height: 100%;
 	position: relative;
 }
 .banner-slider-container {
 	height: 70%;
-	min-height: 60vh;
 }
 .banner-sliders {
 	/* position: relative; */
 }
 .banner-sliders img {
-	height: 60vh;
+	max-height: 550px;
 	object-fit: cover;
 }
 .company-stats-container {
-	height: 30%;
-	min-height: calc(40vh - 75px);
+	/* height: 30%;
+	min-height: calc(40vh - 75px); */
 }
 .banner-caption-container {
 	bottom: 40px;
@@ -873,14 +871,12 @@ body .content {
 }
 .banner_about_img {
 	width: 100%;
-	max-height: 60vh;
+	max-height: 400px;
 	object-fit: cover;
 }
 .legacy_content_wrapper {
-	padding: 20px 40px;
+	padding: 3rem 40px;
 	align-items: center;
-	height: 30%;
-	min-height: calc(40vh - 75px);
 }
 .title_wrapper h1 {
 	text-transform: uppercase;
@@ -1711,8 +1707,9 @@ body .content {
 }
 .contact_banner {
 	width: 100%;
-	height: 85vh;
-	object-fit: cover;
+    object-fit: cover;
+    max-height: 500px;
+    overflow: hidden;
 }
 .main-contact-text-wrapper {
 	position: absolute;
@@ -2159,16 +2156,16 @@ body .content {
 }
 .blog_latest_div {
 	width: 100%;
-    padding: 0;
-    margin-bottom: 10px;
-    cursor: pointer;
-    max-height: 500px;
-    overflow: hidden;
+	padding: 0;
+	margin-bottom: 10px;
+	cursor: pointer;
+	max-height: 500px;
+	overflow: hidden;
 }
 .blog_latest {
 	width: 100%;
-    object-fit: cover;
-    max-height: 500px;
+	object-fit: cover;
+	max-height: 500px;
 }
 .blog_latest_content {
 	position: absolute;
@@ -2213,18 +2210,18 @@ body .content {
 }
 .related-post-img-div {
 	width: 100%;
-    max-height: 300px;
-    position: relative;
-    overflow: hidden;
+	max-height: 300px;
+	position: relative;
+	overflow: hidden;
 }
 .related-blog-img {
 	width: 100%;
-    max-height: 300px;
-    object-fit: cover;
-    position: relative;
-    object-position: center;
-    overflow: hidden;
-    height: max-content;
+	max-height: 300px;
+	object-fit: cover;
+	position: relative;
+	object-position: center;
+	overflow: hidden;
+	height: max-content;
 }
 .related-blog-date {
 	background-color: #e71c24;
@@ -2315,8 +2312,8 @@ body .content {
 	color: #404041b8;
 	display: inline-block;
 	background-color: lightgray;
-    padding: 5px 10px;
-    border-radius: 5px;
+	padding: 5px 10px;
+	border-radius: 5px;
 }
 .back_img {
 	width: 15px;
@@ -7661,12 +7658,12 @@ body .content {
 		font-size: 16px;
 		color: black;
 	}
-	.m-back-center{
+	.m-back-center {
 		display: flex;
-    	align-items: center;
-    	align-content: center;
+		align-items: center;
+		align-content: center;
 	}
-	.top-stories{
+	.top-stories {
 		font-size: 14px;
 	}
 	.socio-icon {
@@ -7992,11 +7989,12 @@ body .content {
 		font-size: 20px !important;
 		padding: 5px 5px;
 	}
-	.m-px-15{
+	.m-px-15 {
 		padding-left: 15px;
 		padding-right: 15px;
 	}
-	.group-icon-wrapper, .copy-ryt-disclaimer-wrapper {
+	.group-icon-wrapper,
+	.copy-ryt-disclaimer-wrapper {
 		justify-content: initial;
 	}
 }
@@ -9600,17 +9598,23 @@ body .content {
 		padding: 0 10px;
 	}
 	.banner-caption-container {
-		bottom: 140px;
+		bottom: 15px;
 		transform: translateX(20px);
 	}
 	.banner-brand-name {
 		bottom: 5px;
 	}
 	.banner-main-heading div {
-		font-size: 25px;
+		font-size: 20px;
 	}
 	.banner-caption {
-		font-size: 13px;
+		font-size: 12px;
+	}
+	.m-home-caption{
+		bottom: 60px;
+	}
+	.banner-sliders img {
+		height: 20rem;
 	}
 	.company-stats-container {
 		flex-wrap: wrap;
@@ -9673,7 +9677,10 @@ body .content {
 		padding-bottom: 3rem;
 	}
 	.company-stats {
-		padding-bottom: 3rem;
+		padding-bottom: 2rem;
+	}
+	.-m-mb-2rem{
+		margin-bottom: -2rem;
 	}
 	.company-stats small {
 		padding-left: 0.5rem;
@@ -9683,7 +9690,7 @@ body .content {
 	.legacy_content_wrapper {
 		flex-direction: column;
 		align-items: flex-start;
-		margin-top: -50px;
+		padding: 0 20px;
 	}
 	.title_wrapper h1 {
 		font-size: 30px;
@@ -9754,12 +9761,18 @@ body .content {
 		top: 15px;
 		left: 2px;
 	}
-	.cus_paddingleft{
+	.cus_paddingleft {
 		padding: 0 !important;
 		padding-left: 0 !important;
 	}
 	.copy-ryt-disclaimer-wrapper p:last-child:before {
 		right: 0;
 		left: -8px;
+	}
+	.m-flex-column-reverse {
+		-webkit-box-orient: vertical !important;
+		-webkit-box-direction: reverse !important;
+		-ms-flex-direction: column-reverse !important;
+		flex-direction: column-reverse !important;
 	}
 }

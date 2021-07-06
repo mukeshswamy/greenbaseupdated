@@ -1,5 +1,5 @@
 <section class="banner-main">
-	<div class="banner-slider-container m-whyus-banner" style="height: 60vh">
+	<div class="banner-slider-container m-whyus-banner">
 		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 			<div class="carousel-inner">
 				<div class="carousel-item active banner-sliders">
@@ -55,7 +55,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="company-stats-container container-gb font-20">
+	<div class="company-stats-container container-gb font-20 py-5">
 		<div class="para-value-wrapper">
 			<p class="zur-light-con color-2">
 				Our commitment to reliability, value-engineering and design
