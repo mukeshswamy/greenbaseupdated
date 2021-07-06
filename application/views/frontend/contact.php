@@ -10,7 +10,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid cus-container-fluid mtTop">
+    <div class="container-fluid cus-container-fluid mtTop m-px-15">
         <div class="row">
             <div class="col-md-6">
                 <div class="contact-text mr-bottom-40 removebr">

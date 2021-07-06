@@ -197,7 +197,7 @@
 							Land parcels from the Pan-India land bank available at strategic
 							locations for development of industrial and warehousing parks
 						</p>
-						<span class="air-regular value_more" data-name="landbanks">Know more______</span>
+						<span class="air-regular m-value-know-more" data-name="landbanks">Know more______</span>
 					</div>
 				</div>
 			</div>
@@ -211,7 +211,7 @@
 							Greenbase to build on the Group’s established track record of
 							developing marquee projects. In-house team of expert professionals
 						</p>
-						<span class="air-regular value_more" data-name="developmentexpertise">Know more______</span>
+						<span class="air-regular m-value-know-more" data-name="developmentexpertise">Know more______</span>
 					</div>
 				</div>
 			</div>
@@ -224,7 +224,7 @@
 							Group of developing projects as per client specifications and
 							delivering time
 						</p>
-						<span class="air-regular value_more" data-name="clientfirst">Know more______</span>
+						<span class="air-regular m-value-know-more" data-name="clientfirst">Know more______</span>
 					</div>
 				</div>
 			</div>
@@ -237,7 +237,7 @@
 							residential, retail, educational, sports and related amenities to
 							grow delivering time
 						</p>
-						<span class="air-regular value_more" data-name="synergisticliving">Know more______</span>
+						<span class="air-regular m-value-know-more" data-name="synergisticliving">Know more______</span>
 					</div>
 				</div>
 			</div>
@@ -250,7 +250,7 @@
 							water, along with residential and commercial development delivering
 							time
 						</p>
-						<span class="air-regular value_more" data-name="infrastructure">Know more______</span>
+						<span class="air-regular m-value-know-more" data-name="infrastructure">Know more______</span>
 					</div>
 				</div>
 			</div>
@@ -263,7 +263,7 @@
 							water, along with residential and commercial development delivering
 							time
 						</p>
-						<span class="air-regular value_more" data-name="infrastructure">Know more______</span>
+						<span class="air-regular m-value-know-more" data-name="mixed">Know more______</span>
 					</div>
 				</div>
 			</div>
@@ -356,7 +356,7 @@
 							Through Greenbase, we are capitalizing on our existing land bank
 							at strategic growth corridors to develop mixed use, efficient
 							</p>
-							<span class="air-regular" data-name="buildingcommunities">Know more_______</span>
+							<span class="air-regular m-gb-edge-know-more" data-name="buildingcommunities">Know more_______</span>
 						</div>
 					</div>
 					<div class="m-gb-content bg-col-1 pad_edge relative mb-3">
@@ -368,7 +368,7 @@
 								Reflecting our deep-rooted purpose of contributing to nation
 								building, Greenbase is a natural progression of our domain
 							</p>
-							<span class="air-regular" data-name="naturalprogression">Know more_______</span>
+							<span class="air-regular m-gb-edge-know-more" data-name="naturalprogression">Know more_______</span>
 						</div>
 					</div>
 					<div class="m-gb-content bg-col-1 pad_edge relative mb-3">
@@ -380,7 +380,7 @@
 								At Greenbase, we are planning, designing, constructing, and
 								maintaining infrastructure in a manner that effectively manages
 							</p>
-							<span class="air-regular" data-name="regulatoryrequitements" >Know more_______</span>
+							<span class="air-regular m-gb-edge-know-more" data-name="regulatoryrequitements" >Know more_______</span>
 						</div>
 					</div>
 				</div>
@@ -389,6 +389,38 @@
 	</div>
 </section>
 <!-- GREENBASE EDGE ENDS -->
+
+<!-- MODALS -->
+<div class="modal" id="m-value-modal">
+	<div class="container-fluid perfectCenter bg-col-1 w-95 py-4">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="m-value-img-wrapper w-100 h-auto mb-4">
+					<img src="" alt="" class="m-value-img w-100 h-auto">
+				</div>
+				<div class="m-value-content-wrapper">
+					<ul class="value_list busiess_lis" id="value_lists"></ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal" id="m-gb-edge-modal">
+	<div class="container-fluid perfectCenter bg-col-1 w-95 py-4">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="m-gb-head-modal w-100 h-auto mb-4">
+					<h4 class="zur-con text-uppercase color-10 edge_head mb-0"></h4>
+				</div>
+				<div class="m-value-content-wrapper">
+					<p class="air-regular mb-0 edge_content" id="m-gb-para-modal"></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- MODALS ENDS -->
 
 
 
@@ -501,6 +533,22 @@
 			"none";
 	}
 
+	$('.m-value-know-more').on('click', function () {
+		var value = $(this).data("name");
+		$('#m-value-modal').modal('show')
+		$(".value_head").text(datasvalue[value].head);
+		$(".m-value-img").attr("src", datasvalue[value].tumbnail);
+		$(".value-wrapper").removeClass('d-none');
+		$(".value-wrapper2").addClass('d-none');
+		var valueList = datasvalue[value].details
+			.map((finaldata, index) => {
+				return `<li>${finaldata}</li>`;
+			})
+			.join("");
+		document.getElementById("value_lists").innerHTML = valueList;
+	});
+	
+
 	$('.value_more').on('click', function () {
 		var value = $(this).data("name");
 		$(".value_head").text(datasvalue[value].head);
@@ -514,6 +562,7 @@
 			.join("");
 		document.getElementById("value_list").innerHTML = valueList;
 	});
+	
 	$('.value_more2').on('click', function () {
 		var value = $(this).data("name");
 		$(".value_head2").text(datasvalue[value].head);
@@ -528,10 +577,19 @@
 		document.getElementById("value_list2").innerHTML = valueList;
 	});
 
+	$('.m-gb-edge-know-more').on('click', function () {
+		var value = $(this).data("name");
+		$('#m-gb-edge-modal').modal('show')
+		console.log(value)
+		$(".m-gb-head-modal h4").text(datasgreenbase[value].head);
+		$('#m-gb-para-modal').text(datasgreenbase[value].details)
+	});
+
 	$('.cancel_value').on('click', function () {
 		$(".value-wrapper").addClass('d-none');
 		$(".value-wrapper2").addClass('d-none');
 	});
+
 
 	// GREENBASE EDGE
 	$('.base_more').on('click', function () {

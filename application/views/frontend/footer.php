@@ -96,12 +96,12 @@
             <li><a href="gallery">GALLERY</a></li>
             <li><a href="blogs">BLOGS</a></li>
             <li><a href="contact">CONTACT US</a></li>
-            <li><a href="javascript:void(0);" id="disclaimerMobile">DISCLAMIER</a></li>
         </ul>
     </div>
-    <p class="mobile__footer__copyryt">
-        © 2021 - All rights reserved
-    </p>
+    <div class="copy-ryt-disclaimer-wrapper mobile__footer__copyryt">
+        <p class="m-0">© 2021 - All rights reserved</p>
+        <p class="m-0 ml-3 relative" id="disclaimer">Disclaimer</p>
+    </div>
 </div>
 <div class="contactmodal" id="modalContact">
     <div class="contactmodalwrapper">

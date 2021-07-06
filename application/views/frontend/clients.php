@@ -102,7 +102,7 @@
 </section>
 
 <!-- SECTION CLIENTS VIDEO TESTIMONY -->
-<div class="container-fluid cus__padding setMaxWidth">
+<div class="container-fluid cus__padding setMaxWidth m-d-none">
 	<div class="testomony__heading">
 		<h3>TESTIMONIALS</h3>
 	</div>
