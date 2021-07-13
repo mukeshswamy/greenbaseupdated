@@ -9775,4 +9775,18 @@ body .content {
 		-ms-flex-direction: column-reverse !important;
 		flex-direction: column-reverse !important;
 	}
+	.our-capablities-wrapper {
+		background-image: url('../images/m-our-cap-bg-80.jpg');
+		background-position: center;
+    	background-size: contain;
+	}
+	.vision-section::before {
+		background-image: url('../images/m-vision-80.jpg');
+	}
+	.m-about1-bg{
+		background-image: url('../images/about/m-about2-bg-80.jpg') !important;
+	}
+	.m-about2-bg{
+		background-image: url('../images/about/m-about1-bg-80.jpg') !important;
+	}
 }

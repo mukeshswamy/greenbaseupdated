@@ -78,6 +78,7 @@ $route['gallerypage'] = 'auth/gallerypage';
 $route['newscreate'] = 'auth/newsaddpage';
 $route['newsedit/(:any)'] = 'auth/newseditpage/$1';
 $route['blogsadd'] = 'auth/blogsadd';
+$route['resetpassword'] = 'auth/resetpassword';
 $route['blogsedit/(:any)'] = 'auth/blogsedit/$1';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

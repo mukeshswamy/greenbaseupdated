@@ -1,4 +1,4 @@
-<section class="banner-main">
+<section class="banner-main m-d-none">
 	<div class="banner-slider-container m-whyus-banner">
 		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 			<div class="carousel-inner">
@@ -30,6 +30,78 @@
 				</div>
 				<div class="carousel-item banner-sliders">
 					<img class="d-block w-100" src=<?php echo base_url('assets/images/proposition/p3.jpg') ?>
+					alt="Third slide">
+					<div class="banner-caption-container m-whyus-caption-container">
+						<div class="banner-main-heading">
+							<div>value proposition</div>
+						</div>
+						<div class="banner-caption">
+							When your goods are digitally empowered, so is your business
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item banner-sliders">
+					<img class="d-block w-100" src=<?php echo base_url('assets/images/proposition/p4.jpg') ?>
+					alt="Third slide">
+					<div class="banner-caption-container m-whyus-caption-container">
+						<div class="banner-main-heading">
+							<div>value proposition</div>
+						</div>
+						<div class="banner-caption">
+							When your goods are fully secure, so is your business
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="company-stats-container container-gb font-20 py-5">
+		<div class="para-value-wrapper">
+			<p class="zur-light-con color-2">
+				Our commitment to reliability, value-engineering and design
+				optimization, and customer centricity puts us in a position of
+				strength.<br />
+				With pride, Greenbase undertakes revolutionary projects that involve
+				developing world-class infrastructure. We believe our projects help
+				towards country’s economic development, enhancing individuals’ lifestyle
+				and conserving natural resources.
+			</p>
+		</div>
+	</div>
+</section>
+
+<section class="banner-main m-d-block d-d-none">
+	<div class="banner-slider-container m-whyus-banner">
+		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active banner-sliders">
+					<img class="d-block w-100 obj-pos-center" src=<?php echo
+						base_url('assets/images/proposition/m-value-bg-1-80.jpg') ?>
+					alt="First slide">
+					<div class="banner-caption-container m-whyus-caption-container">
+						<div class="banner-main-heading">
+							<div>value proposition</div>
+						</div>
+						<div class="banner-caption">
+							When your goods are at peace, so is your business.
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item banner-sliders">
+					<img class="d-block w-100 obj-pos-right " src=<?php echo base_url('assets/images/proposition/p2.jpg')
+						?>
+					alt="Second slide">
+					<div class="banner-caption-container m-whyus-caption-container">
+						<div class="banner-main-heading">
+							<div>value proposition</div>
+						</div>
+						<div class="banner-caption">
+							When your goods have the best connectivity, so does our business
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item banner-sliders">
+					<img class="d-block w-100 obj-pos-right" src=<?php echo base_url('assets/images/proposition/p3.jpg') ?>
 					alt="Third slide">
 					<div class="banner-caption-container m-whyus-caption-container">
 						<div class="banner-main-heading">
@@ -186,7 +258,7 @@
 	</div>
 </section>
 <!-- VALUE PROPSITION MOBILE -->
-<section class="m-value-pro m-d-block d-d-none">
+<section class="m-value-pro m-d-block d-d-none mb-4 pt-3" style="background-image: url('<?php echo base_url("assets/images/proposition/m-value-bg-80.jpg") ?>');">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-12 mb-3">

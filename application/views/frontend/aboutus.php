@@ -29,7 +29,7 @@
 </section>
 
 <!-- GROUP OVERVIEW -->
-<section class="group_overview_wrapper group_bg" style="background-image: url('<?php echo base_url("assets/images/about/group.jpg") ?>');">
+<section class="group_overview_wrapper group_bg m-about1-bg" style="background-image: url('<?php echo base_url("assets/images/about/group.jpg") ?>');">
     <div class="container-gb py-5">
         <div class="group_head_wrapper">
             <h1 class="m-0 zur-light-con">Group overview</h1>
@@ -151,7 +151,7 @@
 </section>
 
 <!-- Businessess -->
-<section class="group_overview_wrapper group_bg" style="background-image: url('<?php echo base_url("assets/images/about/business.jpg") ?>');">
+<section class="group_overview_wrapper group_bg m-business-bg m-about2-bg" style="background-image: url('<?php echo base_url("assets/images/about/business.jpg") ?>');">
     <div class="container-gb py-5">
         <div class="group_head_wrapper business_wrapper zur-light-con">
             <h1 class="m-0">our 12 business sbu</h1><sup>s</sup>

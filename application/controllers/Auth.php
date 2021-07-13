@@ -96,6 +96,12 @@ class Auth extends CI_Controller
         $this->load->view('/backend/backendgallery');
         $this->load->view('/backend/backendfooter');
     }
+    public function resetpassword(){
+        $meta_data['title'] ="Reset Password";
+        $this->load->view('/backend/backendheader',$meta_data);
+        $this->load->view('/backend/resetpassword');
+        $this->load->view('/backend/backendfooter');
+    }
     public function login()
     {
         $this->form_validation->set_rules('email', 'Email', 'required|valid_email');

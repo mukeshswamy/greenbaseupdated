@@ -19,7 +19,7 @@
     </div>
 </div>
 
-<div class="container" style="margin-top: 40px;">
+<div class="container my-5">
     <div class="row">
         <div class="col-md-4 dashboard__modules" style="margin-top: 20px;">
             <a href="<?php echo base_url()?>home-dashboard">
@@ -54,6 +54,11 @@
         <div class="col-md-4 dashboard__modules" style="margin-top: 20px;">
             <a href="<?php echo base_url()?>blogspage">
                 BLOGS
+            </a>
+        </div>
+        <div class="col-md-4 dashboard__modules" style="margin-top: 20px;">
+            <a href="<?php echo base_url()?>resetpassword">
+                PASSWORD RESET
             </a>
         </div>
     </div>
