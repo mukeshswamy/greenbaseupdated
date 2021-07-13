@@ -7,7 +7,7 @@
     <title>Greenbase Admin | <?php echo @$title?></title>
     <link rel="stylesheet" href=<?php echo base_url('assets/css/backendstyle.css') ?>>
     <link rel="stylesheet" href=<?php echo base_url('assets/css/bootstrap.min.css'); ?>>
-    
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>

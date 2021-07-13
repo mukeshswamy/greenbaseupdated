@@ -80,5 +80,6 @@ $route['newsedit/(:any)'] = 'auth/newseditpage/$1';
 $route['blogsadd'] = 'auth/blogsadd';
 $route['resetpassword'] = 'auth/resetpassword';
 $route['blogsedit/(:any)'] = 'auth/blogsedit/$1';
+$route['galleryadd'] = 'auth/addNewGallery';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

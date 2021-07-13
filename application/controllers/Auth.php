@@ -96,6 +96,12 @@ class Auth extends CI_Controller
         $this->load->view('/backend/backendgallery');
         $this->load->view('/backend/backendfooter');
     }
+    public function addNewGallery(){
+        $meta_data['title'] ="Gallery";
+        $this->load->view('/backend/backendheader',$meta_data);
+        $this->load->view('/backend/gallery/addNewGallery');
+        $this->load->view('/backend/backendfooter');
+    }
     public function resetpassword(){
         $meta_data['title'] ="Reset Password";
         $this->load->view('/backend/backendheader',$meta_data);
