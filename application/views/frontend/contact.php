@@ -76,7 +76,7 @@
                             <a href="mailto:careers@greenbase.com">careers@greenbase.com</a>
                             <p>or</p>
                             <img src=<?php echo base_url('assets/images/upload.svg');?> alt="upload" class="upload__Image">
-                            <a href="javascript:void(0)">Upload your CV</a>
+                            <a href="mailto:careers@greenbase.com">Upload your CV</a>
                         </div>
                     </div>
                 </div>
@@ -109,7 +109,8 @@
                 <div class="footer__upload">
                     <img src=<?php echo base_url('assets/images/upload.svg');?>
                         alt="mail" class="upload-career">
-                    <span class="mailto">Upload your CV</span>
+                    <!-- <span class="mailto">Upload your CV</span> -->
+                    <a href="mailto:careers@greenbase.com" class="mailto">Upload your CV</a>
                 </div>
             </div>
         </div>
