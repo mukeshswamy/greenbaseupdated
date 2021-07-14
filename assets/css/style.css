@@ -1707,9 +1707,9 @@ body .content {
 }
 .contact_banner {
 	width: 100%;
-    object-fit: cover;
-    max-height: 500px;
-    overflow: hidden;
+	object-fit: cover;
+	max-height: 500px;
+	overflow: hidden;
 }
 .main-contact-text-wrapper {
 	position: absolute;
@@ -9610,7 +9610,7 @@ body .content {
 	.banner-caption {
 		font-size: 12px;
 	}
-	.m-home-caption{
+	.m-home-caption {
 		bottom: 60px;
 	}
 	.banner-sliders img {
@@ -9679,7 +9679,7 @@ body .content {
 	.company-stats {
 		padding-bottom: 2rem;
 	}
-	.-m-mb-2rem{
+	.-m-mb-2rem {
 		margin-bottom: -2rem;
 	}
 	.company-stats small {
@@ -9776,17 +9776,25 @@ body .content {
 		flex-direction: column-reverse !important;
 	}
 	.our-capablities-wrapper {
-		background-image: url('../images/m-our-cap-bg-80.jpg');
+		background-image: url("../images/m-our-cap-bg-80.jpg");
 		background-position: center;
-    	background-size: contain;
+		background-size: contain;
 	}
 	.vision-section::before {
-		background-image: url('../images/m-vision-80.jpg');
+		background-image: url("../images/m-vision-80.jpg");
 	}
-	.m-about1-bg{
-		background-image: url('../images/about/m-about2-bg-80.jpg') !important;
+	.m-about1-bg {
+		background-image: url("../images/about/m-about2-bg-80.jpg") !important;
 	}
-	.m-about2-bg{
-		background-image: url('../images/about/m-about1-bg-80.jpg') !important;
+	.m-about2-bg {
+		background-image: url("../images/about/m-about1-bg-80.jpg") !important;
+	}
+	.m-gb-edge-bg {
+		height: 15rem;
+	}
+	.m-gb-edge-head {
+		position: absolute;
+		bottom: 20px;
+		left: 15px;
 	}
 }

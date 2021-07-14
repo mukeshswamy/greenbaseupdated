@@ -88,8 +88,8 @@
 					</div>
 				</div>
 				<div class="carousel-item banner-sliders">
-					<img class="d-block w-100 obj-pos-right " src=<?php echo base_url('assets/images/proposition/p2.jpg')
-						?>
+					<img class="d-block w-100 obj-pos-right " src=<?php echo
+						base_url('assets/images/proposition/p2.jpg') ?>
 					alt="Second slide">
 					<div class="banner-caption-container m-whyus-caption-container">
 						<div class="banner-main-heading">
@@ -101,7 +101,8 @@
 					</div>
 				</div>
 				<div class="carousel-item banner-sliders">
-					<img class="d-block w-100 obj-pos-right" src=<?php echo base_url('assets/images/proposition/p3.jpg') ?>
+					<img class="d-block w-100 obj-pos-right" src=<?php echo base_url('assets/images/proposition/p3.jpg')
+						?>
 					alt="Third slide">
 					<div class="banner-caption-container m-whyus-caption-container">
 						<div class="banner-main-heading">
@@ -258,7 +259,8 @@
 	</div>
 </section>
 <!-- VALUE PROPSITION MOBILE -->
-<section class="m-value-pro m-d-block d-d-none mb-4 pt-3" style="background-image: url('<?php echo base_url("assets/images/proposition/m-value-bg-80.jpg") ?>');">
+<section class="m-value-pro m-d-block d-d-none mb-4 pt-3" style="background-image: url('<?php echo base_url("
+	assets/images/proposition/m-value-bg-80.jpg") ?>');">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-12 mb-3">
@@ -283,7 +285,8 @@
 							Greenbase to build on the Group’s established track record of
 							developing marquee projects. In-house team of expert professionals
 						</p>
-						<span class="air-regular m-value-know-more" data-name="developmentexpertise">Know more______</span>
+						<span class="air-regular m-value-know-more" data-name="developmentexpertise">Know
+							more______</span>
 					</div>
 				</div>
 			</div>
@@ -412,7 +415,7 @@
 <section class="m-value-pro m-d-block d-d-none">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-12 mb-4">
+			<div class="m-gb-edge-bg gb_edge_bg w-100 relative">
 				<div class="m-gb-edge-head edge_header d-inline-block text-uppercase color-1 bg-col-2">
 					<h3 class="zur-light-con m-0">the Greenbase edge</h3>
 				</div>
@@ -425,10 +428,11 @@
 						</h3>
 						<div class="m-gb-para">
 							<p class="mb-0 air-regular mb-0 edge_content">
-							Through Greenbase, we are capitalizing on our existing land bank
-							at strategic growth corridors to develop mixed use, efficient
+								Through Greenbase, we are capitalizing on our existing land bank
+								at strategic growth corridors to develop mixed use, efficient
 							</p>
-							<span class="air-regular m-gb-edge-know-more" data-name="buildingcommunities">Know more_______</span>
+							<span class="air-regular m-gb-edge-know-more" data-name="buildingcommunities">Know
+								more_______</span>
 						</div>
 					</div>
 					<div class="m-gb-content bg-col-1 pad_edge relative mb-3">
@@ -440,7 +444,8 @@
 								Reflecting our deep-rooted purpose of contributing to nation
 								building, Greenbase is a natural progression of our domain
 							</p>
-							<span class="air-regular m-gb-edge-know-more" data-name="naturalprogression">Know more_______</span>
+							<span class="air-regular m-gb-edge-know-more" data-name="naturalprogression">Know
+								more_______</span>
 						</div>
 					</div>
 					<div class="m-gb-content bg-col-1 pad_edge relative mb-3">
@@ -452,7 +457,8 @@
 								At Greenbase, we are planning, designing, constructing, and
 								maintaining infrastructure in a manner that effectively manages
 							</p>
-							<span class="air-regular m-gb-edge-know-more" data-name="regulatoryrequitements" >Know more_______</span>
+							<span class="air-regular m-gb-edge-know-more" data-name="regulatoryrequitements">Know
+								more_______</span>
 						</div>
 					</div>
 				</div>
@@ -619,7 +625,7 @@
 			.join("");
 		document.getElementById("value_lists").innerHTML = valueList;
 	});
-	
+
 
 	$('.value_more').on('click', function () {
 		var value = $(this).data("name");
@@ -634,7 +640,7 @@
 			.join("");
 		document.getElementById("value_list").innerHTML = valueList;
 	});
-	
+
 	$('.value_more2').on('click', function () {
 		var value = $(this).data("name");
 		$(".value_head2").text(datasvalue[value].head);
