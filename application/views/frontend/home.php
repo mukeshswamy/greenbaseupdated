@@ -5,7 +5,7 @@
 			<div class="carousel-inner">
 				<div class="carousel-item active banner-sliders">
 					<img class="d-block w-100 obj-pos-center" src=<?php echo
-						$this->config->item('image_url').'/banner_new1.jpg' ?> alt="First slide">
+																	$this->config->item('image_url') . '/banner_new1.jpg' ?> alt="First slide">
 					<div class="banner-caption-container m-home-caption">
 						<div class="banner-main-heading">
 							<div>our industrial space.</div>
@@ -22,7 +22,7 @@
 				</div>
 				<div class="carousel-item banner-sliders">
 					<img class="d-block w-100 obj-pos-top" src=<?php echo
-						$this->config->item('image_url').'/banner_new2.jpg' ?> alt="Second slide">
+																$this->config->item('image_url') . '/banner_new2.jpg' ?> alt="Second slide">
 					<div class="banner-caption-container m-home-caption">
 						<div class="banner-main-heading">
 							<div>our stategic location.</div>
@@ -38,8 +38,7 @@
 					</div>
 				</div>
 				<div class="carousel-item banner-sliders">
-					<img class="d-block w-100" src=<?php echo $this->config->item('image_url').'/banner_new3.JPG' ?>
-					alt="Third slide">
+					<img class="d-block w-100" src=<?php echo $this->config->item('image_url') . '/banner_new3.JPG' ?> alt="Third slide">
 					<div class="banner-caption-container m-home-caption">
 						<div class="banner-main-heading">
 							<div>our development prowess.</div>
@@ -88,11 +87,7 @@
 			<div class="our-capablities-content-wrapper relative mb-4 blue_bg color-1 center-me">
 				<h4 class="font-45 cap_head">our capablities</h4>
 				<p class="cap_para">
-					Greenbase, a Nidar Group company has a joint venture with the leading global private equity firm
-					Blackstone Group Inc. and has a pan-India platform to build industrial, logistics and warehousing
-					assets. With 450 acres of seed land bank across Chennai, Pune, Nashik, and Durgapur, the venture has
-					made rapid strides in a short span of time and is on course to deliver close to 12 million sq.ft. in
-					the next 3-5 years.
+					Greenbase, a Nidar Group enterprise has a joint venture with the leading global private equity firm Blackstone Group Inc. and has a pan-India platform to build industrial, logistics and warehousing assets. With 550 acres of land bank across Chennai, Bhiwandi Pune, Nashik, Kolkata and Durgapur, the venture has made rapid strides in a short span of time and is on course to deliver close to 14.1 million sq.ft. in the next 3-5 years.
 				</p>
 				<span class="air-regular cap_know_more pointer">Know More________</span>
 			</div>
@@ -201,22 +196,18 @@
 		<img src=<?php echo base_url('assets/images/playbutton.svg'); ?> alt="playbutton" class="playbutton"
 		id="playbuttons">
 	</div> -->
-	<iframe height="360" style="width: 100%;height: calc(100vh - 75px);" src="https://www.youtube.com/embed/qcGK6gh6W9U"
-		frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-		allowfullscreen></iframe>
+	<iframe height="360" style="width: 100%;height: calc(100vh - 75px);" src="https://www.youtube.com/embed/qcGK6gh6W9U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </section>
 
 <div class="mobile__TitlevideoContainer">
-	<iframe height="360" style="width: 100%" src="https://www.youtube.com/embed/qcGK6gh6W9U" frameborder="0"
-		allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-		allowfullscreen></iframe>
+	<iframe height="360" style="width: 100%" src="https://www.youtube.com/embed/qcGK6gh6W9U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 <!-- SECTION VIDEO MOBILE -->
 <!-- SCRIPTING STARTS HERE -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
 <script type="text/javascript">
-	$(document).ready(function () {
-		$(".cap_know_more").on('click', function () {
+	$(document).ready(function() {
+		$(".cap_know_more").on('click', function() {
 			// DEFAULT ACTION
 			$('.cap_know_more').show();
 			$('.cap_head').removeClass('fs-16');

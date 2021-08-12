@@ -38,6 +38,7 @@
                         <li><a href="<?php echo base_url();?>blogs">BLOGS</a></li>
                         <li><a href="<?php echo base_url();?>contact">CONTACT US</a></li>
                     </ul>
+                    <a href="<?php echo base_url();?>contact" class="download">Download</a>
                 </div>
                 <script>
                         $(function () {

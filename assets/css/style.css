@@ -2940,6 +2940,21 @@ body .content {
 .bannerImage {
 	width: 100%;
 }
+.download {
+	display: block;
+	background-color: #0868a0;
+	color: white !important;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	text-decoration: none !important;
+	margin-left: 1rem;
+}
+.value_popup_wrapper{
+	background-color: #0068a8;
+	color: white;
+}
 
 /* Ipad Pro */
 @media screen and (max-width: 1024px) and (min-width: 992px) {
@@ -9492,7 +9507,7 @@ body .content {
 	padding: 18px 25px;
 }
 .value_list li::marker {
-	color: var(--color-2);
+	color: var(--color-1);
 	font-weight: bold;
 	display: inline-block;
 	width: 1em;

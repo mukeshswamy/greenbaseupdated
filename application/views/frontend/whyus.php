@@ -181,7 +181,7 @@
 				</div>
 			</div>
 			<div class="value-wrapper col-md-12 mb-3 d-none">
-				<div class="value_popup_wrapper bg-col-1">
+				<div class="value_popup_wrapper">
 					<div class="row">
 						<div class="col-md-6">
 							<h2 class="value_head zur-con text-uppercase"></h2>
@@ -350,7 +350,7 @@
 
 
 <!-- GREENBASE EDGE -->
-<section class="gb_edge_bg relative m-d-none" style="height: calc(100vh - 75px)">
+<section class="gb_edge_bg relative m-d-none" style ="height: calc(100vh - 75px)">
 	<div class="container-gb value_pad">
 		<div class="row">
 			<div class="col-md-12">
