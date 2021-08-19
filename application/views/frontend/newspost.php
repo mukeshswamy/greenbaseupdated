@@ -48,38 +48,6 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="col-md-12">
-                <div class="top-heading-wrapper">
-                    <div class="back">
-                        <div>
-                           <a href=<?php echo base_url('news'); ?>> <span><img src=<?php echo base_url('assets/images/prev_black.svg'); ?> alt="back"
-                                    class="back_img"></span>
-                            <div class="back_div" id="newBack">Back</div>
-                        </a>
-                        </div>
-                    </div>
-                    <div class="top-date">
-                    </div>
-                    <div class="heading-wrapper">
-                        <div class="headline">
-                        </div>
-                        <div class="social-media">
-                            <div class="top-stories">
-                                TOP STORIES
-                            </div>
-                            <div class="social-media-wrapper">
-                                <span><img src=<?php echo base_url('assets/images/twitter.svg'); ?> alt="twitter"
-                                        class="socio-icon"></span>
-                                <span><img src=<?php echo base_url('assets/images/insta.svg'); ?> alt="insta"
-                                        class="socio-icon"></span>
-                                <span><img src=<?php echo base_url('assets/images/fb.svg'); ?> alt="fb"
-                                        class="socio-icon"></span>
-                            </div>
-                        </div>
-                    </div>
-                    </hr>
-                </div>
-            </div> -->
         </div>
         <hr class="cus-hr">
         <div class="row">
@@ -120,6 +88,7 @@
         </div>
     </div>
 </section>
+
 <!-- END OF NEWS POSTS -->
 <script type="text/javascript">
     // var url = <?php echo base_url() ?>
@@ -128,7 +97,73 @@
     var id = '<?php print_r($id) ?>';
     // News Articles
     var newsdatas = {
-        news: [{
+        news: [
+            {
+                headline: "Hiranandani group to develop industrial-data centre park in Bengal",
+                headimage: "<?php echo base_url(); ?>assets/images/news/data.jpg",
+                date: "February 15, 2021",
+                time: "2:30 AM",
+                headArticle: "The firm said it will invest around Rs 8,500 crore in the project",
+                article: [
+                    "Mumbai-based The Hiranandani Group on Monday said it will invest around Rs 8,500 crore to develop industrial and data centre parks in West Bengal.",
+                    "The group has entered into an MoU (memorandum of understanding) in the state of West Bengal to set up logistics and hyperscale data center parks in the region, a company statement said.",
+                    "It has signed an MoU to acquire a 100-acre land at Uttarpara, Kolkata to set up an integrated logistics and hyperscale data center park by group companies GreenBase and Yotta respectively.",
+                    "The combined investment by the group and their customers is estimated to cross Rs 10,000 crore, the statement said.",
+                    "When contacted, the company spokesperson said the investment by the group will be around Rs 8,500 crore.",
+                    "GreenBase will develop 3 million square feet of industrial and warehousing space, while Yotta, Hiranandani's hyperscale data centre division, will build six hyper connected data centre buildings bringing in 250MW of cutting edge data centre capacity over the next several years.",
+                    "Darshan Hiranandani, Group Chief Executive Officer - Hiranandani Group said, Kicking off this project would not have been possible without the tremendous support of the Government of West Bengal",
+                    "West Bengal is the gateway to the east. It is an ideal hub for logistics and industrial development with excellent road, rail and riverine connectivity, he added.",
+                    "Simultaneously, Darshan said the data centre business will benefit from the digitisation revolution, the upcoming Silicon Valley at New Town at Rajarhat and excellent fibre connectivity on land and the new submarine cable coming up at Tajpur.",
+                    "By setting up a data center park in Kolkata, we will not only serve the customers of the state but the entire eastern region including neighbouring countries, he said.",
+                    "In 2020, Yotta inaugurated its Asia's largest and World's second-largest Uptime Institute Tier IV certified data center in Navi Mumbai. It has recently announced development of data centre parks in Greater Noida and Chennai.",
+                    "Greenbase is a joint venture (JV) between Hiranandani Group and global private equity firm Blackstone. It is developing industrial and logistics parks across Mumbai MMR region, Pune, Nashik, Chennai and Bengaluru with a plan to deliver 15 million sq ft of space Pan India in the next five years, having an investment outlay of USD 500 million.",
+                ]
+            },
+            {
+                headline: "5 reasons why Indian logistics industry is happy",
+                headimage: "<?php echo base_url(); ?>assets/images/news/budget.jpeg",
+                date: "February 2, 2021",
+                time: "2:30 AM",
+                headArticle: "Many logistics companies are pleased with the budget that was in line with their expectations. However, the industry is waiting to see the results of these measures in their field of work.",
+                article: [
+                    "The union budget 2021-22 presented by finance minister Nirmala Sitharaman in the parliament increased the infrastructure spending significantly with focus on new economic corridors, improved road, railway infrastructure and push towards digitalisation.",
+                    "Many logistics companies are pleased with the budget that was in line with their expectations. However, the industry is waiting to see the results of these measures in their field of work. The proposed solutions include a succinct focus on improving road and railway infrastructure; investments in national highway corridors and economic corridors will aid in the speedy movement of goods and improve turnaround time which, in the long run, will bring down logistics costs significantly.",
+                    "Rajiv Agarwal, CEO and MD, Essar Ports, said, “The Infrastructure spending is going up by 34 percent through NIP and a welcome focus on boost in the road and railway infrastructure with new economic corridors planned will certainly help the growth of the logistics sector and will lead to enhancing trade in the country.”",
+                    "“The announcement of the launch of the National Asset Monetisation Pipeline which will include Transmission lines of Power Grid, oil and gas pipelines, airports, toll roads etc will be a game-changer. Government's increased focus on the infrastructure sector will certainly bring in positive measures for the holistic growth of the logistics and maritime sector. No new tax is a very big positive in these times,” he added.",
+                    "1. New economic corridors, better road infrastructure Shashi Kiran Shetty, chairman, Allcargo Logistics, ECU Worldwide and Gati, said, “Proposals to boost operational contingencies of road infrastructure and build more economic corridors have the potential to increase efficiencies across the logistics ecosystem and simulate regional economies to encourage local entrepreneurial initiatives.”",
+                    "K Satyanarayana, co-founder & director, Ecom Express, expressed, “We are encouraged to see the government’s commitment towards ensuring smooth logistics services by creating an outlay budget for national highway projects to the tune of ₹1.18 lakh crore of 8,500 km by March 2022 and an additional 11,000 km of the national highway corridor.”",
+                    "Aneel Gambhir, CFO, Blue Dart, noted, “The national highway work planned in Tamil Nadu, Kerala, West Bengal, Assam will further assist in the final goal of last-mile delivery and we are eager to see its results on our business.”",
+                    "Vishal Sharma CEO, cluster India and Indian sub-continent, DB Schenker, said, “The fund allocation for the infrastructure development of transport sector, including roads and railways, is definitely a positive push for the logistics industry and will have a long-term impact on last-mile deliveries.”",
+                    "Avinash Raghav, co-founder & MD, Shift Freight, said, “The new economic corridor to boost road infrastructure and the decision to award 13,000 km of roads under the Bharatmala project are welcome moves by the centre. This will not only create better connectivity but will add to job opportunities at the grassroot levels. Better connectivity will translate into better service to customers looking for quick and seamless service from logistics support providers.”",
+                    "Anjani Mandal, CEO, 4TiGo Logistics, noted, The budget announcements were in line with expectations. There is a continuance of large outlay on infrastructure creation, building & improving large tracts of highways to facilitate road transportation, all of which support the logistics industry directly & indirectly.",
+                    "“When seen in combination with the record budgetary allocation for rail infrastructure toward the freight corridors, the importance of rail & road multi-modal will become increasingly important,” he added.",
+                    "2. More money for Dedicated Freight Corridors Deepal Shah, chief financial officer, Allcargo Logistics, said, “Placing a priority on the commissioning of the eastern and western dedicated freight corridors (DFCs) has been one of the key highlights (for the logistics sector) of budget 2021 presented by the finance minister. Expediting the completion of the DFC’s will decongest highly saturated road networks in the country, facilitate speedier freight transportation and help in reducing logistics costs. The construction of industrial corridors and logistics parks in proximity holds the potential to create local economies and generate employment opportunities on a large scale and push Make in India.”",
+                    "Prem Kishan Dass Gupta, chairman & managing director, Gateway Distriparks, noted, “With road and rail connectivity being an indispensable factor of the economic development, and allocation of ₹1,10,055 crore for railways has been made where the eastern and western dedicated freight corridors will be commissioned by June 2022. This will help in bringing down the logistics cost as well as ensure smooth connectivity between different points of the country and ensure easy and faster freight movement.”",
+                    "Abhijit Malkani, co-CEO & country head, ESR India, said, “National infrastructure pipeline extended to cover over 7,000 projects is a welcome move towards driving economic growth. The commissioning of eastern and western dedicated freight corridors by 2022 and 3 new dedicated freight corridors will boost connectivity and will have an impact towards lowering the logistics cost as a percentage of GDP and provide momentum to the industrial and warehousing sector.”",
+                    "Mandal informed, “In the medium term, the share of railways in overall goods transportation will increase substantially and it will enhance the competitiveness of Indian supply chain across industries by lowering the cost of transportation and also improve connectivity between production and consumption markets - mainly domestic but also global.",
+                    "Dhruvil Sanghvi, chief executive officer, LogiNext, said, “The proposals to set up freight corridors across the country, as well as the proposal for a future-ready rail system, along with the development of national highways, will bridge the gaps that currently exist, bringing in better connectivity between production and consumption markets.”",
+                    "3. Digital technology got a push",
+                    "Satyanarayana said, “In particular, we welcome the continued focus of a digital India with the introduction of a ₹1,500 crore-scheme on digital payment which will help smoothen the customer interface for logistics companies like us.",
+                    "Sanghvi, expressed, “Furthermore, the push towards digitisation along with proposals of the one year tax holiday for startups and extending cap gains tax exemption for investment into start-ups shows the intent towards making it easier to do business in India and push forward on the technology wave.”",
+                    "Shah of Allcargo Logistics said, “Enabling time-bound tax assessments and the extension of faceless assessment to the Income Tax Administrative Tribunal will play a key role in ensuring transparency, accountability and boosting taxpayer confidence.",
+
+                ]
+            },
+            {
+                headline: "National infrastructure pipeline expanded to cover 7400 projects",
+                headimage: "<?php echo base_url(); ?>assets/images/news/budget2.jpg",
+                date: "February 1, 2021",
+                time: "2:30 AM",
+                article: [
+                    "The government has extended its Rs 111-lakh-crore ($1.5 trillion) National Infrastructure Pipeline to cover more projects by 2025 in an effort to shore up economic growth as the nation recovers from the pandemic-induced recession.",
+                    "“The National Infrastructure Pipeline, which was launched with 6,835 projects, has now expanded to 7,400 projects. Around 217 projects worth Rs 1.10 lakh crore under some key infrastructure ministries have been completed,” Finance Minister Nirmala Sitharaman said in her Budget 2021 speech on Feb. 1, 2021.",
+                    "The programme will require an increase in funding from the government as well as the financial sector, she said. For this, the government is proposing to take three concrete steps:",
+                    "Building new roads, rail links and other social and economic infrastructure is key for attracting investments and making India a $5-trillion economy. The NIP—jointly funded by the central government (39%), state government (40%) and the private sector (21%)—aims to invest in projects spanning across sectors such as energy, social and commercial infrastructure, communication, water and sanitation.",
+                    "Besides, the government will set up a new development finance institution called the National Bank for Financing Infrastructure and Development. This will be set up on a capital base of Rs 20,000 crore and will have a lending target of Rs 5 lakh crore in three years, Sitharaman said.",
+                    "“Infrastructure needs long-term debt financing. A professionally managed development financial institution is necessary to act as provider, enabler and catalyst for infrastructure financing,” the finance minister said.",
+                ]
+            },
+            {
                 headline: "Logistics sector: Covid-19 alters logistics of trade",
                 headimage: "<?php echo base_url(); ?>assets/images/news/logistic.jpg",
                 date: "October 5, 2020",

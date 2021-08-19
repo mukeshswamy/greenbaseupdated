@@ -5,7 +5,7 @@
 			<div class="carousel-inner">
 				<div class="carousel-item active banner-sliders">
 					<img class="d-block w-100 obj-pos-center" src=<?php echo
-																	$this->config->item('image_url') . '/banner_new1.jpg' ?> alt="First slide">
+																	$this->config->item('image_url') . '/banner_new1.png' ?> alt="First slide">
 					<div class="banner-caption-container m-home-caption">
 						<div class="banner-main-heading">
 							<div>our industrial space.</div>

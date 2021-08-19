@@ -238,14 +238,14 @@
 				<div class="value_popup_wrapper bg-col-1">
 					<div class="row">
 						<div class="col-md-6">
-							<h2 class="value_head2 zur-con text-uppercase"></h2>
+							<h2 class="value_head2 zur-con text-uppercase" style="color: #000"></h2>
 						</div>
 						<div class="col-md-6 text-end">
 							<img src=<?php echo base_url('assets/images/cancel.svg')?>
 							alt="cancel" class="cancel_value pointer">
 						</div>
 						<div class="col-md-8">
-							<ul class="value_list2 busiess_lis" id="value_list2">
+							<ul class="value_list2 busiess_lis" style="color: #000" id="value_list2">
 							</ul>
 						</div>
 						<div class="col-md-4">

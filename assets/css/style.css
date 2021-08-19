@@ -420,6 +420,9 @@ body .content {
 .main-nav-ul li a:hover {
 	text-decoration: none;
 }
+.b-none{
+	border: none !important;
+}
 
 /* BANNER */
 
@@ -593,7 +596,7 @@ body .content {
 }
 
 .our-capablities-wrapper {
-	background-image: url("../images/playlive.jpg");
+	background-image: url("../images/playlive.png");
 	background-size: cover;
 }
 .our-capablities-content-wrapper {

@@ -4,10 +4,35 @@
 // console.log(window.location.origin);
 
 // greenbase.com
-var url = "http://stage.greenbase.com/";
+// var url = "http://stage.greenbase.com/";
+var url = "http://localhost/greenbase/";
 // News Articles
 var newsdatas = {
 	news: [
+		{
+			headline: "Hiranandani group to develop industrial-data centre park in Bengal",
+			headimage: url + "assets/images/news/data.jpg",
+			date: "February 15, 2021",
+			time: "2:30 AM",
+			headArticle:
+				"The firm said it will invest around Rs 8,500 crore in the project",
+		},
+		{
+			headline: "5 reasons why Indian logistics industry is happy",
+			headimage: url + "assets/images/news/budget.jpeg",
+			date: "February 2, 2021",
+			time: "2:30 AM",
+			headArticle:
+				"Many logistics companies are pleased with the budget that was in line with their expectations. However, the industry is waiting to see the results of these measures in their field of work.",
+		},
+		{
+			headline: "National infrastructure pipeline expanded to cover 7400 projects",
+			headimage: url + "assets/images/news/budget2.jpg",
+			date: "February 1, 2021",
+			time: "2:30 AM",
+			headArticle:
+				"Many logistics companies are pleased with the budget that was in line with their expectations. However, the industry is waiting to see the results of these measures in their field of work.",
+		},
 		{
 			headline: "Logistics sector: Covid-19 alters logistics of trade",
 			headimage: url + "assets/images/news/logistic.jpg",
@@ -132,7 +157,7 @@ var newsdatas = {
 $(document).ready(function () {
 	var newsFeeds = newsdatas.news
 		.map((finalNews, index) => {
-			if (finalNews.date === "October 13, 2020") {
+			if (finalNews.date === "February 15, 2021") {
 				return `<div class="latest-news-div" id="latestNews" data-id=${index + 1}><div class="latest-left-content">
                             <img src=${finalNews.headimage} alt="latest" class="latest-img">
                         </div>
@@ -154,7 +179,8 @@ $(document).ready(function () {
 	document.getElementById("latest").innerHTML = newsFeeds;
 	var newsRelated = newsdatas.news
 		.map((finalNews, index) => {
-			if (finalNews.date !== "October 13, 2020") {
+			console.log("final",finalNews)
+			if (finalNews.date !== "February 15, 2021") {
                 return `<div class="col-md-6 cus-col6 left-related-div padding-right id" id="pressrelease" data-id=${index + 1}>
                             <div class="related-div-img">
                                 <img src=${finalNews.headimage} alt="related" class="related-img">

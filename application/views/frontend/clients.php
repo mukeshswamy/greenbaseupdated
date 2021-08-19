@@ -124,51 +124,13 @@
 			</div>
 			<div class="carousel-inner">
 				<div class="carousel-item active">
-					<div class="videoTestimonyWrapper">
-						<div class="video-overlay"></div>
-						<video muted loop class="myVideoTestimony" id="myVideoTestimony" data-id="0">
-							<source src=<?php echo base_url('assets/images/vestasfullvid.mp4'); ?>
-							type="video/mp4">
-						</video>
-						<img src=<?php echo base_url('assets/images/playbutton.svg'); ?>
-						alt="playbutton" class="playbutton playbuttonTestimony" id="testimonyPlay" data-id="0">
+					<div class="videoTestimonyWrapper" style="height:30rem;">
+						<iframe style="width: 100%; height: 100%" src="https://www.youtube.com/embed/m57KlZFDaVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					</div>
 					<div class="clientsLogo">
 						<img src=<?php echo base_url('assets/images/vestas.png'); ?>
 						alt="slideLogo">
 						<p>Vestas, Chennai</p>
-					</div>
-				</div>
-				<div class="carousel-item">
-					<div class="videoTestimonyWrapper">
-						<div class="video-overlay"></div>
-						<video muted loop class="myVideoTestimony" id="myVideoTestimony" data-id="1">
-							<source src=<?php echo base_url('assets/images/header.mp4'); ?>
-							type="video/mp4">
-						</video>
-						<img src=<?php echo base_url('assets/images/playbutton.svg'); ?>
-						alt="playbutton" class="playbutton playbuttonTestimony" id="testimonyPlay" data-id="1">
-					</div>
-					<div class="clientsLogo">
-						<img src=<?php echo base_url('assets/images/vestas.png'); ?>
-						alt="slideLogo">
-						<p>Vestas</p>
-					</div>
-				</div>
-				<div class="carousel-item">
-					<div class="videoTestimonyWrapper">
-						<div class="video-overlay"></div>
-						<video muted loop class="myVideoTestimony" id="myVideoTestimony" data-id="2">
-							<source src=<?php echo base_url('assets/images/header.mp4'); ?>
-							type="video/mp4">
-						</video>
-						<img src=<?php echo base_url('assets/images/playbutton.svg'); ?>
-						alt="playbutton" class="playbutton playbuttonTestimony" id="testimonyPlay" data-id="2">
-					</div>
-					<div class="clientsLogo">
-						<img src=<?php echo base_url('assets/images/vestas.png'); ?>
-						alt="slideLogo">
-						<p>Vestas</p>
 					</div>
 				</div>
 			</div>
@@ -191,8 +153,8 @@
 				data-slide-to="0"
 				class="active"
 			></li>
-			<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-			<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			<!-- <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="2"></li> -->
 		</ol>
 	</div>
 </div>

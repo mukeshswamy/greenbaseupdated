@@ -117,7 +117,7 @@
 	var galleryitems = {
 		list: [{
 			id: "0",
-			item: "infrastructure",
+			item: "Industrial park",
 			albums: [{
 				id: "0",
 				albumname: "Oragadam",
@@ -281,7 +281,7 @@
 			},
 			{
 				id: "1",
-				albumname: "Oragadum",
+				albumname: "Oragadam",
 				caption: "Ground Breaking Ceremony for Vistas at Oragadam",
 				tumbnail: "<?php echo base_url(); ?>assets/images/vestas/vestas6.jpg",
 				pics: [{
@@ -319,13 +319,13 @@
 		],
 	};
 	// console.log(galleryitems);
-	var albumfilter = "infrastructure";
+	var albumfilter = "Industrial park";
 
 	var galleryLI = galleryitems.list
 		.map((finaldata, index) => {
 			return `<div class="gallery-list-wrpper" data-index="${index}">
 						<li>
-							<a href="javascript:void(0)" class="main-list ${albumfilter === finaldata.item ? "gallery-list-active" : ""}" data-name= ${finaldata.item} data-index=${finaldata.id}>${finaldata.item}</a>
+							<a href="javascript:void(0)" class="main-list ${albumfilter === finaldata.item ? "gallery-list-active" : ""}" data-name= ${finaldata.item.replace(/[, ]+/g,'-')} data-index=${finaldata.id}>${finaldata.item}</a>
 						</li>
 						<div class="gallery__subListContainer ${albumfilter === finaldata.item ? "gallery__subListContainer__Show" : ""} ">
 							<ul>
@@ -342,7 +342,7 @@
 	// <div class="img-overlay"></div>
 	$(document).ready(function () {
 		var galleryTab = galleryitems.list.map(function (subarray) {
-			if (subarray.item === "infrastructure") {
+			if (subarray.item === "Industrial park") {
 				return subarray.albums.map(function (album) {
 					var content = `
 						<div class="col-md-6 gallery-img-tumbnail">
@@ -362,7 +362,7 @@
 		$(".main-list").on("click", function () {
 			albumfilter = $(this).data("name");
 			var galleryTab = galleryitems.list.map(function (subarray) {
-				if (subarray.item === albumfilter) {
+				if (subarray.item === albumfilter.replace(/[- ]/g,' ')) {
 					return subarray.albums.map(function (album) {
 						var content = `
 						<div class="col-md-6 gallery-img-tumbnail">

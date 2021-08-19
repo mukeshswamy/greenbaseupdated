@@ -16,7 +16,7 @@
         width: fit-content;
         font-family: "D-DIN Condensed";
         font-weight: normal;
-        font-size: 50px ;
+        font-size: 50px;
         padding: 5px 20px;
     }
 
@@ -118,7 +118,7 @@
         background-color: white;
         right: 30px;
         padding: 15px 15px;
-        width: 250px;
+        width: 280px;
     }
 
     circle.existing {
@@ -157,7 +157,8 @@
         color: #000000;
         font-size: 20px;
     }
-    .details .veiwPlan{
+
+    .details .veiwPlan {
         color: #000000;
         font-size: 20px;
     }
@@ -224,11 +225,13 @@
     .subtxt {
         font-size: 20px;
     }
+
     /* MODAL STYLING */
-    .modal__viewPlan_d_block{
+    .modal__viewPlan_d_block {
         display: block !important;
     }
-    .modal__viewPlan{
+
+    .modal__viewPlan {
         display: none;
         position: fixed;
         z-index: 10;
@@ -240,7 +243,8 @@
         overflow: auto;
         background-color: #00000085;
     }
-    .viewPlan_main_img{
+
+    .viewPlan_main_img {
         width: 50%;
         height: 80vh;
         overflow: auto;
@@ -255,12 +259,23 @@
         font-weight: normal;
         font-size: 1.2vw;
     }
-    .viewImg{
+
+    .viewImg {
         width: 100%;
         object-fit: contain;
     }
-    .cus_paddingleft{
-        padding-left: 1.5rem!important;
+
+    .cus_paddingleft {
+        padding-left: 1.5rem !important;
+    }
+
+    .locationform-Modal {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 40%;
+        background-color: white;
     }
 </style>
 
@@ -299,7 +314,9 @@
                                 <p class="name">Talegaon, Pune</p>
                             </div>
                             <div class="col-6 text-right">
-                                <p><a href="<?php echo base_url()?>assets/pdf/talegaon.pdf" download>E-brochure<img src="<?php echo base_url(); ?>assets/images/black_down_arrow.svg" class="downimg"></a></p>
+                                <p><a href="<?php echo base_url()?>assets/pdf/talegaon.pdf" download>E-brochure<img
+                                            src="<?php echo base_url(); ?>assets/images/black_down_arrow.svg"
+                                            class="downimg"></a></p>
                             </div>
                         </div>
                         <div class="row">
@@ -307,7 +324,9 @@
                                 <p class="name">Nashik</p>
                             </div>
                             <div class="col-6 text-right">
-                                <p><a href="<?php echo base_url()?>assets/pdf/nashik.pdf" download>E-brochure<img src="<?php echo base_url(); ?>assets/images/black_down_arrow.svg" class="downimg"></a></p>
+                                <p><a href="<?php echo base_url()?>assets/pdf/nashik.pdf" download>E-brochure<img
+                                            src="<?php echo base_url(); ?>assets/images/black_down_arrow.svg"
+                                            class="downimg"></a></p>
                             </div>
                         </div>
                         <div class="row">
@@ -315,7 +334,9 @@
                                 <p class="name">Bhiwandi</p>
                             </div>
                             <div class="col-6 text-right">
-                                <p><a href="##">E-brochure<img src="<?php echo base_url(); ?>assets/images/black_down_arrow.svg" class="downimg"></a></p>
+                                <p><a href="##">E-brochure<img
+                                            src="<?php echo base_url(); ?>assets/images/black_down_arrow.svg"
+                                            class="downimg"></a></p>
                             </div>
                         </div>
                         <div class="row">
@@ -323,7 +344,9 @@
                                 <p class="name">Panvel</p>
                             </div>
                             <div class="col-6 text-right">
-                                <p><a href="##">E-brochure<img src="<?php echo base_url(); ?>assets/images/black_down_arrow.svg" class="downimg"></a></p>
+                                <p><a href="##">E-brochure<img
+                                            src="<?php echo base_url(); ?>assets/images/black_down_arrow.svg"
+                                            class="downimg"></a></p>
                             </div>
                         </div>
                     </div>
@@ -333,7 +356,9 @@
                                 <p class="name">Gurugram</p>
                             </div>
                             <div class="col-6 text-right">
-                                <p><a href="##">E-brochure<img src="<?php echo base_url(); ?>assets/images/black_down_arrow.svg" class="downimg"></a></p>
+                                <p><a href="##">E-brochure<img
+                                            src="<?php echo base_url(); ?>assets/images/black_down_arrow.svg"
+                                            class="downimg"></a></p>
                             </div>
                         </div>
                     </div>
@@ -343,7 +368,9 @@
                                 <p class="name">Oragadam</p>
                             </div>
                             <div class="col-6 text-right">
-                                <p><a href="<?php echo base_url()?>assets/pdf/oragadam.pdf" download>E-brochure<img src="<?php echo base_url(); ?>assets/images/black_down_arrow.svg" class="downimg"></a></p>
+                                <p><a href="<?php echo base_url()?>assets/pdf/oragadam.pdf" download>E-brochure<img
+                                            src="<?php echo base_url(); ?>assets/images/black_down_arrow.svg"
+                                            class="downimg"></a></p>
                             </div>
                         </div>
                     </div>
@@ -353,7 +380,9 @@
                                 <p class="name">Coimbatore</p>
                             </div>
                             <div class="col-6 text-right">
-                                <p><a href="##">E-brochure<img src="<?php echo base_url(); ?>assets/images/black_down_arrow.svg" class="downimg"></a></p>
+                                <p><a href="##">E-brochure<img
+                                            src="<?php echo base_url(); ?>assets/images/black_down_arrow.svg"
+                                            class="downimg"></a></p>
                             </div>
                         </div>
                     </div>
@@ -363,7 +392,9 @@
                                 <p class="name">Bangalore</p>
                             </div>
                             <div class="col-6 text-right">
-                                <p><a href="##">E-brochure<img src="<?php echo base_url(); ?>assets/images/black_down_arrow.svg" class="downimg"></a></p>
+                                <p><a href="##">E-brochure<img
+                                            src="<?php echo base_url(); ?>assets/images/black_down_arrow.svg"
+                                            class="downimg"></a></p>
                             </div>
                         </div>
                     </div>
@@ -373,7 +404,9 @@
                                 <p class="name">Durgapur</p>
                             </div>
                             <div class="col-6 text-right">
-                                <p><a href="##">E-brochure<img src="<?php echo base_url(); ?>assets/images/black_down_arrow.svg" class="downimg"></a></p>
+                                <p><a href="##">E-brochure<img
+                                            src="<?php echo base_url(); ?>assets/images/black_down_arrow.svg"
+                                            class="downimg"></a></p>
                             </div>
                         </div>
                     </div>
@@ -383,7 +416,9 @@
                                 <p class="name">Kolkata</p>
                             </div>
                             <div class="col-6 text-right">
-                                <p><a href="##">E-brochure<img src="<?php echo base_url(); ?>assets/images/black_down_arrow.svg" class="downimg"></a></p>
+                                <p><a href="##">E-brochure<img
+                                            src="<?php echo base_url(); ?>assets/images/black_down_arrow.svg"
+                                            class="downimg"></a></p>
                             </div>
                         </div>
                     </div>
@@ -393,7 +428,9 @@
                                 <p class="name">Ahmedabad</p>
                             </div>
                             <div class="col-6 text-right">
-                                <p><a href="##">E-brochure<img src="<?php echo base_url(); ?>assets/images/black_down_arrow.svg" class="downimg"></a></p>
+                                <p><a href="##">E-brochure<img
+                                            src="<?php echo base_url(); ?>assets/images/black_down_arrow.svg"
+                                            class="downimg"></a></p>
                             </div>
                         </div>
                     </div>
@@ -403,7 +440,9 @@
                                 <p class="name">Guwahati</p>
                             </div>
                             <div class="col-6 text-right">
-                                <p><a href="##">E-brochure<img src="<?php echo base_url(); ?>assets/images/black_down_arrow.svg" class="downimg"></a></p>
+                                <p><a href="##">E-brochure<img
+                                            src="<?php echo base_url(); ?>assets/images/black_down_arrow.svg"
+                                            class="downimg"></a></p>
                             </div>
                         </div>
                     </div>
@@ -413,7 +452,9 @@
                                 <p class="name">Rajpura</p>
                             </div>
                             <div class="col-6 text-right">
-                                <p><a href="##">E-brochure<img src="<?php echo base_url(); ?>assets/images/black_down_arrow.svg" class="downimg"></a></p>
+                                <p><a href="##">E-brochure<img
+                                            src="<?php echo base_url(); ?>assets/images/black_down_arrow.svg"
+                                            class="downimg"></a></p>
                             </div>
                         </div>
                     </div>
@@ -423,7 +464,9 @@
                                 <p class="name">Lucknow</p>
                             </div>
                             <div class="col-6 text-right">
-                                <p><a href="##">E-brochure<img src="<?php echo base_url(); ?>assets/images/black_down_arrow.svg" class="downimg"></a></p>
+                                <p><a href="##">E-brochure<img
+                                            src="<?php echo base_url(); ?>assets/images/black_down_arrow.svg"
+                                            class="downimg"></a></p>
                             </div>
                         </div>
                     </div>
@@ -433,7 +476,9 @@
                                 <p class="name">Hyderabad</p>
                             </div>
                             <div class="col-6 text-right">
-                                <p><a href="##">E-brochure<img src="<?php echo base_url(); ?>assets/images/black_down_arrow.svg" class="downimg"></a></p>
+                                <p><a href="##">E-brochure<img
+                                            src="<?php echo base_url(); ?>assets/images/black_down_arrow.svg"
+                                            class="downimg"></a></p>
                             </div>
                         </div>
                     </div>
@@ -451,11 +496,10 @@
             <div class="details d-none">
                 <span class="closeMapDetailModal" id="closeMapDetailModal">&times;</span>
                 <p class="name">Gurugram, Haryana</p>
-                <p class="area">AREA - <span class="areaval">9,20,300 sq. ft.</span></p>
+                <p class="area"><span class="areaval">9,20,300 sq. ft.</span></p>
                 <div class="bordmin"></div>
-                <p><a target="_blank" class="veiwPlan" href=<?php echo base_url('/viewplan')?>>View Plan</a></p>
-                <p><a class="detpdf" href="#" download>Download E Brochure <img class="downimg" src="<?php echo base_url(); ?>assets/images/black_down_arrow.svg"></a></p>
-                <p><a class="getdir" href="#" target="_blank">Get Direction<i class="fa fa-map-marker" style="font-size:18px;margin-left:15px;"></i></a></p>
+                <div id="location_action">
+                </div>
             </div>
         </div>
     </div>
@@ -465,7 +509,7 @@
 <!-- MODAL FOR GREENBASE -->
 <div class="modal__viewPlan">
     <div class="container-fluid viewPlan__content">
-    <span class="closeGalleryModal" id="closeviewPlanModal">&times;</span>
+        <span class="closeGalleryModal" id="closeviewPlanModal">&times;</span>
         <div class="row">
             <div class="viewPlan_main_img">
                 <img id="setViewPlanImg" alt="plan" class="viewImg">
@@ -474,15 +518,47 @@
     </div>
 </div>
 
+<div class="disclaimer-modal modal" id="helpModal" style="z-index: 100000;">
+    <span class="closeGalleryModal" data-dismiss="modal">&times;</span>
+    <div class="container-fluid locationform-Modal">
+        <div class="row">
+            <div class="col-md-12 py-3">
+                <h3 id="formHeading" style="text-transform: uppercase;">Enquiry about Bangalore Location</h3>
+                <form>
+                    <div class="w-100 mb-2">
+                        <input type="text" name="name" placeholder="Name" class="w-100">
+                    </div>
+                    <div class="w-100 mb-2">
+                        <input type="email" name="email" placeholder="E-mail" class="w-100">
+                    </div>
+                    <div class="w-100 mb-2">
+                        <input type="tel" name="phone" placeholder="phone" class="w-100">
+                    </div>
+                    <div class="w-100 mb-2">
+                        <textarea name="query" placeholder="Query" class="w-100"></textarea>
+                    </div>
+                    <div class="button-div-wrapper">
+                        <button class="button-submit floatnormal" type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <!-- End of Location -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js" charset="utf-8"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"
+    charset="utf-8"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js" charset="utf-8"></script>
 <script src="https://cdn.jsdelivr.net/npm/jquery-mapael@2.2.0/js/jquery.mapael.js"></script>
 <script src="<?php echo base_url(); ?>assets/js/newind.js"></script>
 <script type="text/javascript">
     // object for location details
+    function setLocation(e) {
+        $("#formHeading").text(`Enquiry about ${e.getAttribute('data-location')} Location`)
+    }
     var loc = {
         gurugram: {
             name: 'GURUGRAM',
@@ -503,7 +579,7 @@
         nashik: {
             name: 'NASHIK',
             state: 'MAHARASHTRA',
-            area: '73 acres',
+            area: 'AREA - 73 acres',
             pdf: '<?php echo base_url(); ?>assets/pdf/nashik.pdf',
             img: "nashik.jpg",
             directions: 'https://www.google.co.in/maps/place/19%C2%B053"42.2%22N+73%C2%B055"22.8%22E/@19.8950556,73.9208113,701m/data=!3m1!1e3!4m5!3m4!1s0x0:0x0!8m2!3d19.8950556!4d73.923'
@@ -511,7 +587,7 @@
         talegaon: {
             name: 'TALEGAON',
             state: 'MAHARASHTRA',
-            area: '258 acres',
+            area: 'AREA - 258 acres',
             pdf: '<?php echo base_url(); ?>assets/pdf/talegaon.pdf',
             img: "talegaon.jpg",
             directions: 'https://www.google.com/maps/place/Greenbase+-+Pune/@18.813651,73.6986104,17z/data=!3m1!4b1!4m5!3m4!1s0x3bc2b3f3c3f9c46b:0xb60a391bb16d688!8m2!3d18.813651!4d73.7007991'
@@ -535,7 +611,7 @@
         oragadam: {
             name: 'ORAGADAM',
             state: 'TAMIL NADU',
-            area: '114 acres',
+            area: 'AREA - 114 acres',
             pdf: '<?php echo base_url(); ?>assets/pdf/oragadam.pdf',
             img: "oragadamBanner.jpg",
             directions: "https://www.google.co.in/maps/place/12%C2%B048'49.8%22N+79%C2%B057'16.8%22E/@12.8138333,79.9528563,727m/data=!3m2!1e3!4b1!4m6!3m5!1s0x0:0x0!7e2!8m2!3d12.8138396!4d79.9546728"
@@ -543,10 +619,10 @@
         durgapur: {
             name: 'DURGAPUR',
             state: 'WEST BENGAL',
-            area: '25 acres',
+            area: 'Coming Soon',
             pdf: '<?php echo base_url(); ?>assets/pdf/bhiwandi.pdf',
             img: "planComingSoon.jpg",
-            directions: "https://www.google.co.in/maps/place/23%C2%B036'17.2%22N+87%C2%B014'07.8%22E/@23.6047778,87.2336908,683m/data=!3m2!1e3!4b1!4m6!3m5!1s0x0:0x0!7e2!8m2!3d23.6047844!4d87.2355083"
+            directions: 'Coming Soon'
         },
         rajpura: {
             name: 'RAJPURA',
@@ -588,9 +664,9 @@
             img: "planComingSoon.jpg",
             directions: 'Coming Soon'
         },
-        Kolkata: {
-            name: 'Kolkata',
-            state: 'WEST BENGAL',
+        nagpur: {
+            name: 'Nagpur',
+            state: 'MAHARASHTRA',
             area: 'Coming Soon',
             pdf: '<?php echo base_url(); ?>assets/pdf/bhiwandi.pdf',
             img: "planComingSoon.jpg",
@@ -735,7 +811,7 @@
                 }
             },
             'Ahmedabad': {
-                cssClass: "plt durgapur",
+                cssClass: "plt ahmedabad",
                 type: "circle",
                 size: 30,
                 latitude: 23,
@@ -746,7 +822,7 @@
                 }
             },
             'Kolkata': {
-                cssClass: "plt durgapur",
+                cssClass: "plt kolkata",
                 type: "circle",
                 size: 30,
                 latitude: 22.6,
@@ -827,76 +903,61 @@
     });
     $(document).ready(() => {
         $("circle.existing").attr('fill', '#00bdff');
-        // if($('text').attr('data-id')=='nashik'){
-        //     $(this).attr('x','300');
-        //     cos
-        // }
     });
-    $(".plt").click(function() {
+    $(".plt").click(function () {
         var base_url = window.location.origin;
-        // console.log('hi');
         var x = $(this).attr('data-id');
         $('.details').removeClass('d-none');
-        // console.log(x)
-        // console.log(loc)
-        // console.log(loc[x]);
         $('.details > .name').text(loc[x].name + ' , ' + loc[x].state);
         $('.areaval').text(loc[x].area);
         $(".detpdf").attr('href', loc[x].pdf);
-        $(".veiwPlan").attr('href', base_url+"/greenbase/viewplan/"+loc[x].img);
+        $(".veiwPlan").attr('href', base_url + "/greenbase/viewplan/" + loc[x].img);
         $(".veiwPlan").attr('data-id', x);
         $(".getdir").attr('href', loc[x].directions);
+        var elements = `<p><a target="_blank" data-id=${x} class="veiwPlan" href=${base_url + "/greenbase/viewplan/" + loc[x].img}>View Plan</a></p>
+        <p><a class="detpdf" href=${loc[x].pdf} download>Download Location Highlights <img class="downimg" src="<?php echo base_url(); ?>assets/images/black_down_arrow.svg"></a></p>
+                <p><a class="getdir" href=${loc[x].directions} target="_blank">Get Direction<i class="fa fa-map-marker" style="font-size:18px;margin-left:15px;"></i></a></p>
+        `
+        var button = `<button onclick="setLocation(this)" data-location=${loc[x].name} data-toggle="modal" data-target="#helpModal"class="download ml-0 px-4 b-none mt-3 pointer py-1">Help</button>`
+        if (loc[x].directions === "Coming Soon") {
+            document.getElementById('location_action').innerHTML = button;
+        } else {
+            document.getElementById('location_action').innerHTML = elements;
+        }
         $("circle.existing").attr('fill', '#00bdff');
     });
-    // $(".veiwPlan").click(function() {
-    //     var defualtImg = "<?php echo base_url('assets/images/planComingSoon.jpg')?>"
-    //     var x = $(this).attr('data-id');
-    //     $('.modal__viewPlan').addClass('modal__viewPlan_d_block');
-    //     if(loc[x].img){
-    //     $('#setViewPlanImg').attr("src", loc[x].img);
-    //     }else{
-    //     $("#setViewPlanImg").attr("src", defualtImg);
-    //     }
-    // });
-    $("#closeviewPlanModal").click(function() {
+    $("#closeviewPlanModal").click(function () {
         $('.modal__viewPlan').removeClass('modal__viewPlan_d_block');
     });
-    
-    $("#closeMapDetailModal").click(function() {
+
+    $("#closeMapDetailModal").click(function () {
         $('.details').addClass('d-none');
     });
 
-    $("path").click(function() {
-        // console.log('hi');
+    $("path").click(function () {
         $('.details').addClass('d-none');
         $("circle.existing").attr('fill', '#00bdff');
     });
     // these are here just to keep the existing ones blue
-    $("path").mouseenter(function() {
+    $("path").mouseenter(function () {
         $("circle.existing").attr('fill', '#00bdff');
     });
-    $("path").mouseleave(function() {
+    $("path").mouseleave(function () {
         $("circle.existing").attr('fill', '#00bdff');
     });
-    $("path").mousemove(function() {
+    $("path").mousemove(function () {
         $("circle.existing").attr('fill', '#00bdff');
     });
-    $('circle.existing').mouseover(function() {
+    $('circle.existing').mouseover(function () {
         $("circle.existing").attr('fill', '#00bdff');
     });
-    $('circle.existing').mouseleave(function() {
+    $('circle.existing').mouseleave(function () {
         $("circle.existing").attr('fill', '#00bdff');
     });
 
     // on select change
-    $('#state').on('change', function() {
+    $('#state').on('change', function () {
         var state = this.value;
-        // console.log(state);
-        // $(".map").addClass('zoom-in');
-        // setTimeout(() => {
-        //     $(".map").addClass('invisible');
-        //     $('.' + state).removeClass('invisible');
-        // }, 1000);
         if (state == "Maharashtra") {
             $map.trigger('zoom', {
                 level: 5,
@@ -942,7 +1003,7 @@
             $('.distcity').addClass('d-none');
             $('.westbengal').removeClass('d-none');
             $('.districts').addClass('active');
-        } else if(state == "Gujarat") {
+        } else if (state == "Gujarat") {
             $map.trigger('zoom', {
                 level: 5,
                 latitude: 25,
@@ -951,7 +1012,7 @@
             $('.distcity').addClass('d-none');
             $('.gujarat').removeClass('d-none');
             $('.districts').addClass('active');
-        } else if(state == "Assam") {
+        } else if (state == "Assam") {
             $map.trigger('zoom', {
                 level: 5,
                 latitude: 25,
@@ -960,7 +1021,7 @@
             $('.distcity').addClass('d-none');
             $('.assam').removeClass('d-none');
             $('.districts').addClass('active');
-        } else if(state == "Uttar Pradesh") {
+        } else if (state == "Uttar Pradesh") {
             $map.trigger('zoom', {
                 level: 5,
                 latitude: 28,
@@ -969,7 +1030,7 @@
             $('.distcity').addClass('d-none');
             $('.uttarpradesh').removeClass('d-none');
             $('.districts').addClass('active');
-        } else if(state == "Punjab") {
+        } else if (state == "Punjab") {
             $map.trigger('zoom', {
                 level: 5,
                 latitude: 35,
@@ -978,7 +1039,7 @@
             $('.distcity').addClass('d-none');
             $('.Punjab').removeClass('d-none');
             $('.districts').addClass('active');
-        } else if(state == "Andhra Pradesh") {
+        } else if (state == "Andhra Pradesh") {
             $map.trigger('zoom', {
                 level: 5,
                 latitude: 20,
