@@ -8,8 +8,8 @@
                 <div>your business glory.</div>
             </div>
             <div class="banner-caption">
-                our rich real estate legacy allows us the leverage to build
-                efficient industrial and warehousing space across the country
+                Our rich real estate legacy allows us the leverage to build
+                efficient industrial and warehousing space across the country.
             </div>
         </div>
     </div>
@@ -46,7 +46,7 @@
                 <div class="stats_content d-flex mb-5 align-center">
                     <img src=<?php echo base_url('assets/images/about/estate.svg'); ?> alt="" class="mr-3">
                     <div class="stats">
-                        <span class="count lato-bold">40</span><span class="volume lato-light">mn sq.ft.</span>
+                        <span class="count lato-bold">41.1</span><span class="volume lato-light">mn sq.ft.</span>
                         <p class="m-0 lato-light">Total real estate space developed</p>
                     </div>
                 </div>
@@ -129,7 +129,7 @@
                                 <span class="count color-3 lato-bold">10</span><span class="volume color-3 lato-light">
                                     mn sq. ft.</span>
                                 <p class="m-0 color-3 lato-light">Industrial and warehousing space under development
-                                    (Phase 1 of Pan-India setup)</p>
+                                    (Phase 1 of pan-india setup)</p>
                             </div>
                         </div>
                     </div>
@@ -274,7 +274,7 @@
                         <ul class="busiess_lis lato-light">
                             <li>Plots</li>
                             <li>Built-to-suit industrial facilities</li>
-                            <li>coldstorage</li>
+                            <li>cold storage</li>
                             <li>warehouse</li>
                         </ul>
 
@@ -332,7 +332,7 @@
                 <div class="ceo_wrappers">
                     <img src=<?php echo base_url('assets/images/about/hiranandani.jpg') ?> alt="ceo" class="ceo_img">
                     <div class="dectiption pad10 relative">
-                        <h4 class="zur-con color-10">Dr Niranjan Hiranandani,</h4>
+                        <h4 class="zur-con color-10">Dr Niranjan Hiranandani</h4>
                         <span class="zur-con color-11">Founder Chairman</span>
                         <p class="air-regular ceo_des mt-4 text-justify text-para-animation mb-2">
                             He is a Doctorate in Management, a graduate in Commerce from Mumbai University and F.C.A.
@@ -355,7 +355,7 @@
                 <div class="ceo_wrappers">
                     <img src=<?php echo base_url('assets/images/about/darshan.jpg') ?> alt="ceo" class="ceo_img">
                     <div class="dectiption pad10 relative">
-                        <h4 class="zur-con color-10">Mr. Darshan Hiranandani,</h4>
+                        <h4 class="zur-con color-10">Mr. Darshan Hiranandani</h4>
                         <span class="zur-con color-11">Group Chief Executive Officer</span>
                         <p class="air-regular ceo_des mt-4 text-justify text-para-animation mb-2">
                             He is an MBA (specialising in Entrepreneurship and Finance) and B.S. (specialising in
@@ -378,7 +378,7 @@
                 <div class="ceo_wrappers">
                     <img src=<?php echo base_url('assets/images/about/shridar.jpg') ?> alt="ceo" class="ceo_img">
                     <div class="dectiption pad10 relative">
-                        <h4 class="zur-con color-10">Mr. N Shridhar,</h4>
+                        <h4 class="zur-con color-10">Mr. N Shridhar</h4>
                         <span class="zur-con color-11">Chief Executive Officer, Greenbase</span>
                         <p class="air-regular ceo_des mt-4 text-justify text-para-animation mb-2">
                             A post-graduate in Management from Mumbai University, and an Associate Member of the
@@ -404,7 +404,7 @@
                 <div class="ceo_wrappers">
                     <img src=<?php echo base_url('assets/images/about/HemantPrabhu.jpg') ?> alt="ceo" class="ceo_img">
                     <div class="dectiption pad10 relative">
-                        <h4 class="zur-con color-10">Mr. Hemant Prabhu,</h4>
+                        <h4 class="zur-con color-10">Mr. Hemant Prabhu</h4>
                         <span class="zur-con color-11">Chief Operating Officer, Greenbase</span>
                         <p class="air-regular ceo_des mt-4 text-justify text-para-animation mb-2">
                             A techno-commercial professional with bachelor’s degree in Civil Engineering from Glasgow
@@ -429,7 +429,7 @@
                 <div class="ceo_wrappers">
                     <img src=<?php echo base_url('assets/images/about/lokeshagrawal.jpg') ?> alt="ceo" class="ceo_img">
                     <div class="dectiption pad10 relative">
-                        <h4 class="zur-con color-10">Mr. Lokesh Agrawal,</h4>
+                        <h4 class="zur-con color-10">Mr. Lokesh Agrawal</h4>
                         <span class="zur-con color-11">Chief Financial Officer (CFO)</span>
                         <p class="air-regular ceo_des mt-4 text-justify text-para-animation mb-2">
                             A qualified Chartered Accountant (ICAI) and Commerce Graduate; Mr. Lokesh Agrawal is a
@@ -464,7 +464,7 @@
                     <img src=<?php echo base_url('assets/images/about/vinodradhakrishnan.jpg') ?> alt="ceo"
                     class="ceo_img">
                     <div class="dectiption pad10 relative">
-                        <h4 class="zur-con color-10">Mr. Vinod Radhakrishnan,</h4>
+                        <h4 class="zur-con color-10">Mr. Vinod Radhakrishnan</h4>
                         <span class="zur-con color-11">Assistant Vice President (AVP)</span>
                         <p class="air-regular ceo_des mt-4 text-justify text-para-animation mb-2">
                             Vinod Radhakrishnan is the Assistant Vice President (AVP) Leasing for West region of

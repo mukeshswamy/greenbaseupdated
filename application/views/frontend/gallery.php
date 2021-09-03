@@ -28,10 +28,10 @@
 					</div>
 				</div>
 			</div>
-			<div class="content-container-gallery">
+			<div class="content-container-gallery w-100">
 				<!-- INFRASTRUCTURE -->
 				<div class="col-md-9 cus-col-md-8 tab-container-gallery" data-index="0">
-					<div class="row" id="gallery">
+					<div class="row justify-content-end" id="gallery">
 					</div>
 				</div>
 				<!-- Cooper -->
@@ -66,32 +66,27 @@
 				<div class="row imageGridEvent" style="display: none" data-index="1">
 					<div class="col-md-6 gallery-img-tumbnail">
 						<div class="img-card-div">
-							<img src=<?php echo base_url('assets/images/vestas/vestas1.jpg') ?> alt="g1"
-							class="img-grid">
+							<img src=<?php echo base_url('assets/images/vestas/vestas1.jpg') ?> alt="g1" class="img-grid">
 						</div>
 					</div>
 					<div class="col-md-6 gallery-img-tumbnail">
 						<div class="img-card-div">
-							<img src=<?php echo base_url('assets/images/vestas/vestas2.jpg') ?> alt="g1"
-							class="img-grid">
+							<img src=<?php echo base_url('assets/images/vestas/vestas2.jpg') ?> alt="g1" class="img-grid">
 						</div>
 					</div>
 					<div class="col-md-12 gallery-img-tumbnail">
 						<div class="img-card-div">
-							<img src=<?php echo base_url('assets/images/vestas/vestas4.jpg') ?> alt="g1"
-							class="img-grid">
+							<img src=<?php echo base_url('assets/images/vestas/vestas4.jpg') ?> alt="g1" class="img-grid">
 						</div>
 					</div>
 					<div class="col-md-6 gallery-img-tumbnail">
 						<div class="img-card-div">
-							<img src=<?php echo base_url('assets/images/vestas/vestas5.jpg') ?> alt="g1"
-							class="img-grid">
+							<img src=<?php echo base_url('assets/images/vestas/vestas5.jpg') ?> alt="g1" class="img-grid">
 						</div>
 					</div>
 					<div class="col-md-6 gallery-img-tumbnail">
 						<div class="img-card-div">
-							<img src=<?php echo base_url('assets/images/vestas/vestas6.jpg') ?> alt="g1"
-							class="img-grid">
+							<img src=<?php echo base_url('assets/images/vestas/vestas6.jpg') ?> alt="g1" class="img-grid">
 						</div>
 					</div>
 				</div>
@@ -116,206 +111,221 @@
 <script type="text/javascript">
 	var galleryitems = {
 		list: [{
-			id: "0",
-			item: "Industrial park",
-			albums: [{
 				id: "0",
-				albumname: "Oragadam",
-				caption: "Oragadam Infrastructure",
-				tumbnail: '<?php echo base_url(); ?>assets/images/chennai/chennai1.jpg',
-				pics: [{
+				item: "Industrial park",
+				albums: [{
+						id: "0",
+						albumname: "Oragadam",
+						caption: "Oragadam Infrastructure",
+						video: false,
+						tumbnail: '<?php echo base_url(); ?>assets/images/chennai/chennai1.jpg',
+						pics: [{
 
-					imageURL: "<?php echo base_url(); ?>assets/images/chennai/chennai1.jpg",
-				},
-				{
+								imageURL: "<?php echo base_url(); ?>assets/images/chennai/chennai1.jpg",
+							},
+							{
 
-					imageURL: "<?php echo base_url(); ?>assets/images/chennai/chennai2.jpg",
-				},
-				{
+								imageURL: "<?php echo base_url(); ?>assets/images/chennai/chennai2.jpg",
+							},
+							{
 
-					imageURL: "<?php echo base_url(); ?>assets/images/chennai/chennai3.jpg",
-				},
-				{
+								imageURL: "<?php echo base_url(); ?>assets/images/chennai/chennai3.jpg",
+							},
+							{
 
-					imageURL: "<?php echo base_url(); ?>assets/images/chennai/chennai4.jpg",
-				},
-				{
+								imageURL: "<?php echo base_url(); ?>assets/images/chennai/chennai4.jpg",
+							},
+							{
 
-					imageURL: "<?php echo base_url(); ?>assets/images/chennai/oragadam_infra.png",
-				},
-				{
+								imageURL: "<?php echo base_url(); ?>assets/images/chennai/oragadam_infra.png",
+							},
+							{
 
-					imageURL: "<?php echo base_url(); ?>assets/images/chennai/orginfra2.png",
-				},
-				]
+								imageURL: "<?php echo base_url(); ?>assets/images/chennai/orginfra2.png",
+							},
+						]
+					},
+					// {
+					// 	id: "1",
+					// 	albumname: "Talegaon",
+					// 	caption: "Talegaon Infrastructure",
+					// 	tumbnail: "<?php echo base_url(); ?>assets/images/pune/pune19.jpg",
+					// 	pics: [{
+					// 		imageURL: "<?php echo base_url(); ?>assets/images/pune/pune1.jpg",
+					// 	},
+					// 	{
+
+					// 		imageURL: "<?php echo base_url(); ?>assets/images/pune/pune2.jpg",
+					// 	},
+					// 	{
+
+					// 		imageURL: "<?php echo base_url(); ?>assets/images/pune/pune3.jpg",
+					// 	},
+					// 	{
+
+					// 		imageURL: "<?php echo base_url(); ?>assets/images/pune/pune4.jpg",
+					// 	},
+					// 	{
+
+					// 		imageURL: "<?php echo base_url(); ?>assets/images/pune/pune5.jpg",
+					// 	},
+					// 	{
+
+					// 		imageURL: "<?php echo base_url(); ?>assets/images/pune/pune6.jpg",
+					// 	},
+					// 	{
+
+					// 		imageURL: "<?php echo base_url(); ?>assets/images/pune/pune7.jpg",
+					// 	},
+					// 	{
+
+					// 		imageURL: "<?php echo base_url(); ?>assets/images/pune/pune8.jpg",
+					// 	},
+					// 	{
+
+					// 		imageURL: "<?php echo base_url(); ?>assets/images/pune/pune9.jpg",
+					// 	},
+					// 	{
+
+					// 		imageURL: "<?php echo base_url(); ?>assets/images/pune/pune10.jpg",
+					// 	},
+					// 	{
+
+					// 		imageURL: "<?php echo base_url(); ?>assets/images/pune/pune11.jpg",
+					// 	},
+					// 	{
+
+					// 		imageURL: "<?php echo base_url(); ?>assets/images/pune/pune12.jpg",
+					// 	},
+					// 	{
+
+					// 		imageURL: "<?php echo base_url(); ?>assets/images/pune/pune13.jpg",
+					// 	},
+					// 	{
+
+					// 		imageURL: "<?php echo base_url(); ?>assets/images/pune/pune14.jpg",
+					// 	},
+					// 	{
+
+					// 		imageURL: "<?php echo base_url(); ?>assets/images/pune/pune15.jpg",
+					// 	},
+					// 	{
+
+					// 		imageURL: "<?php echo base_url(); ?>assets/images/pune/pune16.jpg",
+					// 	},
+					// 	{
+
+					// 		imageURL: "<?php echo base_url(); ?>assets/images/pune/pune17.jpg",
+					// 	},
+					// 	{
+
+					// 		imageURL: "<?php echo base_url(); ?>assets/images/pune/pune18.jpg",
+					// 	},
+					// 	{
+
+					// 		imageURL: "<?php echo base_url(); ?>assets/images/pune/pune19.jpg",
+					// 	},
+					// 	{
+
+					// 		imageURL: "<?php echo base_url(); ?>assets/images/pune/pune20.png",
+					// 	},
+					// 	{
+
+					// 		imageURL: "<?php echo base_url(); ?>assets/images/pune/pune21.png",
+					// 	},
+					// 	{
+
+					// 		imageURL: "<?php echo base_url(); ?>assets/images/pune/pune22.jpg",
+					// 	},
+					// 	{
+
+					// 		imageURL: "<?php echo base_url(); ?>assets/images/pune/pune23.jpg",
+					// 	},
+					// 	]
+					// },
+				],
 			},
 			{
 				id: "1",
-				albumname: "Talegaon",
-				caption: "Talegaon Infrastructure",
-				tumbnail: "<?php echo base_url(); ?>assets/images/pune/pune19.jpg",
-				pics: [{
-					imageURL: "<?php echo base_url(); ?>assets/images/pune/pune1.jpg",
-				},
-				{
+				item: "events",
+				albums: [
+					// 	{
+					// 	id: "0",
+					// 	albumname: "Talegaon",
+					// 	caption: "Ground Breaking Ceremony for CooperStandard at Talegaon",
+					// 	tumbnail: "<?php echo base_url(); ?>assets/images/g1.jpg",
+					// 	pics: [{
 
-					imageURL: "<?php echo base_url(); ?>assets/images/pune/pune2.jpg",
-				},
-				{
+					// 		imageURL: "<?php echo base_url(); ?>assets/images/g1.jpg",
+					// 	},
+					// 	{
 
-					imageURL: "<?php echo base_url(); ?>assets/images/pune/pune3.jpg",
-				},
-				{
+					// 		imageURL: "<?php echo base_url(); ?>assets/images/g2.jpg",
+					// 	},
+					// 	{
 
-					imageURL: "<?php echo base_url(); ?>assets/images/pune/pune4.jpg",
-				},
-				{
+					// 		imageURL: "<?php echo base_url(); ?>assets/images/g3.jpg",
+					// 	},
+					// 	{
 
-					imageURL: "<?php echo base_url(); ?>assets/images/pune/pune5.jpg",
-				},
-				{
+					// 		imageURL: "<?php echo base_url(); ?>assets/images/g4.jpg",
+					// 	},
+					// 	{
 
-					imageURL: "<?php echo base_url(); ?>assets/images/pune/pune6.jpg",
-				},
-				{
+					// 		imageURL: "<?php echo base_url(); ?>assets/images/g5.jpg",
+					// 	},
+					// 	]
+					// },
+					{
+						id: "1",
+						albumname: "Oragadam",
+						caption: "Ground Breaking Ceremony for Vistas at Oragadam",
+						video: false,
+						tumbnail: "<?php echo base_url(); ?>assets/images/vestas/vestas6.jpg",
+						pics: [{
 
-					imageURL: "<?php echo base_url(); ?>assets/images/pune/pune7.jpg",
-				},
-				{
+								imageURL: "<?php echo base_url(); ?>assets/images/vestas/vestas1.jpg",
+							},
+							{
 
-					imageURL: "<?php echo base_url(); ?>assets/images/pune/pune8.jpg",
-				},
-				{
+								imageURL: "<?php echo base_url(); ?>assets/images/vestas/vestas2.jpg",
+							},
+							{
 
-					imageURL: "<?php echo base_url(); ?>assets/images/pune/pune9.jpg",
-				},
-				{
+								imageURL: "<?php echo base_url(); ?>assets/images/vestas/vestas4.jpg",
+							},
+							{
 
-					imageURL: "<?php echo base_url(); ?>assets/images/pune/pune10.jpg",
-				},
-				{
+								imageURL: "<?php echo base_url(); ?>assets/images/vestas/vestas5.jpg",
+							},
+							{
 
-					imageURL: "<?php echo base_url(); ?>assets/images/pune/pune11.jpg",
-				},
-				{
+								imageURL: "<?php echo base_url(); ?>assets/images/vestas/vestas6.jpg",
+							},
+							{
 
-					imageURL: "<?php echo base_url(); ?>assets/images/pune/pune12.jpg",
-				},
-				{
+								imageURL: "<?php echo base_url(); ?>assets/images/vestas/v7.png",
+							},
+							{
 
-					imageURL: "<?php echo base_url(); ?>assets/images/pune/pune13.jpg",
-				},
-				{
-
-					imageURL: "<?php echo base_url(); ?>assets/images/pune/pune14.jpg",
-				},
-				{
-
-					imageURL: "<?php echo base_url(); ?>assets/images/pune/pune15.jpg",
-				},
-				{
-
-					imageURL: "<?php echo base_url(); ?>assets/images/pune/pune16.jpg",
-				},
-				{
-
-					imageURL: "<?php echo base_url(); ?>assets/images/pune/pune17.jpg",
-				},
-				{
-
-					imageURL: "<?php echo base_url(); ?>assets/images/pune/pune18.jpg",
-				},
-				{
-
-					imageURL: "<?php echo base_url(); ?>assets/images/pune/pune19.jpg",
-				},
-				{
-
-					imageURL: "<?php echo base_url(); ?>assets/images/pune/pune20.png",
-				},
-				{
-
-					imageURL: "<?php echo base_url(); ?>assets/images/pune/pune21.png",
-				},
-				{
-
-					imageURL: "<?php echo base_url(); ?>assets/images/pune/pune22.jpg",
-				},
-				{
-
-					imageURL: "<?php echo base_url(); ?>assets/images/pune/pune23.jpg",
-				},
-				]
-			},
-			],
-		},
-		{
-			id: "1",
-			item: "events",
-			albums: [{
-				id: "0",
-				albumname: "Talegaon",
-				caption: "Ground Breaking Ceremony for CooperStandard at Talegaon",
-				tumbnail: "<?php echo base_url(); ?>assets/images/g1.jpg",
-				pics: [{
-
-					imageURL: "<?php echo base_url(); ?>assets/images/g1.jpg",
-				},
-				{
-
-					imageURL: "<?php echo base_url(); ?>assets/images/g2.jpg",
-				},
-				{
-
-					imageURL: "<?php echo base_url(); ?>assets/images/g3.jpg",
-				},
-				{
-
-					imageURL: "<?php echo base_url(); ?>assets/images/g4.jpg",
-				},
-				{
-
-					imageURL: "<?php echo base_url(); ?>assets/images/g5.jpg",
-				},
-				]
+								imageURL: "<?php echo base_url(); ?>assets/images/vestas/v8.png",
+							},
+						]
+					},
+				],
 			},
 			{
-				id: "1",
-				albumname: "Oragadam",
-				caption: "Ground Breaking Ceremony for Vistas at Oragadam",
-				tumbnail: "<?php echo base_url(); ?>assets/images/vestas/vestas6.jpg",
-				pics: [{
-
-					imageURL: "<?php echo base_url(); ?>assets/images/vestas/vestas1.jpg",
-				},
-				{
-
-					imageURL: "<?php echo base_url(); ?>assets/images/vestas/vestas2.jpg",
-				},
-				{
-
-					imageURL: "<?php echo base_url(); ?>assets/images/vestas/vestas4.jpg",
-				},
-				{
-
-					imageURL: "<?php echo base_url(); ?>assets/images/vestas/vestas5.jpg",
-				},
-				{
-
-					imageURL: "<?php echo base_url(); ?>assets/images/vestas/vestas6.jpg",
-				},
-				{
-
-					imageURL: "<?php echo base_url(); ?>assets/images/vestas/v7.png",
-				},
-				{
-
-					imageURL: "<?php echo base_url(); ?>assets/images/vestas/v8.png",
-				},
-				]
+				id: "2",
+				item: "Videos",
+				albums: [{
+					id: "0",
+					albumname: "",
+					caption: "Oragadam Infrastructure",
+					video: true,
+					tumbnail: '<iframe style="width: 100%; height: 100%" src="https://www.youtube.com/embed/m57KlZFDaVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+					pics: []
+				}, ],
 			},
-			],
-		},
 		],
 	};
 	// console.log(galleryitems);
@@ -340,14 +350,13 @@
 	document.getElementById("gallery-list").innerHTML = galleryLI;
 
 	// <div class="img-overlay"></div>
-	$(document).ready(function () {
-		var galleryTab = galleryitems.list.map(function (subarray) {
+	$(document).ready(function() {
+		var galleryTab = galleryitems.list.map(function(subarray) {
 			if (subarray.item === "Industrial park") {
-				return subarray.albums.map(function (album) {
+				return subarray.albums.map(function(album) {
 					var content = `
 						<div class="col-md-6 gallery-img-tumbnail">
 							<div class="img-card-div infrastructure" data-index="${album.id}" data-id="${album.id}" onClick="albumOpen('${album.albumname}')">
-								
 								<img src=${album.tumbnail} loading="lazy" alt="${album.albumname}" class="img-grid" >
 								<div class="img-caption">
 									<h5>${album.caption}</h5>
@@ -359,12 +368,13 @@
 			}
 		}).join('');
 		document.getElementById("gallery").innerHTML = galleryTab;
-		$(".main-list").on("click", function () {
+		$(".main-list").on("click", function() {
 			albumfilter = $(this).data("name");
-			var galleryTab = galleryitems.list.map(function (subarray) {
-				if (subarray.item === albumfilter.replace(/[- ]/g,' ')) {
-					return subarray.albums.map(function (album) {
-						var content = `
+			var galleryTab = galleryitems.list.map(function(subarray) {
+				if (subarray.item === albumfilter.replace(/[- ]/g, ' ')) {
+					return subarray.albums.map(function(album) {
+						if (!album.video) {
+							var content = `
 						<div class="col-md-6 gallery-img-tumbnail">
 							<div class="img-card-div infrastructure" data-index="${album.id}" data-id="${album.id}" onclick="albumOpen('${album.albumname}')">
 								<div class="img-overlay"></div>
@@ -374,6 +384,15 @@
 								</div>
 							</div>
 						</div>`;
+						}
+						if(album.video){
+							var content = `
+						<div class="col-md-6 gallery-img-tumbnail">
+							<div class="img-card-div infrastructure" data-index="${album.id}" data-id="${album.id}">
+								${album.tumbnail}
+							</div>
+						</div>`;
+						}
 						return content;
 					}).join('');
 				}
@@ -382,15 +401,15 @@
 		});
 	});
 
-	$(".gallery_subList").on("click", function () {
+	$(".gallery_subList").on("click", function() {
 		var albums = $(this).data("name");
 		$(".gallery_subList").removeClass("active_subList");
 		$(this).addClass("active_subList");
-		var galleryInside = galleryitems.list.map(function (finalData) {
-			return finalData.albums.map(function (subFinalData) {
+		var galleryInside = galleryitems.list.map(function(finalData) {
+			return finalData.albums.map(function(subFinalData) {
 				if (subFinalData.pics.length > 0) {
 					if (subFinalData.albumname === albums) {
-						return subFinalData.pics.map(function (subPics, idx) {
+						return subFinalData.pics.map(function(subPics, idx) {
 							var content = `
 							<div class="col-md-6 gallery-img-tumbnail">
 								<div class="img-card-div">
@@ -409,11 +428,11 @@
 
 	function albumOpen(albumName) {
 		albumModalOpen(albumName);
-		var galleryInside = galleryitems.list.map(function (finalData) {
-			return finalData.albums.map(function (subFinalData) {
+		var galleryInside = galleryitems.list.map(function(finalData) {
+			return finalData.albums.map(function(subFinalData) {
 				if (subFinalData.pics.length > 0) {
 					if (subFinalData.albumname === albumName) {
-						return subFinalData.pics.map(function (subPics, idx) {
+						return subFinalData.pics.map(function(subPics, idx) {
 							var content = `
 							<div class="col-md-6 gallery-img-tumbnail">
 								<div class="img-card-div">
@@ -429,12 +448,13 @@
 		}).join('');
 		document.getElementById("gallery").innerHTML = galleryInside;
 	}
+
 	function albumModalOpen(albumName) {
-		var galleryContent = galleryitems.list.map(function (finalData) {
-			return finalData.albums.map(function (subFinalData) {
+		var galleryContent = galleryitems.list.map(function(finalData) {
+			return finalData.albums.map(function(subFinalData) {
 				if (subFinalData.pics.length > 0) {
 					if (subFinalData.albumname === albumName) {
-						return subFinalData.pics.map(function (subPics, idx) {
+						return subFinalData.pics.map(function(subPics, idx) {
 							console.log("PICS", subPics);
 							var content = `
 							<div class="gallerySlides">
@@ -448,25 +468,34 @@
 		}).join('');
 		document.getElementById("galleryContent").innerHTML = galleryContent;
 	}
+
 	function openGalleryModal() {
 		document.getElementById("mainModal").style.display = "block";
 	}
+
 	function closeGalleryModal() {
 		document.getElementById("mainModal").style.display = "none";
 	}
 	var slideIndex = 1;
 	showSlides(slideIndex);
+
 	function currentSlide(idx) {
 		showSlides(slideIndex = idx);
 	}
+
 	function plusSlides(n) {
 		showSlides(slideIndex += n);
 	}
+
 	function showSlides(n) {
 		var i;
 		var slides = document.getElementsByClassName("gallerySlides");
-		if (n > slides.length) { slideIndex = 1 }
-		if (n < 1) { slideIndex = slides.length }
+		if (n > slides.length) {
+			slideIndex = 1
+		}
+		if (n < 1) {
+			slideIndex = slides.length
+		}
 		for (i = 0; i < slides.length; i++) {
 			slides[i].style.display = "none";
 		}

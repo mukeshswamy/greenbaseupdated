@@ -288,7 +288,7 @@
             <p class="pan-head ls">PRESENCE </p>
             <p class="subtxt">
                 Greenbase Industrial &amp; Logistics Parks are
-                strategically located at key locations pan India, in close
+                strategically located at key locations pan-india, in close
                 proximity to commercial, logistical and freight corridors.
             </p>
 
@@ -918,7 +918,7 @@
         <p><a class="detpdf" href=${loc[x].pdf} download>Download Location Highlights <img class="downimg" src="<?php echo base_url(); ?>assets/images/black_down_arrow.svg"></a></p>
                 <p><a class="getdir" href=${loc[x].directions} target="_blank">Get Direction<i class="fa fa-map-marker" style="font-size:18px;margin-left:15px;"></i></a></p>
         `
-        var button = `<button onclick="setLocation(this)" data-location=${loc[x].name} data-toggle="modal" data-target="#helpModal"class="download ml-0 px-4 b-none mt-3 pointer py-1">Help</button>`
+        var button = `<button onclick="setLocation(this)" data-location=${loc[x].name} data-toggle="modal" data-target="#helpModal"class="download ml-0 px-4 b-none mt-3 pointer py-1">Enquire</button>`
         if (loc[x].directions === "Coming Soon") {
             document.getElementById('location_action').innerHTML = button;
         } else {

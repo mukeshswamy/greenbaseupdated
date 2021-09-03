@@ -62,7 +62,7 @@
                     </div>
                     <div class="form-part-careers">
                         <h5>WORK WITH US</h5>
-                        <p>If you are looking for an exciting career with the industry leader,</br>end in your resume to
+                        <p>If you are looking for an exciting career with the industry leader,</br>send in your resume to
                         </p>
                         <div>
                             <!-- <span><img src=<?php echo base_url('assets/images/mail.svg');?> alt="mail"
@@ -98,7 +98,7 @@
         </div>
         <div class="form-part-careers">
             <h5>WORK WITH US</h5>
-            <p>If you are looking for an exciting career with the industry leader,</br>end in your resume to
+            <p>If you are looking for an exciting career with the industry leader,</br>send in your resume to
             </p>
             <div class="footer__mailer">
                 <div class="footer__mailId">

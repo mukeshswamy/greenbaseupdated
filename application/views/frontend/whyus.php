@@ -63,7 +63,7 @@
 				strength.<br />
 				With pride, Greenbase undertakes revolutionary projects that involve
 				developing world-class infrastructure. We believe our projects help
-				towards country’s economic development, enhancing individuals’ lifestyle
+				towards the country’s economic development, enhancing individuals’ lifestyle
 				and conserving natural resources.
 			</p>
 		</div>
@@ -136,7 +136,7 @@
 				strength.<br />
 				With pride, Greenbase undertakes revolutionary projects that involve
 				developing world-class infrastructure. We believe our projects help
-				towards country’s economic development, enhancing individuals’ lifestyle
+				towards the country’s economic development, enhancing individuals’ lifestyle
 				and conserving natural resources.
 			</p>
 		</div>
@@ -151,7 +151,7 @@
 				<div class="value_wrapper center value_wrapper_bg color-1">
 					<h2 class="zur-con text-uppercase">existing land banks</h2>
 					<p class="air-regular mb-0">
-						Land parcels from the Pan-India land bank available at strategic
+						Land parcels from the pan-india land bank available at strategic
 						locations for development of industrial and warehousing parks
 					</p>
 					<span class="air-regular value_more" data-name="landbanks">Know more_______</span>
@@ -181,7 +181,7 @@
 				</div>
 			</div>
 			<div class="value-wrapper col-md-12 mb-3 d-none">
-				<div class="value_popup_wrapper">
+				<div class="value_popup_wrapper bg-col-1">
 					<div class="row">
 						<div class="col-md-6">
 							<h2 class="value_head zur-con text-uppercase"></h2>
@@ -268,7 +268,7 @@
 					<h3 class="zur-con text-uppercase mb-3">existing land banks</h3>
 					<div class="proposition-content">
 						<p class="air-regular mb-0">
-							Land parcels from the Pan-India land bank available at strategic
+							Land parcels from the pan-india land bank available at strategic
 							locations for development of industrial and warehousing parks
 						</p>
 						<span class="air-regular m-value-know-more" data-name="landbanks">Know more______</span>

@@ -82,7 +82,7 @@
 					<li>Chemical storage</li>
 				</ol>
 			</div>
-			<div class="col-md-5 cusColmd5">
+			<div class="col-md-8 cusColmd5">
 				<ol start="6" style="padding-left: 12px" class="mr0">
 					<li>ICD and container terminal</li>
 					<li>Electronics and appliances</li>

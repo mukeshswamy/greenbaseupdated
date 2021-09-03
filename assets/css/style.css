@@ -971,6 +971,8 @@ body .content {
 	font-weight: normal;
 	color: white;
 	font-size: 22px;
+	margin-right: 7px;
+	letter-spacing: 2px;
 }
 .volume,
 .stats p {
@@ -979,6 +981,7 @@ body .content {
 	color: white;
 	font-size: 14px;
 	position: relative;
+	margin-top: 2px;
 }
 .stats p::before {
 	content: "";
@@ -2956,9 +2959,21 @@ body .content {
 }
 .value_popup_wrapper{
 	background-color: #0068a8;
-	color: white;
+	/* color: white; */
 }
 
+@media screen and (max-width: 1200px) and (min-width: 1025px) {
+	.banner-sliders img {
+		max-height: 380px;
+		object-fit: cover;
+	}
+	.our-capablities-content-wrapper:first-child::before {
+		right: -100px;
+	}
+	.our-capablities-content-wrapper:nth-child(3)::before {
+		left: -95px;
+	}
+}
 /* Ipad Pro */
 @media screen and (max-width: 1024px) and (min-width: 992px) {
 	.mobile__TitlevideoContainer {
@@ -9338,10 +9353,10 @@ body .content {
 	list-style: square;
 	padding-inline-start: 17px;
 	font-size: 13px;
+	text-transform: capitalize;
 }
-.busiess_lis li {
-	/* text-transform: capitalize; */
-}
+/* .busiess_lis li {
+} */
 .real_estate ul li::marker {
 	color: var(--color-4);
 	font-weight: bold;
