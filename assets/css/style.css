@@ -206,6 +206,10 @@
 	position: fixed !important;
 }
 
+.captalize{
+	text-transform: capitalize !important;
+}
+
 /* TEXT CSS */
 .text-justify {
 	text-align: justify !important;
@@ -422,6 +426,9 @@ body .content {
 }
 .b-none{
 	border: none !important;
+}
+.imagePreview{
+	overflow: auto;
 }
 
 /* BANNER */
@@ -2722,7 +2729,7 @@ body .content {
 }
 .gallery__subListContainer ul li a {
 	font-size: 1.3vw;
-	text-transform: none;
+	/* text-transform: none; */
 }
 /* Contact Call Style  */
 .contant__PhoneNumber {

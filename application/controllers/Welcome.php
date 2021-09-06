@@ -36,7 +36,14 @@ class Welcome extends CI_Controller
 	public function gallery()
 	{
 		$this->load->view('/frontend/header');
-		$this->load->view('/frontend/gallery');
+		// $this->load->view('/frontend/gallery');
+		$this->load->view('/frontend/galleryUp');
+		$this->load->view('/frontend/footer');
+	}
+	public function galleryUp()
+	{
+		$this->load->view('/frontend/header');
+		$this->load->view('/frontend/galleryUp');
 		$this->load->view('/frontend/footer');
 	}
 	public function contact()

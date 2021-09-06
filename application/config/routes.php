@@ -55,6 +55,7 @@ $route['our-legacy'] = 'welcome/ourlegacy';
 $route['value-proposition'] = 'welcome/valueproposition';
 $route['clients'] = 'welcome/clients';
 $route['gallery'] = 'welcome/gallery';
+$route['galleryup'] = 'welcome/galleryUp';
 $route['contact'] = 'welcome/contact';
 $route['news'] = 'welcome/news';
 $route['blogs'] = 'welcome/blogs';
