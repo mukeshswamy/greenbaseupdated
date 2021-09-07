@@ -220,11 +220,12 @@
 	var lightContainer = document.getElementById("lightContainer");
 	var gallery = [
 		{
-			category: "industrial park",
+			category: "industrial parks",
 			video: false,
 			albums: [
 				{
 					album: "oragadam",
+					albumSlug: "oragadam-infra",
 					pics: [
 						{
 							imageURL:
@@ -246,6 +247,7 @@
 				},
 				{
 					album: "talegaon",
+					albumSlug: "talegaon-infra",
 					pics: [
 						{
 							imageURL:
@@ -277,6 +279,7 @@
 			albums: [
 				{
 					album: "oragadam",
+					albumSlug: "oragadam-event",
 					pics: [
 						{
 							imageURL:
@@ -304,6 +307,7 @@
 			albums: [
 				{
 					album: "GreenBase Video",
+					albumSlug: "video",
 					videoTumbnail:
 						'<?php echo base_url(); ?>assets/images/chennai/chennai4.jpg',
 					videos: [
@@ -326,6 +330,7 @@
 	var albums = [
 		{
 			albumName: "oragadam",
+			albumSlug: "oragadam-infra",
 			video: false,
 			albumImage: [
 				{
@@ -348,6 +353,7 @@
 		},
 		{
 			albumName: "talegaon",
+			albumSlug: "talegaon-infra",
 			video: false,
 			albumImage: [
 				{
@@ -373,7 +379,36 @@
 			],
 		},
 		{
+			albumName: "oragadam",
+			albumSlug: "oragadam-event",
+			video: false,
+			albumImage: [
+				{
+				imageURL: "<?php echo base_url(); ?>assets/images/vestas/vestas1.jpg",
+				},
+				{
+				imageURL: "<?php echo base_url(); ?>assets/images/vestas/vestas2.jpg",
+				},
+				{
+				imageURL: "<?php echo base_url(); ?>assets/images/vestas/vestas4.jpg",
+				},
+				{
+				imageURL: "<?php echo base_url(); ?>assets/images/vestas/vestas5.jpg",
+				},
+				{
+				imageURL: "<?php echo base_url(); ?>assets/images/vestas/vestas6.jpg",
+				},
+				{
+				imageURL: "<?php echo base_url(); ?>assets/images/vestas/v7.png",
+				},
+				{
+				imageURL: "<?php echo base_url(); ?>assets/images/vestas/v8.png",
+				},
+			],
+		},
+		{
 			albumName: "GreenBase Video",
+			albumSlug: "video",
 			video: true,
 			albumImage: [
 				{
@@ -403,7 +438,7 @@
                     <div class="gallery__subListContainer ${index === 0 ? "gallery__subListContainer__Show" : ""} ">
 						<ul>
 							${finaldata.albums.map((subFinalList, index) => {
-								return `<li><a href="javascript:void(0)" class="gallery_subList captalize" data-name="${subFinalList.album}" onClick="albumOpen('${subFinalList.album}')">${subFinalList.album}</a></li>`;
+								return `<li><a href="javascript:void(0)" class="gallery_subList captalize" data-name="${subFinalList.albumSlug}" onClick="albumOpen('${subFinalList.albumSlug}')">${subFinalList.album}</a></li>`;
 							}).join("")}
 						</ul>
 					</div>
@@ -443,18 +478,18 @@
 		mainContainer.style.display = "none";
 		lightContainer.classList.remove("d-none");
 		var lightBox = albums.map((albumData, idx) => {
-			if (albumData.albumName === albumName && albumData.video === false) {
+			if (albumData.albumSlug === albumName && albumData.video === false) {
 				$("#lightContainer").show();
 				return albumData.albumImage.map((albums, index) => {
 					return `<div class="mx-1 videoContainer">
-								<img onclick="currentSlide(${index + 1})" class="d-block w-100 h-100" src=${albums.imageURL} alt="First slide" />
+								<img onclick="currentSlide(${index + 1})" class="d-block w-100 h-100" src=${albums.imageURL} alt="First slide" style="object-fit:containe"/>
                             </div>`;
 					}).join("");
 			} 
 		}).join("");
 		document.getElementById("lightWrapper").innerHTML = lightBox;
 		var lightBoxVideo = albums.map((albumData, idx) => {
-			if (albumData.albumName === albumName && albumData.video === true) {
+			if (albumData.albumSlug === albumName && albumData.video === true) {
 				$("#lightContainer").hide();
 				$("#videoSection").show();
 				return albumData.albumImage.map((albums, index) => {
@@ -466,10 +501,10 @@
 		}).join("");
 		document.getElementById("videoSection").innerHTML = lightBoxVideo;
 		var albumElem = albums.map((albumData, idx) => {
-			if (albumData.albumName === albumName) {
+			if (albumData.albumSlug === albumName) {
 				return albumData.albumImage.map((albums, index) => {
 					return `<div class="imageCarousel-lightBox">
-                                <img class="d-block w-100 h-100" src=${albums.imageURL} alt="First slide" />
+                                <img class="d-block w-100 h-100" src=${albums.imageURL} alt="First slide" style="object-fit:cover"/>
                             </div>`;
 					}).join("");
 			}
