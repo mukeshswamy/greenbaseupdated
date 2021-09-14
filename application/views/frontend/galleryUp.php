@@ -283,19 +283,19 @@
 					pics: [
 						{
 							imageURL:
-								"<?php echo base_url(); ?>assets/images/chennai/chennai1.jpg",
+								"<?php echo base_url(); ?>assets/images/vestas/vestas1.jpg",
 						},
 						{
 							imageURL:
-								"<?php echo base_url(); ?>assets/images/chennai/chennai2.jpg",
+								"<?php echo base_url(); ?>assets/images/vestas/vestas2.jpg",
 						},
 						{
 							imageURL:
-								"<?php echo base_url(); ?>assets/images/chennai/chennai3.jpg",
+								"<?php echo base_url(); ?>assets/images/vestas/vestas4.jpg",
 						},
 						{
 							imageURL:
-								"<?php echo base_url(); ?>assets/images/chennai/chennai4.jpg",
+								"<?php echo base_url(); ?>assets/images/vestas/vestas5.jpg",
 						},
 					],
 				},
@@ -306,7 +306,7 @@
 			video: true,
 			albums: [
 				{
-					album: "GreenBase Video",
+					album: "Greenbase Video",
 					albumSlug: "video",
 					videoTumbnail:
 						'<?php echo base_url(); ?>assets/images/chennai/chennai4.jpg',

@@ -126,7 +126,7 @@
                                 <p class="m-0 color-3 lato-light">Total investment planned</p>
                             </div>
                             <div class="stats overview_stats">
-                                <span class="count color-3 lato-bold">10</span><span class="volume color-3 lato-light">
+                                <span class="count color-3 lato-bold">14.1</span><span class="volume color-3 lato-light">
                                     mn sq. ft.</span>
                                 <p class="m-0 color-3 lato-light">Industrial and warehousing space under development
                                     (Phase 1 of pan-india setup)</p>

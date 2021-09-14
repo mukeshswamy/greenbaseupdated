@@ -282,7 +282,7 @@
 <!-- Location -->
 
 <div class="row  mx-0 setMaxWidth m-flex-column-reverse">
-    <div class="col-md-5 cus_col_md_12 mt-head cus_paddingleft">
+    <div class="col-md-5 cus_col_md_12 cus_paddingleft">
         <div class="container pt-5 dfl pb-5 cusPaddingLeft cusPaddingRight">
             <p class="pan-head mt-5 cusMargins">PAN-INDIA</p>
             <p class="pan-head ls">PRESENCE </p>
@@ -490,7 +490,7 @@
             </div>
         </div>
     </div>
-    <div class="col-md-7 cus_col_md_12 px-0 mt-head bg-gray map__MainContainer">
+    <div class="col-md-7 cus_col_md_12 px-0 bg-gray map__MainContainer">
         <div class="cancont mapcontainer" id="cancot">
             <div class="map"></div>
             <div class="details d-none">
