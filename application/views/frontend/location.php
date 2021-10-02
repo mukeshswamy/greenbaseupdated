@@ -601,7 +601,7 @@
             directions: 'Coming Soon'
         },
         bangalore: {
-            name: 'BANGALORE',
+            name: 'BENGALURU',
             state: 'KARNATAKA',
             area: 'Coming Soon',
             pdf: '<?php echo base_url(); ?>assets/pdf/bhiwandi.pdf',
@@ -657,7 +657,7 @@
             directions: 'Coming Soon'
         },
         Kolkata: {
-            name: 'Kolkata',
+            name: 'KOLKATA',
             state: 'WEST BENGAL',
             area: 'Coming Soon',
             pdf: '<?php echo base_url(); ?>assets/pdf/bhiwandi.pdf',
@@ -665,7 +665,7 @@
             directions: 'Coming Soon'
         },
         nagpur: {
-            name: 'Nagpur',
+            name: 'NAGPUR',
             state: 'MAHARASHTRA',
             area: 'Coming Soon',
             pdf: '<?php echo base_url(); ?>assets/pdf/bhiwandi.pdf',

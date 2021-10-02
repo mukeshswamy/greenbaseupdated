@@ -243,6 +243,14 @@
 							imageURL:
 								"<?php echo base_url(); ?>assets/images/chennai/chennai4.jpg",
 						},
+						{
+							imageURL:
+								"<?php echo base_url(); ?>assets/images/chennai/chennai5.jpg",
+						},
+						{
+							imageURL:
+								"<?php echo base_url(); ?>assets/images/chennai/chennai6.jpg",
+						},
 					],
 				},
 				{
@@ -348,6 +356,14 @@
 				{
 					imageURL:
 						"<?php echo base_url(); ?>assets/images/chennai/chennai4.jpg",
+				},
+				{
+					imageURL:
+						"<?php echo base_url(); ?>assets/images/chennai/chennai5.jpg",
+				},
+				{
+					imageURL:
+						"<?php echo base_url(); ?>assets/images/chennai/chennai6.jpg",
 				},
 			],
 		},

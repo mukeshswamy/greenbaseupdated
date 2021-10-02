@@ -327,7 +327,7 @@
         <div class="group_head_wrapper business_wrapper">
             <h1 class="m-0 zur-light-con">OUR LEAGUE OF EXTRAORDINARY GENTLEMEN</h1>
         </div>
-        <div class="row mt-4 m-mx-0">
+        <div class="row mt-4 m-mx-0 justify-content-center">
             <div class="col-md-3 mb-4">
                 <div class="ceo_wrappers">
                     <img src=<?php echo base_url('assets/images/about/hiranandani.jpg') ?> alt="ceo" class="ceo_img">
