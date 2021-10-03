@@ -120,49 +120,15 @@
 				<!-- Images -->
 				<div class="imagesMainContainer" id="mainContainer">
 					<!-- FADER -->
-					<div
-						id="carouselExampleFade"
-						class="carousel slide carousel-fade"
-						data-ride="carousel"
-					>
+					<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
 						<div class="carousel-inner">
-							<div class="carouselOverLay"></div>
 							<div id="carouselPop" class="w-100 h-100 carouselPop">
-								<div class="carousel-item active">
-									<img
-										class="d-block w-100 h-100"
-										src="<?php echo base_url(); ?>assets/images/chennai/chennai1.jpg"
-										alt="First slide"
-									/>
-								</div>
-								<div class="carousel-item">
-									<img
-										class="d-block w-100 h-100"
-										src="<?php echo base_url(); ?>assets/images/chennai/chennai2.jpg"
-										alt="Second slide"
-									/>
-								</div>
-								<div class="carousel-item">
-									<img
-										class="d-block w-100 h-100"
-										src="<?php echo base_url(); ?>assets/images/chennai/chennai3.jpg"
-										alt="Third slide"
-									/>
-								</div>
-							</div>
-							<div class="CategoryOnCarousel">
-								<span class="d-block" id="CategoryName">
-									INDUSTRIAL PARKS
-								</span>
 							</div>
 						</div>
 					</div>
 				</div>
 				<!-- Videos -->
 				<div class="videoSection imagesMainContainer" id="videoSection">
-					<!-- <div>
-						<iframe style="width: 100%; height: 250" src="https://www.youtube.com/embed/m57KlZFDaVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					</div> -->
 				</div>
 				<!-- Lightbox -->
 				<div class="lightboxContainer d-none" id="lightContainer">
@@ -216,6 +182,7 @@
 ></script>
 <script src="<?php echo base_url(); ?>assets/js/custom.js"></script>
 <script type="text/javascript">
+	fetch(`<?php echo base_url(); ?>assets/js/gallery.json`).then(response => response.json()).then(json => console.log(json));
 	var mainContainer = document.getElementById("mainContainer");
 	var lightContainer = document.getElementById("lightContainer");
 	var gallery = [
@@ -446,12 +413,16 @@
 			],
 		},
 	];
+
+	// Logic to get all the images from the object and add it in one array
+	var allImages = [];
+	gallery.map(categorys => categorys.albums.map((albums,idx) => albums.pics && albums.pics.map(images => allImages.push(images))))
 	var galleryCategoryList = gallery.map((finaldata, index) => {
 		return `<div class="gallery-list-wrpper" data-index="${index}">
 					<li>
-						<a href="javascript:void(0)" class="main-list ${index === 0 ? "gallery-list-active" : ""}" onClick="albumCategory('${finaldata.category}')" data-name= ${finaldata.category.replace(/[, ]+/g,"-")} data-index=${index}>${finaldata.category}</a>
+						<a href="javascript:void(0)" class="main-list " onClick="albumCategory('${finaldata.category}')" data-name= ${finaldata.category.replace(/[, ]+/g,"-")} data-index=${index}>${finaldata.category}</a>
 					</li>
-                    <div class="gallery__subListContainer ${index === 0 ? "gallery__subListContainer__Show" : ""} ">
+                    <div class="gallery__subListContainer">
 						<ul>
 							${finaldata.albums.map((subFinalList, index) => {
 								return `<li><a href="javascript:void(0)" class="gallery_subList captalize" data-name="${subFinalList.albumSlug}" onClick="albumOpen('${subFinalList.albumSlug}')">${subFinalList.album}</a></li>`;
@@ -461,6 +432,14 @@
 				</div>`;
 		}).join("");
 	document.getElementById("gallery-list").innerHTML = galleryCategoryList;
+	
+	let initialCarousel = allImages.map((images,idx) => {
+		return `<div class="carousel-item ${idx === 0 ? "active" : ""}">
+					<img class="d-block w-100 h-100" src=${images.imageURL} alt="First slide"/>
+				</div>`
+	}).join("");
+	document.getElementById("carouselPop").innerHTML = initialCarousel;
+
 	function albumCategory(categoryName) {
 		mainContainer.style.display = "block";
 		lightContainer.classList.add("d-none");
