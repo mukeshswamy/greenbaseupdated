@@ -396,6 +396,10 @@
 			albumImage: [
 				{
 					imageURL:
+						'<iframe style="width: 100%; height: 100%" src="https://www.youtube.com/embed/qcGK6gh6W9U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+				},
+				{
+					imageURL:
 						'<iframe style="width: 100%; height: 100%" src="https://www.youtube.com/embed/m57KlZFDaVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
 				},
 				{
