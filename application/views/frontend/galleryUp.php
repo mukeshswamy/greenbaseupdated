@@ -195,8 +195,8 @@
 							imageURL: "<?php echo base_url(); ?>assets/images/chennai/chennai6.jpg",
 						},
 						{
-					imageURL: "<?php echo base_url(); ?>assets/images/chennai/chennai7.jpg",
-				},
+							imageURL: "<?php echo base_url(); ?>assets/images/chennai/chennai7.jpg",
+						},
 				{
 					imageURL: "<?php echo base_url(); ?>assets/images/chennai/chennai8.jpg",
 				},
