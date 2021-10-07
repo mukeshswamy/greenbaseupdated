@@ -7,8 +7,8 @@
 	.imagesMainContainer .carousel-inner,
 	.imagesMainContainer .carouselPop .carousel-item,
 	.imageCarousel-lightBox {
-		min-height: 34rem;
-		height: 34rem;
+		min-height: calc(100vh - 250px);
+		/* height: 34rem; */
 		cursor: pointer;
 	}
 

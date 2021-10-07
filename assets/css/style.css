@@ -2980,11 +2980,11 @@ body .content {
 	.our-capablities-content-wrapper:nth-child(3)::before {
 		left: -95px;
 	}
-	.imagesMainContainer .carousel-inner, .imagesMainContainer .carouselPop .carousel-item, .imageCarousel-lightBox {
+	/* .imagesMainContainer .carousel-inner, .imagesMainContainer .carouselPop .carousel-item {
 		min-height: 30rem;
 		height: 30rem;
 		cursor: pointer;
-	}
+	} */
 }
 @media screen and (max-width: 1200px) and (min-width: 1025px) {
 	.banner-sliders img {
@@ -2997,11 +2997,11 @@ body .content {
 	.our-capablities-content-wrapper:nth-child(3)::before {
 		left: -95px;
 	}
-	.imagesMainContainer .carousel-inner, .imagesMainContainer .carouselPop .carousel-item, .imageCarousel-lightBox {
+	/* .imagesMainContainer .carousel-inner, .imagesMainContainer .carouselPop .carousel-item {
 		min-height: 30rem;
 		height: 30rem;
 		cursor: pointer;
-	}
+	} */
 }
 /* Ipad Pro */
 @media screen and (max-width: 1024px) and (min-width: 992px) {
