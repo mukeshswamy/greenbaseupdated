@@ -44,18 +44,19 @@
 	}
 
 	.imageCarousel-lightBox {
-		/* backface-visibility: hidden; */
+		backface-visibility: hidden;
 		transition: opacity 0.5s ease-in-out;
 		display: none;
 		opacity: 0;
-		transition-property: opacity;
-		-webkit-box-align: center;
+		/* transition-property: opacity;
+		-webkit-box-align: center; */
 	}
 
 	.lighBox-Car-Active {
-		/* visibility: visible; */
+		visibility: visible;
 		opacity: 1;
 		display: block;
+		transform: translate3d(0, 0, 0);
 	}
 
 	.prev,
@@ -114,6 +115,10 @@
 	.videoContainer {
 		height: 30rem;
 	}
+
+	.imageCarousel-lightBox img {
+		position: absolute;
+	}
 </style>
 <section class="mainSectionHeight">
 	<div class="container-fluid cus-container-fluid">
@@ -148,9 +153,9 @@
 						<!-- <div class="lightBoxPop" id="lightBoxPop">
 						</div> -->
 						<div id="carouselExampleFade1" data-interval="2000" class="carousel slide carousel-fade" data-ride="carousel">
-							<div class="carousel-inner">
-								<div id="lightBoxPop" class="w-100 h-100 carouselPop">
-								</div>
+							<div class="carousel-inner carouselPop" id="lightBoxPop">
+								<!-- <div id="lightBoxPop" class="w-100 h-100 carouselPop">
+								</div> -->
 							</div>
 						</div>
 						<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -172,6 +177,7 @@
 	var lightContainer = document.getElementById("lightContainer");
 	var gallery = [{
 			category: "industrial parks",
+			subCategory: true,
 			video: false,
 			albums: [{
 					album: "oragadam",
@@ -197,15 +203,15 @@
 						{
 							imageURL: "<?php echo base_url(); ?>assets/images/chennai/chennai7.jpg",
 						},
-				{
-					imageURL: "<?php echo base_url(); ?>assets/images/chennai/chennai8.jpg",
-				},
-				{
-					imageURL: "<?php echo base_url(); ?>assets/images/chennai/chennai9.jpg",
-				},
-				{
-					imageURL: "<?php echo base_url(); ?>assets/images/chennai/chennai10.jpg",
-				},
+						{
+							imageURL: "<?php echo base_url(); ?>assets/images/chennai/chennai8.jpg",
+						},
+						{
+							imageURL: "<?php echo base_url(); ?>assets/images/chennai/chennai9.jpg",
+						},
+						{
+							imageURL: "<?php echo base_url(); ?>assets/images/chennai/chennai10.jpg",
+						},
 						{
 
 							imageURL: "<?php echo base_url(); ?>assets/images/chennai/oragadam_infra.png",
@@ -240,6 +246,7 @@
 		},
 		{
 			category: "events",
+			subCategory: false,
 			video: false,
 			albums: [{
 				album: "oragadam",
@@ -256,12 +263,43 @@
 					{
 						imageURL: "<?php echo base_url(); ?>assets/images/vestas/vestas5.jpg",
 					},
+					{
+						imageURL: "<?php echo base_url(); ?>assets/images/vestas/vestas6.jpg",
+					},
+					{
+						imageURL: "<?php echo base_url(); ?>assets/images/vestas/v7.png",
+					},
+					{
+						imageURL: "<?php echo base_url(); ?>assets/images/vestas/v8.png",
+					},
+					{
+						imageURL: "<?php echo base_url(); ?>assets/images/g1.jpg",
+					},
+					{
+						imageURL: "<?php echo base_url(); ?>assets/images/g2.jpg",
+					},
+					{
+						imageURL: "<?php echo base_url(); ?>assets/images/g3.jpg",
+					},
+					{
+						imageURL: "<?php echo base_url(); ?>assets/images/g4.jpg",
+					},
+					{
+						imageURL: "<?php echo base_url(); ?>assets/images/g5.jpg",
+					},
+					{
+						imageURL: "<?php echo base_url(); ?>assets/images/g6.jpg",
+					},
+					{
+						imageURL: "<?php echo base_url(); ?>assets/images/g7.jpg",
+					},
 				],
 			}, ],
 		},
 		{
 			category: "videos",
 			video: true,
+			subCategory: false,
 			albums: [{
 				album: "Greenbase Video",
 				albumSlug: "video",
@@ -366,6 +404,27 @@
 				{
 					imageURL: "<?php echo base_url(); ?>assets/images/vestas/v8.png",
 				},
+				{
+					imageURL: "<?php echo base_url(); ?>assets/images/g1.jpg",
+				},
+				{
+					imageURL: "<?php echo base_url(); ?>assets/images/g2.jpg",
+				},
+				{
+					imageURL: "<?php echo base_url(); ?>assets/images/g3.jpg",
+				},
+				{
+					imageURL: "<?php echo base_url(); ?>assets/images/g4.jpg",
+				},
+				{
+					imageURL: "<?php echo base_url(); ?>assets/images/g5.jpg",
+				},
+				{
+					imageURL: "<?php echo base_url(); ?>assets/images/g6.jpg",
+				},
+				{
+					imageURL: "<?php echo base_url(); ?>assets/images/g7.jpg",
+				},
 			],
 		},
 		{
@@ -399,19 +458,29 @@
 	var allImages = [];
 	gallery.map(categorys => categorys.albums.map((albums, idx) => albums.pics && albums.pics.map(images => allImages.push(images))))
 	var galleryCategoryList = gallery.map((finaldata, index) => {
-		return `<div class="gallery-list-wrpper" data-index="${index}">
+		console.log(finaldata.subCategory)
+		if (finaldata.subCategory === true) {
+			return `<div class="gallery-list-wrpper" data-index="${index}">
 					<li>
 						<a href="javascript:void(0)" class="main-list " onClick="albumCategory('${finaldata.category}')" data-name= ${finaldata.category.replace(/[, ]+/g,"-")} data-index=${index}>${finaldata.category}</a>
 					</li>
                     <div class="gallery__subListContainer">
 						<ul>
-							${finaldata.albums.map((subFinalList, index) => {
+						${finaldata.albums.map((subFinalList, index) => {
 								return `<li><a href="javascript:void(0)" class="gallery_subList captalize" data-name="${subFinalList.albumSlug}" onClick="albumOpen('${subFinalList.albumSlug}')">${subFinalList.album}</a></li>`;
 							}).join("")}
 						</ul>
 					</div>
-				</div>`;
+				</div>`
+		} else {
+			return `<div class="gallery-list-wrpper" data-index="${index}">
+					<li>
+						<a href="javascript:void(0)" class="main-list " onClick="albumCategory('${finaldata.category}')" data-name= ${finaldata.category.replace(/[, ]+/g,"-")} data-index=${index}>${finaldata.category}</a>
+					</li>
+				</div>`
+		}
 	}).join("");
+
 	document.getElementById("gallery-list").innerHTML = galleryCategoryList;
 
 	let initialCarousel = allImages.map((images, idx) => {
@@ -425,9 +494,8 @@
 		mainContainer.style.display = "block";
 		lightContainer.classList.add("d-none");
 		var categoryCarousel = gallery.map((galleryData, idx) => {
-			if (categoryName === galleryData.category && !galleryData.video) {
+			if (categoryName === galleryData.category && !galleryData.video && galleryData.subCategory) {
 				$("#videoSection").hide();
-				$("#CategoryName").text(galleryData.category);
 				return galleryData.albums[0].pics.map((albums, index) => {
 						return `<div class="carousel-item ${index === 0 ? "active" : ""}">
 								<img class="d-block w-100 h-100" src=${albums.imageURL} alt="First slide" />
@@ -435,14 +503,21 @@
 					})
 					.join("");
 			}
-			if (categoryName === galleryData.category && galleryData.video) {
-				$("#CategoryName").text(galleryData.category);
+			if (categoryName === galleryData.category && !galleryData.video && galleryData.subCategory === false) {
 				$("#videoSection").hide();
-				return galleryData.albums[0].videos.map((albums, index) => {
-					return `<div class="carousel-item ${index === 0 ? "active" : ""}">
-								<img class="d-block w-100 h-100" src=${galleryData.albums[0].videoTumbnail} alt="First slide" />
-							</div>`;
-				}).join("");
+				albumOpen("oragadam-event")
+			}
+			// if (categoryName === galleryData.category && galleryData.video) {
+			// 	$("#videoSection").hide();
+			// 	return galleryData.albums[0].videos.map((albums, index) => {
+			// 		return `<div class="carousel-item ${index === 0 ? "active" : ""}">
+			// 					<img class="d-block w-100 h-100" src=${galleryData.albums[0].videoTumbnail} alt="First slide" />
+			// 				</div>`;
+			// 	}).join("");
+			// }
+			if (categoryName === galleryData.category && galleryData.video && galleryData.subCategory === false) {
+				$("#videoSection").show();
+				albumOpen("video")
 			}
 		}).join("");
 		document.getElementById("carouselPop").innerHTML = categoryCarousel;
@@ -494,6 +569,20 @@
 		showSlides((slideIndex += n));
 		clearInterval(theInterval);
 	}
+	$(document).keydown(function(e) {
+		if (e.keyCode === 37) {
+			// Previous
+			plusSlides(-1)
+			startSlide()
+			return false;
+		}
+		if (e.keyCode === 39) {
+			// Next
+			plusSlides(1)
+			startSlide()
+			return false;
+		}
+	});
 
 	function currentSlide(n) {
 		showSlides((slideIndex = n));
@@ -515,7 +604,6 @@
 	}
 
 	startSlide()
-
 
 	$(".carouselPop").mouseover(function() {
 		clearInterval(theInterval);
