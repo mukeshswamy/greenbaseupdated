@@ -5,11 +5,12 @@
 	}
 
 	.imagesMainContainer .carousel-inner,
-	.imagesMainContainer .carouselPop .carousel-item,
 	.imageCarousel-lightBox {
 		min-height: calc(100vh - 250px);
-		/* height: 34rem; */
 		cursor: pointer;
+	}
+	.imagesMainContainer .carouselPop .carousel-item{
+		height: 34rem;
 	}
 
 	.imagesMainContainer .carouselPop .carousel-item img {
@@ -484,11 +485,14 @@
 	document.getElementById("gallery-list").innerHTML = galleryCategoryList;
 
 	let initialCarousel = allImages.map((images, idx) => {
+		index = Math.floor(Math.random() * allImages.length);
 		return `<div class="carousel-item ${idx === 0 ? "active" : ""}">
-					<img class="d-block w-100 h-100" src=${images.imageURL} alt="First slide"/>
+					<img class="d-block w-100 h-100" src=${allImages[index].imageURL} alt="First slide"/>
 				</div>`
 	}).join("");
 	document.getElementById("carouselPop").innerHTML = initialCarousel;
+
+
 
 	function albumCategory(categoryName) {
 		mainContainer.style.display = "block";
