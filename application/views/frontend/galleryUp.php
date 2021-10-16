@@ -99,7 +99,7 @@
 	}
 
 	.imagePreview::-webkit-scrollbar {
-		display: none;
+		display: block;
 	}
 
 	.imagePreview div {

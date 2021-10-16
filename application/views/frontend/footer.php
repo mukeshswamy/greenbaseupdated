@@ -18,8 +18,8 @@
             <div class="col-md-5 address-wrapper">
                 <h4 class="m-0">Greenbase - Industrial and Logistics Park</h4>
                 <div class="footer-address">
-                    <p class="m-0">Floor 3, Olympia, Technology Street, Hiranandani Business Park,
-                        Hiranandani Gardens, Powai, Mumbai – 400076, MH, India</p>
+                    <p class="m-0">Floor 3, Olympia, Technology Street,</br> Hiranandani Business Park,
+                        Hiranandani Gardens, </br>Powai, Mumbai – 400076, MH, India</p>
                 </div>
             </div>
             <div class="col-md-7 text-end">

@@ -350,7 +350,7 @@
 
 
 <!-- GREENBASE EDGE -->
-<section class="gb_edge_bg relative m-d-none" style ="height: calc(100vh - 75px)">
+<section class="gb_edge_bg relative m-d-none" style = "height: calc(100vh - 75px);">
 	<div class="container-gb value_pad">
 		<div class="row">
 			<div class="col-md-12">

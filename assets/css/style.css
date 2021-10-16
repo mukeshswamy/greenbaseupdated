@@ -2478,9 +2478,6 @@ body .content {
 	font-weight: bold;
 	font-size: 18px;
 }
-.footer-address {
-	width: 50%;
-}
 .footer-address p {
 	font-family: "Arial Narrow";
 	font-weight: normal;
@@ -2967,6 +2964,9 @@ body .content {
 .value_popup_wrapper{
 	background-color: #0068a8;
 	/* color: white; */
+}
+.imagePreview::-webkit-scrollbar{
+	display: block;
 }
 
 @media screen and (max-width: 1366px) and (min-width: 1200px) {
@@ -9382,7 +9382,6 @@ body .content {
 	list-style: square;
 	padding-inline-start: 17px;
 	font-size: 13px;
-	text-transform: capitalize;
 }
 /* .busiess_lis li {
 } */
