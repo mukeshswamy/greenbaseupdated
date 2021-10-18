@@ -14,7 +14,7 @@
 	}
 
 	.imagesMainContainer .carouselPop .carousel-item img {
-		object-fit: cover;
+		object-fit: contain;
 	}
 
 	.carouselOverLay {
@@ -537,7 +537,7 @@
 				$("#lightContainer").show();
 				return albumData.albumImage.map((albums, index) => {
 					return `<div class="mx-1 videoContainer">
-								<img onclick="currentSlide(${index + 1})" class="d-block w-100 h-100" src=${albums.imageURL} alt="First slide" style="object-fit:containe"/>
+								<img onclick="currentSlide(${index + 1})" class="d-block w-100 h-100" src=${albums.imageURL} alt="First slide" style="object-fit:contain"/>
                             </div>`;
 				}).join("");
 			}
@@ -559,7 +559,7 @@
 			if (albumData.albumSlug === albumName) {
 				return albumData.albumImage.map((albums, index) => {
 					return `<div class="imageCarousel-lightBox">
-                                <img class="d-block w-100 h-100" src=${albums.imageURL} alt="First slide" style="object-fit:cover"/>
+                                <img class="d-block w-100 h-100" src=${albums.imageURL} alt="First slide" style="object-fit:contain"/>
                             </div>`;
 				}).join("");
 			}
