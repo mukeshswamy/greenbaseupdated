@@ -568,7 +568,7 @@
 			details: [
 				"Development of wholesome infrastructure including road, power and water, along with residential and commercial development",
 				"Development and construction is being carried out adhering to all safety standards ensuring security and wellbeing on everyone involved",
-				"Provision of STP, power substation, security cabin, boundary wall etc. for the industrial parks.",
+				"Provision of STP, power substation, security cabin, boundary wall etc. for the industrial parks",
 			],
 			tumbnail: "<?php echo base_url(); ?>assets/images/infrastructure.jpg",
 		},

@@ -9386,7 +9386,7 @@ body .content {
 /* .busiess_lis li {
 } */
 .real_estate ul li::marker {
-	color: var(--color-4);
+	color: #0068a8;
 	font-weight: bold;
 	display: inline-block;
 	width: 1em;
@@ -9553,7 +9553,7 @@ body .content {
 	padding: 18px 25px;
 }
 .value_list li::marker {
-	color: var(--color-1);
+	color: black;
 	font-weight: bold;
 	display: inline-block;
 	width: 1em;
