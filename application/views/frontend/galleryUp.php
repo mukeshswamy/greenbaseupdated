@@ -6,7 +6,7 @@
 
 	.imagesMainContainer .carousel-inner,
 	.imageCarousel-lightBox {
-		min-height: calc(100vh - 250px);
+		min-height: calc(100vh - 170px);
 		cursor: pointer;
 	}
 	.imagesMainContainer .carouselPop .carousel-item{
@@ -14,7 +14,7 @@
 	}
 
 	.imagesMainContainer .carouselPop .carousel-item img {
-		object-fit: contain;
+		object-fit: cover;
 	}
 
 	.carouselOverLay {
@@ -162,7 +162,7 @@
 						<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 						<a class="next" onclick="plusSlides(1)">&#10095;</a>
 					</div>
-					<div class="imagePreview w-100 mt-4 pt-2" id="lightWrapper">
+					<div class="imagePreview w-100 mt-2 pt-2" id="lightWrapper">
 					</div>
 				</div>
 			</div>
@@ -537,7 +537,7 @@
 				$("#lightContainer").show();
 				return albumData.albumImage.map((albums, index) => {
 					return `<div class="mx-1 videoContainer">
-								<img onclick="currentSlide(${index + 1})" class="d-block w-100 h-100" src=${albums.imageURL} alt="First slide" style="object-fit:contain"/>
+								<img onclick="currentSlide(${index + 1})" class="d-block w-100 h-100" src=${albums.imageURL} alt="First slide" style="object-fit:cover"/>
                             </div>`;
 				}).join("");
 			}
@@ -559,7 +559,7 @@
 			if (albumData.albumSlug === albumName) {
 				return albumData.albumImage.map((albums, index) => {
 					return `<div class="imageCarousel-lightBox">
-                                <img class="d-block w-100 h-100" src=${albums.imageURL} alt="First slide" style="object-fit:contain"/>
+                                <img class="d-block w-100 h-100" src=${albums.imageURL} alt="First slide" style="object-fit:cover"/>
                             </div>`;
 				}).join("");
 			}
