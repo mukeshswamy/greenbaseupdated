@@ -9,8 +9,9 @@
 		min-height: calc(100vh - 170px);
 		cursor: pointer;
 	}
-	.imagesMainContainer .carouselPop .carousel-item{
-		height: 34rem;
+
+	.imagesMainContainer .carouselPop .carousel-item {
+		max-height: 34rem;
 	}
 
 	.imagesMainContainer .carouselPop .carousel-item img {
@@ -98,10 +99,6 @@
 		padding-right: 15px;
 	}
 
-	.imagePreview::-webkit-scrollbar {
-		display: block;
-	}
-
 	.imagePreview div {
 		display: inline-block;
 		width: 10rem;
@@ -162,7 +159,11 @@
 						<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 						<a class="next" onclick="plusSlides(1)">&#10095;</a>
 					</div>
-					<div class="imagePreview w-100 mt-2 pt-2" id="lightWrapper">
+					<div class="relative">
+						<div class="imagePreview w-100 mt-2 pt-2" id="lightWrapper">
+						</div>
+						<a class="prev" style="top: 70%" id="slideLeft">&#10094;</a>
+						<a class="next" style="top: 70%" id="slideRight">&#10095;</a>
 					</div>
 				</div>
 			</div>
@@ -176,6 +177,14 @@
 	fetch(`<?php echo base_url(); ?>assets/js/gallery.json`).then(response => response.json()).then(json => console.log(json));
 	var mainContainer = document.getElementById("mainContainer");
 	var lightContainer = document.getElementById("lightContainer");
+	const btnLeft = document.getElementById("slideLeft");
+	const btnRight = document.getElementById("slideRight");
+	btnLeft.onclick = function() {
+		document.getElementById("lightWrapper").scrollLeft += 40;
+	}
+	btnRight.onclick = function() {
+		document.getElementById("lightWrapper").scrollLeft -= 40;
+	}
 	var gallery = [{
 			category: "industrial parks",
 			subCategory: true,
@@ -511,14 +520,6 @@
 				$("#videoSection").hide();
 				albumOpen("oragadam-event")
 			}
-			// if (categoryName === galleryData.category && galleryData.video) {
-			// 	$("#videoSection").hide();
-			// 	return galleryData.albums[0].videos.map((albums, index) => {
-			// 		return `<div class="carousel-item ${index === 0 ? "active" : ""}">
-			// 					<img class="d-block w-100 h-100" src=${galleryData.albums[0].videoTumbnail} alt="First slide" />
-			// 				</div>`;
-			// 	}).join("");
-			// }
 			if (categoryName === galleryData.category && galleryData.video && galleryData.subCategory === false) {
 				$("#videoSection").show();
 				albumOpen("video")

@@ -2963,10 +2963,9 @@ body .content {
 }
 .value_popup_wrapper{
 	background-color: #0068a8;
-	/* color: white; */
 }
 .imagePreview::-webkit-scrollbar{
-	display: block;
+	display: none;
 }
 
 @media screen and (max-width: 1366px) and (min-width: 1200px) {
