@@ -24,7 +24,7 @@
 							<div>value proposition</div>
 						</div>
 						<div class="banner-caption">
-							When your goods have the best connectivity, so does our business
+							When your goods have the best connectivity, so does your business.
 						</div>
 					</div>
 				</div>
@@ -36,7 +36,7 @@
 							<div>value proposition</div>
 						</div>
 						<div class="banner-caption">
-							When your goods are digitally empowered, so is your business
+							When your goods are digitally empowered, so is your business.
 						</div>
 					</div>
 				</div>
@@ -48,7 +48,7 @@
 							<div>value proposition</div>
 						</div>
 						<div class="banner-caption">
-							When your goods are fully secure, so is your business
+							When your goods are fully secure, so is your business.
 						</div>
 					</div>
 				</div>

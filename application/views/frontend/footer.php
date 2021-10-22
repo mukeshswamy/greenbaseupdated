@@ -26,7 +26,7 @@
                 <ul class="footer-nav text-uppercase mb-2">
                     <li> <a href="our-legacy">our legacy</a></li>
                     <li> <a href="value-proposition">value proposition</a></li>
-                    <li> <a href="location">our location</a></li>
+                    <li> <a href="location">our locations</a></li>
                     <li> <a href="clients">our clients</a></li>
                     <li> <a href="news">news</a></li>
                     <li> <a href="gallery">gallery</a></li>

@@ -13,7 +13,7 @@
 						</div>
 						<div class="banner-caption">
 							Our rich real estate legacy allows us the leverage to build
-							efficient industrial and warehousing space across the country
+							efficient industrial and warehousing space across the country.
 						</div>
 					</div>
 					<div class="banner-brand-name">
