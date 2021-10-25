@@ -128,8 +128,7 @@
 		.mainSectionHeight {
 			min-height: calc(100vh - 250px);
 		}
-		.imagesMainContainer .carousel-inner,
-		.imageCarousel-lightBox {
+		.imagesMainContainer .carousel-inner{
 			min-height: 100%;
 			cursor: pointer;
 		}
@@ -144,6 +143,13 @@
 			border: none;
 			border-bottom: 1px solid #0068a8;
 			width: 7rem;
+			text-transform: capitalize;
+		}
+		.imageCarousel-lightBox {
+			min-height: calc(100vh - 350px);
+		}
+		.imageCarousel-lightBox img{
+			object-fit: contain !important;
 		}
 	}
 
@@ -157,15 +163,14 @@
 			min-height: calc(100vh - 250px);
 		}
 
-		.imagesMainContainer .carousel-inner,
-		.imageCarousel-lightBox {
+		.imagesMainContainer .carousel-inner{
 			min-height: 100%;
 			cursor: pointer;
 		}
 
 		.sticky-mobile {
 			position: sticky;
-			top: 84px;
+			top: 75px;
 			z-index: 1;
 			background-color: white;
 		}
@@ -173,6 +178,13 @@
 			border: none;
 			border-bottom: 1px solid #0068a8;
 			width: 7rem;
+			text-transform: capitalize;
+		}
+		.imageCarousel-lightBox {
+			min-height: calc(100vh - 350px);
+		}
+		.imageCarousel-lightBox img{
+			object-fit: contain !important;
 		}
 	}
 </style>
@@ -187,15 +199,14 @@
 					<ul class="gallery-list" id="gallery-list">
 						<!-- LIST OF GALLERY WILL POPULATE HERE -->
 					</ul>
-					<select class="mobile-select-category d-block d-md-none mr-2">
+					<select class="mobile-select-category d-block d-md-none mr-2" id="mobile-select-category">
 						<option value="">Industrial Park</option>
 						<option value="">Events</option>
 						<option value="">videos</option>
 					</select>
-					<select class="mobile-select-category d-block d-md-none">
-						<option value="">Industrial Park</option>
-						<option value="">Events</option>
-						<option value="">videos</option>
+					<select class="mobile-select-category d-block d-md-none" id="mobile-select-album">
+						<!-- <option value="">Oragadam</option>
+						<option value="">Talegaon</option> -->
 					</select>
 				</div>
 			</div>
@@ -536,7 +547,6 @@
 	var allImages = [];
 	gallery.map(categorys => categorys.albums.map((albums, idx) => albums.pics && albums.pics.map(images => allImages.push(images))))
 	var galleryCategoryList = gallery.map((finaldata, index) => {
-		console.log(finaldata.subCategory)
 		if (finaldata.subCategory === true) {
 			return `<div class="gallery-list-wrpper" data-index="${index}">
 					<li>
@@ -561,6 +571,14 @@
 
 	document.getElementById("gallery-list").innerHTML = galleryCategoryList;
 
+	var galleryCategoryListMobile = gallery.map((finaldata, index) => {
+		return `<option value=${finaldata.category.replace(/[, ]+/g,"-")} class="text-uppercase">${finaldata.category}</option>`
+	}).join("");
+
+	document.getElementById("mobile-select-category").innerHTML = galleryCategoryListMobile;
+
+
+
 	let initialCarousel = allImages.map((images, idx) => {
 		index = Math.floor(Math.random() * allImages.length);
 		return `<div class="carousel-item ${idx === 0 ? "active" : ""}">
@@ -572,6 +590,7 @@
 
 
 	function albumCategory(categoryName) {
+		
 		mainContainer.style.display = "block";
 		lightContainer.classList.add("d-none");
 		var categoryCarousel = gallery.map((galleryData, idx) => {
@@ -599,9 +618,11 @@
 	var slideIndex = 1;
 
 	function albumOpen(albumName) {
+		console.log("albumName",albumName)
 		mainContainer.style.display = "none";
 		lightContainer.classList.remove("d-none");
 		var lightBox = albums.map((albumData, idx) => {
+			console.log("albumData",albumData)
 			if (albumData.albumSlug === albumName && albumData.video === false) {
 				$("#lightContainer").show();
 				return albumData.albumImage.map((albums, index) => {
@@ -684,4 +705,29 @@
 	$(".carouselPop").mouseleave(function() {
 		startSlide();
 	})
+
+	// Mobile gallery logic industrial-parks
+	mobileDropDown('industrial-parks')
+	$('#mobile-select-category').change(function() {
+		mobileDropDown($(this).val())
+	})
+	$('#mobile-select-album').change(function() {
+		albumOpen($(this).val())
+	})
+	function mobileDropDown(value){
+		var vals = gallery.find(({category}) =>  category.replace(/[, ]+/g,"-") === value)
+		if(vals.subCategory){
+			document.getElementById("mobile-select-album").classList.add('d-block')
+			document.getElementById("mobile-select-album").classList.remove('d-none')
+			var galleryAlbumListMobile = vals.albums.map((finaldata, index) => {
+				return `<option value=${finaldata.albumSlug.replace(/[, ]+/g,"-")} class="text-uppercase">${finaldata.album}</option>`
+			}).join("");
+			document.getElementById("mobile-select-album").innerHTML = galleryAlbumListMobile;
+			albumCategory(vals.category)
+		}else{
+			document.getElementById("mobile-select-album").classList.remove('d-block')
+			document.getElementById("mobile-select-album").classList.add('d-none')
+			albumCategory(vals.category)
+		}
+	}
 </script>
