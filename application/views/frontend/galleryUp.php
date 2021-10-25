@@ -117,11 +117,69 @@
 	.imageCarousel-lightBox img {
 		position: absolute;
 	}
+
+	@media screen and (max-width: 991px) and (min-width: 768px) {}
+
+	@media screen and (max-width: 767px) and (min-width: 420px) {
+		.cus-container-fluid {
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+		.mainSectionHeight {
+			min-height: calc(100vh - 250px);
+		}
+		.imagesMainContainer .carousel-inner,
+		.imageCarousel-lightBox {
+			min-height: 100%;
+			cursor: pointer;
+		}
+
+		.sticky-mobile {
+			position: sticky;
+			top: 75px;
+			z-index: 1;
+			background-color: white;
+		}
+		.mobile-select-category{
+			border: none;
+			border-bottom: 1px solid #0068a8;
+			width: 7rem;
+		}
+	}
+
+	@media screen and (max-width: 419px) and (min-width: 360px) {
+		.cus-container-fluid {
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+
+		.mainSectionHeight {
+			min-height: calc(100vh - 250px);
+		}
+
+		.imagesMainContainer .carousel-inner,
+		.imageCarousel-lightBox {
+			min-height: 100%;
+			cursor: pointer;
+		}
+
+		.sticky-mobile {
+			position: sticky;
+			top: 84px;
+			z-index: 1;
+			background-color: white;
+		}
+		.mobile-select-category{
+			border: none;
+			border-bottom: 1px solid #0068a8;
+			width: 7rem;
+		}
+	}
 </style>
 <section class="mainSectionHeight">
 	<div class="container-fluid cus-container-fluid">
 		<div class="row align-items-center">
-			<div class="px-4">
+			<div class="col-md-3 sticky-mobile">
 				<div class="gallery-head-wrapper">
 					<div class="gallery_headContainer">
 						<div class="gallery-heading">GALLERY</div>
@@ -129,9 +187,19 @@
 					<ul class="gallery-list" id="gallery-list">
 						<!-- LIST OF GALLERY WILL POPULATE HERE -->
 					</ul>
+					<select class="mobile-select-category d-block d-md-none mr-2">
+						<option value="">Industrial Park</option>
+						<option value="">Events</option>
+						<option value="">videos</option>
+					</select>
+					<select class="mobile-select-category d-block d-md-none">
+						<option value="">Industrial Park</option>
+						<option value="">Events</option>
+						<option value="">videos</option>
+					</select>
 				</div>
 			</div>
-			<div class="offset-md-3 col-md-9">
+			<div class="offset-md-3 col-md-9 pt-5">
 				<!-- Images -->
 				<div class="imagesMainContainer" id="mainContainer">
 					<!-- FADER -->
