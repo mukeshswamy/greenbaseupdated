@@ -11,7 +11,7 @@
 	}
 
 	.imagesMainContainer .carouselPop .carousel-item {
-		max-height: 34rem;
+		height: 34rem;
 	}
 
 	.imagesMainContainer .carouselPop .carousel-item img {

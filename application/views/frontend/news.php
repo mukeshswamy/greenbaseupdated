@@ -15,12 +15,12 @@
 										<img src=<?php echo base_url('assets/images/dropdown_arrow.svg'); ?> alt="dparrow" class="dparrow">
 									</span>
 								</li>
-								<div class="news-dropdown-children" id="dropdownchildren" data-index="0">
+								<div class="news-dropdown-children" id="dropdownchildren" data-index="0" data-year="2021">
 									<ul>
-										<li><a href="#">Jan - Feb - Mar</a></li>
-										<li><a href="#">Apr - May - Jun</a></li>
-										<li><a href="#">Jul - Aug - Sept</a></li>
-										<li><a href="#">Oct - Nov - Dec</a></li>
+										<li><a href="#" data-value="jan|feb|mar">Jan - Feb - Mar</a></li>
+										<li><a href="#" data-value="apr|may|jun">Apr - May - Jun</a></li>
+										<li><a href="#" data-value="jul|aug|sep">Jul - Aug - Sept</a></li>
+										<li><a href="#" data-value="oct|nov|dec">Oct - Nov - Dec</a></li>
 									</ul>
 								</div>
 							</div>
@@ -31,12 +31,12 @@
 										<img src=<?php echo base_url('assets/images/dropdown_arrow.svg'); ?> alt="dparrow" class="dparrow">
 									</span>
 								</li>
-								<div class="news-dropdown-children" id="dropdownchildren" data-index="0">
+								<div class="news-dropdown-children" id="dropdownchildren" data-index="0" data-year="2020">
 									<ul>
-										<li><a href="#">Jan - Feb - Mar</a></li>
-										<li><a href="#">Apr - May - Jun</a></li>
-										<li><a href="#">Jul - Aug - Sept</a></li>
-										<li><a href="#">Oct - Nov - Dec</a></li>
+										<li><a href="#" data-value="jan|feb|mar">Jan - Feb - Mar</a></li>
+										<li><a href="#" data-value="apr|may|jun">Apr - May - Jun</a></li>
+										<li><a href="#" data-value="jul|aug|sep">Jul - Aug - Sept</a></li>
+										<li><a href="#" data-value="oct|nov|dec">Oct - Nov - Dec</a></li>
 									</ul>
 								</div>
 							</div>
@@ -47,12 +47,12 @@
 										<img src=<?php echo base_url('assets/images/dropdown_arrow.svg'); ?> alt="dparrow" class="dparrow">
 									</span>
 								</li>
-								<div class="news-dropdown-children" id="dropdownchildren" data-index="1">
+								<div class="news-dropdown-children" id="dropdownchildren" data-index="1" data-year="2019">
 									<ul>
-										<li><a href="#">Jan - Feb - Mar</a></li>
-										<li><a href="#">Apr - May - Jun</a></li>
-										<li><a href="#">Jul - Aug - Sept</a></li>
-										<li><a href="#">Oct - Nov - Dec</a></li>
+										<li><a href="#" data-value="jan|feb|mar">Jan - Feb - Mar</a></li>
+										<li><a href="#" data-value="apr|may|jun">Apr - May - Jun</a></li>
+										<li><a href="#" data-value="jul|aug|sep">Jul - Aug - Sept</a></li>
+										<li><a href="#" data-value="oct|nov|dec">Oct - Nov - Dec</a></li>
 									</ul>
 								</div>
 							</div>
@@ -63,12 +63,12 @@
 										<img src=<?php echo base_url('assets/images/dropdown_arrow.svg'); ?> alt="dparrow" class="dparrow">
 									</span>
 								</li>
-								<div class="news-dropdown-children" id="dropdownchildren" data-index="2">
+								<div class="news-dropdown-children" id="dropdownchildren" data-index="2" data-year="2018">
 									<ul>
-										<li><a href="#">Jan - Feb - Mar</a></li>
-										<li><a href="#">Apr - May - Jun</a></li>
-										<li><a href="#">Jul - Aug - Sept</a></li>
-										<li><a href="#">Oct - Nov - Dec</a></li>
+										<li><a href="#" data-value="jan|feb|mar">Jan - Feb - Mar</a></li>
+										<li><a href="#" data-value="apr|may|jun">Apr - May - Jun</a></li>
+										<li><a href="#" data-value="jul|aug|sep">Jul - Aug - Sept</a></li>
+										<li><a href="#" data-value="oct|nov|dec">Oct - Nov - Dec</a></li>
 									</ul>
 								</div>
 							</div>
@@ -76,19 +76,19 @@
 					</div>
 					<!-- Mobile DropDown -->
 					<div class="newsheader__yearMobile">
-						<select name="years" id="years">
-							<option value="2020">2021</option>
+						<select name="years" id="m-years">
+							<option value="2021">2021</option>
 							<option value="2020">2020</option>
 							<option value="2019">2019</option>
 							<option value="2018">2018</option>
 						</select>
 					</div>
 					<div class="newsheader__monthsMobile">
-						<select name="months" id="months">
-							<option value="jan">Jan-Feb-Mar</option>
-							<option value="april">April-May-June</option>
-							<option value="july">July-Aug-Sep</option>
-							<option value="oct">Oct-Nov-Dec</option>
+						<select name="months" id="m-months">
+							<option value="jan|feb|mar">Jan-Feb-Mar</option>
+							<option value="apr|may|jun">April-May-June</option>
+							<option value="jul|aug|sep">July-Aug-Sep</option>
+							<option value="oct|nov|dec">Oct-Nov-Dec</option>
 						</select>
 					</div>
 					
@@ -129,7 +129,7 @@
 		success: function(responce) {
 			if (responce.message === "News Data") {
 				var tablebody = responce.data?.map((news, index) => {
-					console.log(news);
+					// console.log(news);
 					})
 					.join("");
 			}

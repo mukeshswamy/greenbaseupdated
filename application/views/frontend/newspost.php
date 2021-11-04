@@ -100,6 +100,7 @@
         news: [
             {
                 headline: "Hiranandani group to develop industrial-data centre park in Bengal",
+                title: "Hiranandani-group-to-develop-industrial-data-centre-park-in-Bengal",
                 headimage: "<?php echo base_url(); ?>assets/images/news/data.jpg",
                 date: "February 15, 2021",
                 time: "2:30 AM",
@@ -121,6 +122,7 @@
             },
             {
                 headline: "5 reasons why Indian logistics industry is happy",
+                title: "5-reasons-why-Indian-logistics-industry-is-happy",
                 headimage: "<?php echo base_url(); ?>assets/images/news/budget.jpeg",
                 date: "February 2, 2021",
                 time: "2:30 AM",
@@ -151,6 +153,7 @@
             },
             {
                 headline: "National infrastructure pipeline expanded to cover 7400 projects",
+                title: "National-infrastructure-pipeline-expanded-to-cover-7400-projects",
                 headimage: "<?php echo base_url(); ?>assets/images/news/budget2.jpg",
                 date: "February 1, 2021",
                 time: "2:30 AM",
@@ -165,6 +168,7 @@
             },
             {
                 headline: "Logistics sector: Covid-19 alters logistics of trade",
+                title: "Logistics-sector-Covid-19-alters-logistics-of-trade",
                 headimage: "<?php echo base_url(); ?>assets/images/news/logistic.jpg",
                 date: "October 5, 2020",
                 time: "2:30 AM",
@@ -181,6 +185,7 @@
             },
             {
                 headline: "T.N. signs 14 MoUs to bring in ₹10,055 cr. investment",
+                title: "TN-signs-14-MoUs-to-bring-in-10055-cr-investment",
                 headimage: "<?php echo base_url(); ?>assets/images/news/tamilnadu.jpg",
                 date: "October 13, 2020",
                 time: "3:39 AM",
@@ -201,6 +206,7 @@
             },
             {
                 headline: "Half a dozen global firms are in talks for billion-dollar deals: Hiranandani",
+                title:"Half-a-dozen-global-firms-are-in-talks-for-billion-dollar-deals-Hiranandani",
                 headimage: "<?php echo base_url(); ?>assets/images/news/hiranandini.jpg",
                 date: "Jan 27, 2020",
                 time: "2:30 AM",
@@ -217,6 +223,7 @@
             },
             {
                 headline: "Blackstone ties up with Hiranandani to enter warehousing business",
+                title:"Blackstone-ties-up-with-Hiranandani-to-enter-warehousing-business",
                 headimage: "<?php echo base_url(); ?>assets/images/news/warehousing.jpg",
                 date: "Dec 25, 2019",
                 time: "11:22 AM",
@@ -233,6 +240,7 @@
             },
             {
                 headline: "Hiranandani to invest Rs 1,000 crore in industrial park in Chennai",
+                title:"Hiranandani-to-invest-Rs-1000-crore-in-industrial-park-in-Chennai",
                 headimage: "<?php echo base_url(); ?>assets/images/banner1.jpg",
                 date: "Sep 12, 2019",
                 time: "3:02 PM",
@@ -252,6 +260,7 @@
             },
             {
                 headline: "Hiranandani Group's GreenBase to develop industrial & logistics park for Vestas India in Chennai",
+                title:"Hiranandani-Group's-GreenBase-to-develop-industrial-&-logistics-park-for-Vestas-India-in-Chennai",
                 headimage: "<?php echo base_url(); ?>assets/images/news/vestas.jpg",
                 date: "Sep 16, 2019",
                 time: "3:02 PM",
@@ -269,6 +278,7 @@
             },
             {
                 headline: "Hiranandani, Blackstone ink JV To develop industrial, logistics and warehousing assets",
+                title:"Hiranandani-Blackstone-ink-JV-To-develop-industrial-logistics-and-warehousing-assets",
                 headimage: "<?php echo base_url(); ?>assets/images/news/warehousing.jpg",
                 date: "Dec 25, 2019",
                 time: "3:02 PM",
@@ -284,6 +294,7 @@
             },
             {
                 headline: "Hiranandani Group promoted GreenBase signs industrial and warehousing deal with Vestas India",
+                title:"Hiranandani-Group-promoted-GreenBase-signs-industrial-and-warehousing-deal-with-Vestas-India",
                 headimage: "<?php echo base_url(); ?>assets/images/news/warehousingdeal.jpg",
                 date: "Sep 13, 2019",
                 time: "3:02 PM",
@@ -304,6 +315,7 @@
             },
             {
                 headline: "Why India is betting on big storage sheds",
+                title:"Why-India-is-betting-on-big-storage-sheds",
                 headimage: "<?php echo base_url(); ?>assets/images/news/warehousingreuters.jpg",
                 date: "Sep 13, 2019",
                 time: "3:02 PM",
@@ -321,6 +333,7 @@
             },
             {
                 headline: "Niranjan Hiranandani: A man extraordinaire",
+                title:"Niranjan-Hiranandani-A-man-extraordinaire",
                 headimage: "<?php echo base_url(); ?>assets/images/news/extraordinary.jpg",
                 date: "Mar 6, 2020",
                 time: "3:02 PM",
@@ -337,6 +350,7 @@
             },
             {
                 headline: "Warehousing to the rescue of Indian real estate",
+                title:"Warehousing-to-the-rescue-of-Indian-real-estate",
                 headimage: "<?php echo base_url(); ?>assets/images/news/warehousingreuters.jpg",
                 date: "July 2, 2020",
                 time: "7:39 PM",
@@ -354,12 +368,13 @@
     };
 
     $(document).ready(function() {
-        var ids = (parseInt(id) - 1);
-        $(".top-date").text(newsdatas.news[ids].date);
-        $(".headline").text(newsdatas.news[ids].headline);
-        $(".main-newspost-headlines").text(newsdatas.news[ids].headArticle);
-        $(".main-newspost img").attr('src', newsdatas.news[ids].headimage);
-        var con = newsdatas.news[ids].article;
+        var newPost = newsdatas.news.find(newsData => newsData.title === id)
+        console.log(newPost)
+        $(".top-date").text(newPost.date);
+        $(".headline").text(newPost.headline);
+        $(".main-newspost-headlines").text(newPost.headArticle);
+        $(".main-newspost img").attr('src', newPost.headimage);
+        var con = newPost.article;
         var newscontent = con.map((content) => {
             return `<div>${content}</div>`
         }).join('');
