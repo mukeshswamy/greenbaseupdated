@@ -186,23 +186,22 @@ $(document).ready(function () {
 	document.getElementById("latest").innerHTML = newsFeeds;
 	relatedNews(newsdatas.news)
 	function relatedNews(newsData) {
-		var newsRelated = newsData.map((finalNews, index) => {
-					return `<div class="col-md-6 cus-col6 left-related-div padding-right id" id="pressrelease" data-id=${index + 1}>
-						<a href="${url}newspost/${finalNews.title}" style="color: var(--color-3)">
-                            <div class="related-div-img">
-                                <img src=${finalNews.headimage} alt="related" class="related-img">
-                            </div>
-                            <div class="press-release-div">
-							    <div class="press-release-top">PRESS RELEASE</div>
-							    <div class="press-release-head">
-								    ${finalNews.headline}
-							    </div>
-							    <div class="press-release-date">${moment(finalNews.date).format('LL')}</div>
-						    </div>
-							</a>
-                        </div>`;
-			})
-			.join("");
+		var newsRelated = newsData.length > 0 ? newsData.map((finalNews, index) => {
+			return `<div class="col-md-6 cus-col6 left-related-div padding-right id" id="pressrelease" data-id=${index + 1}>
+				<a href="${url}newspost/${finalNews.title}" style="color: var(--color-3)">
+					<div class="related-div-img">
+						<img src=${finalNews.headimage} alt="related" class="related-img">
+					</div>
+					<div class="press-release-div">
+						<div class="press-release-top">PRESS RELEASE</div>
+						<div class="press-release-head">
+							${finalNews.headline}
+						</div>
+						<div class="press-release-date">${moment(finalNews.date).format('LL')}</div>
+					</div>
+					</a>
+				</div>`;
+	}).join(""):'<div><span>No News Found | Please select different months</span></div>'; 
 		document.getElementById("related").innerHTML = newsRelated;
 	}
 
@@ -242,8 +241,7 @@ $(document).ready(function () {
 
 	m_newsrelated(newsdatas.news)
 	function m_newsrelated(newsData){
-		var newsRelatedMobile = newsData
-		.map((finalNews, index) => {
+		var newsRelatedMobile = newsData.length > 0 ? newsData.map((finalNews, index) => {
 			if (finalNews.date !== "October 13, 2020") {
 				return `<a href="${url}newspost/${finalNews.title}" style="color: var(--color-3)"><div class="news-img-wrapper" data-id=${index + 1}>
 							<img src=${finalNews.headimage} alt="newsimg" class="news-img">
@@ -261,8 +259,7 @@ $(document).ready(function () {
 							</div>
 						</div></a>`;
 			}
-		})
-		.join("");
+		}).join("") : '<div><span>No News Found | Please select different months</span></div>'; 
 	document.getElementById("relatedMobile").innerHTML = newsRelatedMobile;
 	}
 
