@@ -89,7 +89,7 @@
 				<p class="cap_para">
 					Greenbase, a Nidar Group enterprise has a joint venture with the leading global private equity firm Blackstone Group Inc. and has a pan-India platform to build industrial, logistics and warehousing assets. With 550 acres of land bank across Chennai, Bhiwandi Pune, Nashik, Kolkata and Durgapur, the venture has made rapid strides in a short span of time and is on course to deliver close to 14.1 million sq.ft. in the next 3-5 years.
 				</p>
-				<span class="air-regular cap_know_more pointer">Know More________</span>
+				<span class="air-regular cap_know_more pointer">Know more________</span>
 			</div>
 			<div class="our-capablities-content-wrapper d-flex flex-colmun relative mb-4 borders">
 				<h4 class="color-2 cap_head">Built to suit industrial facilities</h4>
@@ -99,7 +99,7 @@
 					design up to the delivery of the facility and beyond we take into consideration every minute detail
 					from the client.
 				</p>
-				<span class="air-regular cap_know_more pointer">Know More________</span>
+				<span class="air-regular cap_know_more pointer">Know more________</span>
 			</div>
 			<div class="our-capablities-content-wrapper d-flex flex-colmun relative mb-4 borders">
 				<h4 class="color-2 cap_head">warehouse developments</h4>
@@ -109,7 +109,7 @@
 					warehouses which can now provide more flexibility, accessibility and efficient functionality than
 					ever before.
 				</p>
-				<span class="air-regular cap_know_more pointer">Know More________</span>
+				<span class="air-regular cap_know_more pointer">Know more________</span>
 			</div>
 			<div class="our-capablities-content-wrapper d-flex flex-colmun relative mb-4 borders">
 				<h4 class="color-2 cap_head">cold storage</h4>
@@ -118,7 +118,7 @@
 					your products at the right temperatures. And our warehouses will have the capability to not only
 					store fruits, vegetables and flowers, but also artworks, cologne, medicines, films and more.
 				</p>
-				<span class="air-regular cap_know_more pointer">Know More________</span>
+				<span class="air-regular cap_know_more pointer">Know more________</span>
 			</div>
 			<div class="our-capablities-content-wrapper d-flex flex-colmun relative mb-4 borders">
 				<h4 class="color-2 cap_head">plug and play facilities for light industrial storage</h4>
@@ -129,7 +129,7 @@
 					services management, Greenbase has the capability to merge them with the physical infrastructure as
 					well.
 				</p>
-				<span class="air-regular cap_know_more pointer">Know More________</span>
+				<span class="air-regular cap_know_more pointer">Know more________</span>
 			</div>
 			<div class="our-capablities-content-wrapper d-flex flex-colmun relative mb-4 borders">
 				<h4 class="color-2 cap_head">work-live-play</h4>
@@ -140,7 +140,7 @@
 					acre township abutting our Chennai location. Thus, providing a holistic lifestyle with an equal
 					importance to Work – Live – Play.
 				</p>
-				<span class="air-regular cap_know_more pointer">Know More________</span>
+				<span class="air-regular cap_know_more pointer">Know more________</span>
 			</div>
 		</div>
 	</div>

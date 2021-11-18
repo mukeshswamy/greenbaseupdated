@@ -142,9 +142,11 @@
         </div>
         <div class="m-stats-detail content_bg m-d-block d-d-none mt-4">
             <div class="stats-btn-wrapper d-flex flex-colmun py-3 px-3">
-                <button class="m-stats-btn lato-bold text-uppercase black text-left border-0 px-3 py-3 mb-3 bg-col-4" data-toggle="modal" data-target="#m-realty">realty</button>
-                <button class="m-stats-btn lato-bold text-uppercase black text-left border-0 px-3 py-3 mb-3 bg-col-5" data-toggle="modal" data-target="#m-oilgas">oil & gas</button>
-                <button class="m-stats-btn lato-bold text-uppercase black text-left border-0 px-3 py-3 bg-col-6" data-toggle="modal" data-target="#m-infrastructure">infrastructure</button>
+                <button class="m-stats-btn lato-bold text-uppercase black text-left border-0 px-3 py-3 mb-3 bg-col-4 position-relative" data-toggle="modal" data-target="#m-realty">realty 
+                    <img src=<?php echo base_url('assets/images/arrow.png');?> alt="arr" class="img-responsive arrow-img">
+                </button>
+                <button class="m-stats-btn lato-bold text-uppercase black text-left border-0 px-3 py-3 mb-3 bg-col-5 position-relative" data-toggle="modal" data-target="#m-oilgas">oil & gas <img src=<?php echo base_url('assets/images/arrow.png');?> alt="arr" class="img-responsive arrow-img"></button>
+                <button class="m-stats-btn lato-bold text-uppercase black text-left border-0 px-3 py-3 bg-col-6 position-relative" data-toggle="modal" data-target="#m-infrastructure">infrastructure <img src=<?php echo base_url('assets/images/arrow.png');?> alt="arr" class="img-responsive arrow-img"></button>
             </div>
         </div>
     </div>
@@ -313,9 +315,9 @@
         </div>
         <div class="m-stats-detail content_bg m-d-block d-d-none mt-4">
             <div class="stats-btn-wrapper d-flex flex-colmun py-3 px-3">
-                <button class="m-stats-btn lato-bold text-uppercase black text-left border-0 px-3 py-3 mb-3 bg-col-4" data-toggle="modal" data-target="#m-realestate">real estate</button>
-                <button class="m-stats-btn lato-bold text-uppercase black text-left border-0 px-3 py-3 mb-3 bg-col-5" data-toggle="modal" data-target="#m-oilgas-bus">oil & gas</button>
-                <button class="m-stats-btn lato-bold text-uppercase black text-left border-0 px-3 py-3 bg-col-6" data-toggle="modal" data-target="#m-infrastructure-bus">infrastructure</button>
+                <button class="m-stats-btn lato-bold text-uppercase black position-relative text-left border-0 px-3 py-3 mb-3 bg-col-4" data-toggle="modal" data-target="#m-realestate">real estate <img src=<?php echo base_url('assets/images/arrow.png');?> alt="arr" class="img-responsive arrow-img"></button>
+                <button class="m-stats-btn lato-bold text-uppercase black position-relative text-left border-0 px-3 py-3 mb-3 bg-col-5" data-toggle="modal" data-target="#m-oilgas-bus">oil & gas <img src=<?php echo base_url('assets/images/arrow.png');?> alt="arr" class="img-responsive arrow-img"></button>
+                <button class="m-stats-btn lato-bold text-uppercase black position-relative text-left border-0 px-3 py-3 bg-col-6" data-toggle="modal" data-target="#m-infrastructure-bus">infrastructure <img src=<?php echo base_url('assets/images/arrow.png');?> alt="arr" class="img-responsive arrow-img"></button>
             </div>
         </div>
     </div>
@@ -347,7 +349,7 @@
                             Powai and Thane with Panvel, Chennai, Ahmedabad, and Pune set to follow.
                         </p>
                         <span class="ceo_know_more ceo_know_more_pos air-regular ceo_des"
-                            style="height: auto !important;">Know More_______</span>
+                            style="height: auto !important;">Know more_______</span>
                     </div>
                 </div>
             </div>
@@ -370,7 +372,7 @@
                             Global Performance Excellence Best in Class Award - 2016.
                         </p>
                         <span class="ceo_know_more ceo_know_more_pos air-regular ceo_des"
-                            style="height: auto !important;">Know More_____</span>
+                            style="height: auto !important;">Know more_____</span>
                     </div>
                 </div>
             </div>
@@ -396,7 +398,7 @@
                             and is an Independent Director of the Director’s Club.
                         </p>
                         <span class="ceo_know_more ceo_know_more_pos air-regular ceo_des"
-                            style="height: auto !important;">Know More______</span>
+                            style="height: auto !important;">Know more______</span>
                     </div>
                 </div>
             </div>
@@ -421,7 +423,7 @@
                             program with Harvard Business School on Negotiations and Deal Making.
                         </p>
                         <span class="ceo_know_more ceo_know_more_pos air-regular ceo_des"
-                            style="height: auto !important;">Know More_____</span>
+                            style="height: auto !important;">Know more_____</span>
                     </div>
                 </div>
             </div>
@@ -455,7 +457,7 @@
                             Group, Omkar Group and DHFL.
                         </p>
                         <span class="ceo_know_more ceo_know_more_pos air-regular ceo_des"
-                            style="height: auto !important;">Know More_____</span>
+                            style="height: auto !important;">Know more_____</span>
                     </div>
                 </div>
             </div>
@@ -485,7 +487,7 @@
                             real estate and over 100 acres of Land transactions.
                         </p>
                         <span class="ceo_know_more ceo_know_more_pos air-regular ceo_des"
-                            style="height: auto !important;">Know More_____</span>
+                            style="height: auto !important;">Know more_____</span>
                     </div>
                 </div>
             </div>
